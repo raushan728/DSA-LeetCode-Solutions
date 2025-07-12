@@ -17,3 +17,4 @@ Each problem is solved with clean and optimized code. This file serves as a glob
 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./Arrays/53_Maximum_Subarray.cpp) | O(n) | O(1) | Med| Array, Dynamic Programming, Kadane's Algorithm |
 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](./Arrays/88_Merge_Sorted_Array.cpp) | O(m+n) | O(1) | Easy | Array, Two Pointers, In-place Algorithm, Sorting |
 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [C++](./Arrays/121_Best_Time_to_Buy_and_Sell_Stock.cpp) | O(n) | O(1) | Easy | Array, Greedy, Two Pointers |
+136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./Arrays/136_Single_Number.cpp) | O(n) | O(1) | Easy | Bit Manipulation, Array, XOR |
