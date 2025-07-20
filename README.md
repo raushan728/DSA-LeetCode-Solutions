@@ -21,3 +21,10 @@ Each problem is solved with clean and optimized code. This file serves as a glob
 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./Arrays/283_Move_zeroes.cpp) | O(n) | O(1) | Easy | Array, Two Pointers, In-place |
 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [C++](./Arrays/209_Minimum_Size_Subarray_Sum.cpp) | O(n) | O(1) | Med | Sliding Window |
 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [C++](./Arrays/581_Shortest_Unsorted_Continuous_Subarray.cpp) | O(n) | O(1) | Med | Array, Sorting |
+
+---
+- **Strings Problem**
+
+| #   | Title                                                               | Solution                   | Time       | Space      | Difficulty | Tags                         |
+|-----|---------------------------------------------------------------------|----------------------------|------------|------------|------------|------------------------------|
+|     |                             |    |      |       | |      |
