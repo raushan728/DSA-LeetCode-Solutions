@@ -27,4 +27,4 @@ Each problem is solved with clean and optimized code. This file serves as a glob
 
 | #   | Title                                                               | Solution                   | Time       | Space      | Difficulty | Tags                         |
 |-----|---------------------------------------------------------------------|----------------------------|------------|------------|------------|------------------------------|
-|  14   |     [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)      | [C++](./Strings/14_Longest_Common_Prefix.cpp)   | O(n * m)     | O(1) | Easy|String, Trie, Horizontal Scanning, Vertical Scanning   |
+|  14   |     [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)      | [C++](./Strings/14_Longest_Common_Prefix.cpp)   | O(n * m)     | O(1) | Easy|String, Trie, Scanning|
