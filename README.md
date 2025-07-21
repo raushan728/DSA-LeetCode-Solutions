@@ -8,7 +8,7 @@ Each problem is solved with clean and optimized code. This file serves as a glob
 ## 📄 Problem Tables
 - **Array Problem** 
 
-| #   | Title                                                               | Solution                   | Time       | Space      | Difficulty | Tags                         |
+| #   | Title                                                               | Solutions                   | Time       | Space      | Difficulty | Tags                         |
 |-----|----------------------------------------------------------------------|----------------------------|------------|------------|------------|------------------------------|
 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/)                   | [C++](./C++/001_Two_Sum.cpp)  <br> [Java](./Java/Two_Sum.java)  <br> [Python](./Python/Two_Sum.py) | O(n)       | O(n)       | Easy       | Array, Hash Map              |
 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](./C++/26_Remove_Duplicates_from_Sorted_Array.cpp)  <br> [Java](./Java/Remove_Duplicates_from_Sorted_Array.java)  <br> [Python](./Python/Remove_Duplicates_from_Sorted_Array.py) | O(n) | O(1) |Easy | Array,Two Pointers,In-Place |
