@@ -5,7 +5,7 @@ Each problem is solved with clean and optimized code. This file serves as a glob
 
 ---
 
-## 📄 Problem Table
+## 📄 Problem Tables
 - **Array Problem** 
 
 
