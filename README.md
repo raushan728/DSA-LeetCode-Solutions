@@ -10,7 +10,7 @@ Each problem is solved with clean and optimized code. This file serves as a glob
 
 | #   | Title                                                               | Solution                   | Time       | Space      | Difficulty | Tags                         |
 |-----|----------------------------------------------------------------------|----------------------------|------------|------------|------------|------------------------------|
-| 1   | [Two Sum](https://leetcode.com/problems/two-sum/)                   | [C++](./C++/001_Two_Sum.cpp) | O(n)       | O(n)       | Easy       | Array, Hash Map              |
+| 1   | [Two Sum](https://leetcode.com/problems/two-sum/)                   | [C++](./C++/001_Two_Sum.cpp)  <br> [Java](./Java/Two_Sum.java)  <br> [Python](./Python/Two_Sum.py) | O(n)       | O(n)       | Easy       | Array, Hash Map              |
 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](./C++/26_Remove_Duplicates_from_Sorted_Array.cpp) | O(n) | O(1) |Easy | Array,Two Pointers,In-Place |
 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./C++/27_Remove%20Element.cpp) | O(n) | O(1) | Easy | Array, Two Pointers, In-Place |
 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./C++/53_Maximum_Subarray.cpp) | O(n) | O(1) | Med| Array, Dynamic Programming, Kadane's Algorithm |
