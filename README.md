@@ -13,7 +13,7 @@ Each problem is solved with clean and optimized code. This file serves as a glob
 |-----|----------------------------------------------------------------------|-----------------------------|------------|------------|------------|------------------------------|
 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/)                   | [C++](./C++/Arrays/001_Two_Sum.cpp) | O(n)       | O(n)       | Easy       | Array, Hash Map              |
 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](./C++/Arrays/26_Remove_Duplicates_from_Sorted_Array.cpp) | O(n) | O(1) |Easy | Array,Two Pointers,In-Place |
-27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./C++/Arrays/27_Remove Element.cpp) | O(n) | O(1) | Easy | Array, Two Pointers, In-Place |
+27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./C++/Arrays/27_Remove%20Element.cpp) | O(n) | O(1) | Easy | Array, Two Pointers, In-Place |
 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./C++/Arrays/53_Maximum_Subarray.cpp) | O(n) | O(1) | Med| Array, Dynamic Programming, Kadane's Algorithm |
 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](./C++/Arrays/88_Merge_Sorted_Array.cpp) | O(m+n) | O(1) | Easy | Array, Two Pointers, In-place Algorithm, Sorting |
 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [C++](./C++/Arrays/121_Best_Time_to_Buy_and_Sell_Stock.cpp) | O(n) | O(1) | Easy | Array, Greedy, Two Pointers |
