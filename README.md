@@ -5,7 +5,7 @@ Welcome to my curated collection of LeetCode Data Structures & Algorithms soluti
 <p align="center">
   <img src="https://img.shields.io/badge/DSA-LeetCode-blue" />
   <img src="https://img.shields.io/badge/Language-C++%2FJava%2FPython-yellow" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-XX-green" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-12-green" />
 </p>
 
 ---
@@ -37,8 +37,8 @@ Find the problem you want and access its solution in your preferred language!
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C++](./C++/121_Best_Time_to_Buy_and_Sell_Stock.cpp) <br> [Java](./Java/Best_Time_to_Buy_and_Sell_Stock.java) <br> [Python](./Python/Best_Time_to_Buy_and_Sell_Stock.py) | O(n) | O(1) | Easy | Array, Greedy, Two Pointers |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./C++/136_Single_Number.cpp) <br> [Java](./Java/Single_Number.java) <br> [Python](./Python/Single_Number.py) | O(n) | O(1) | Easy | Bit Manipulation, Array, XOR |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./C++/283_Move_zeroes.cpp) <br> [Java](./Java/Move_Zeroes.java) <br> [Python](./Python/Move_Zeroes.py) | O(n) | O(1) | Easy | Array, Two Pointers, In-place |
-| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [C++](./C++/209_Minimum_Size_Subarray_Sum.cpp) | O(n) | O(1) | Medium | Sliding Window |
-| 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [C++](./C++/581_Shortest_Unsorted_Continuous_Subarray.cpp) | O(n) | O(1) | Medium | Array, Sorting |
+| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [C++](./C++/209_Minimum_Size_Subarray_Sum.cpp) <br> [Java](./Java/Minimum_Size_Subarray_Sum.java) <br> [Python](./Python/Minimum_Size_Subarray_Sum.py) | O(n) | O(1) | Medium | Sliding Window |
+| 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [C++](./C++/581_Shortest_Unsorted_Continuous_Subarray.cpp) <br> [Java](./Java/Shortest_Unsorted_Continuous_Subarray.java) <br>[Python](./Python/Shortest_Unsorted_Continuous_Subarray.py) | O(n) | O(1) | Medium | Array, Sorting |
 
 ---
 
