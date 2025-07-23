@@ -46,8 +46,8 @@ Find the problem you want and access its solution in your preferred language!
 
 | #   | Title | Solutions | Time | Space | Difficulty | Tags |
 |-----|-------|-----------|------|-------|------------|------|
-| 14  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [C++](./C++/14_Longest_Common_Prefix.cpp) | O(n*m) | O(1) | Easy | String, Trie, Horizontal/Vertical Scanning |
-| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](./C++/125_Valid_Palindrome.cpp) | O(n) | O(1) | Easy | Two Pointers, String |
+| 14  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [C++](./C++/14_Longest_Common_Prefix.cpp) <br> [Java](./Java/Longest_Common_Prefix.java) <br> [Python](./Python/Longest_Common_Prefix.py) | O(n*m) | O(1) | Easy | String, Trie, Horizontal/Vertical Scanning |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](./C++/125_Valid_Palindrome.cpp)<br>[Java](./Java/Valid_Palindrome.java)<br>[Python](./Python/Valid_Palindrome.py) | O(n) | O(1) | Easy | Two Pointers, String |
 
 ---
 
