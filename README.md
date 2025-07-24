@@ -1,56 +1,74 @@
-# DSA LeetCode Solutions (C++, Java, Python)
-
-Welcome to my curated collection of LeetCode Data Structures & Algorithms solutions, implemented in **C++**, **Java**, and **Python**.
+<h1 align="center">DSA LeetCode Solutions (C++, Java, Python)</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/DSA-LeetCode-blue" />
-  <img src="https://img.shields.io/badge/Language-C++%2FJava%2FPython-yellow" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-12-green" />
+  <img src="https://img.shields.io/badge/DSA-LeetCode-blue?style=for-the-badge&logo=leetcode" />
+  <img src="https://img.shields.io/badge/Language-C++%2FJava%2FPython-yellow?style=for-the-badge&logo=code" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-xx-green?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge&logo=open-source-initiative" />
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&logo=github" />
 </p>
 
 ---
 
+## Overview
+This repository contains **Data Structures & Algorithms (DSA)** solutions for various **LeetCode problems** implemented in **C++**, **Java**, and **Python**.  
+The aim is to provide **clean, well-structured, and optimized solutions** with proper time and space complexity analysis.
+
+---
+
 ## Repository Structure
+
 ```
 DSA/
-  ├── C++/      # C++ solutions
-  ├── Java/     # Java solutions
-  └── Python/   # Python solutions
+├── C++/      # C++ solutions
+├── Java/     # Java solutions
+└── Python/   # Python solutions
 ```
 
 Each folder contains solutions to LeetCode problems, organized by language.  
-Find the problem you want and access its solution in your preferred language!
+Find the problem you want and access its solution in your preferred language.
 
 ---
 
 ## Problem Index
 
-- **Array Problems**
+### Array Problems
 
 | #   | Title | Solutions | Time | Space | Difficulty | Tags |
 |-----|-------|-----------|------|-------|------------|------|
-| 1   | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./C++/001_Two_Sum.cpp) <br> [Java](./Java/Two_Sum.java) <br> [Python](./Python/Two_Sum.py) | O(n) | O(n) | Easy | Array, Hash Map |
-| 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](./C++/26_Remove_Duplicates_from_Sorted_Array.cpp) <br> [Java](./Java/Remove_Duplicates_from_Sorted_Array.java) <br> [Python](./Python/Remove_Duplicates_from_Sorted_Array.py) | O(n) | O(1) | Easy | Array, Two Pointers, In-Place |
-| 27  | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./C++/27_Remove%20Element.cpp) <br> [Java](./Java/Remove_Element.java) <br> [Python](./Python/Remove_Element.py) | O(n) | O(1) | Easy | Array, Two Pointers, In-Place |
-| 53  | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./C++/53_Maximum_Subarray.cpp) <br> [Java](./Java/Maximum_Subarray.java) <br> [Python](./Python/Maximum_Subarray.py) | O(n) | O(1) | Medium | Array, Dynamic Programming, Kadane's Algorithm |
-| 88  | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](./C++/88_Merge_Sorted_Array.cpp) <br> [Java](./Java/Merge_Sorted_Array.java) <br> [Python](./Python/Merge_Sorted_Array.py) | O(m+n) | O(1) | Easy | Array, Two Pointers, In-place, Sorting |
-| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C++](./C++/121_Best_Time_to_Buy_and_Sell_Stock.cpp) <br> [Java](./Java/Best_Time_to_Buy_and_Sell_Stock.java) <br> [Python](./Python/Best_Time_to_Buy_and_Sell_Stock.py) | O(n) | O(1) | Easy | Array, Greedy, Two Pointers |
-| 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./C++/136_Single_Number.cpp) <br> [Java](./Java/Single_Number.java) <br> [Python](./Python/Single_Number.py) | O(n) | O(1) | Easy | Bit Manipulation, Array, XOR |
-| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./C++/283_Move_zeroes.cpp) <br> [Java](./Java/Move_Zeroes.java) <br> [Python](./Python/Move_Zeroes.py) | O(n) | O(1) | Easy | Array, Two Pointers, In-place |
-| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [C++](./C++/209_Minimum_Size_Subarray_Sum.cpp) <br> [Java](./Java/Minimum_Size_Subarray_Sum.java) <br> [Python](./Python/Minimum_Size_Subarray_Sum.py) | O(n) | O(1) | Medium | Sliding Window |
-| 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [C++](./C++/581_Shortest_Unsorted_Continuous_Subarray.cpp) <br> [Java](./Java/Shortest_Unsorted_Continuous_Subarray.java) <br>[Python](./Python/Shortest_Unsorted_Continuous_Subarray.py) | O(n) | O(1) | Medium | Array, Sorting |
+| 1   | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./C++/001_Two_Sum.cpp)<br>[Java](./Java/Two_Sum.java)<br>[Python](./Python/Two_Sum.py) | *O(n)* | *O(n)* | Easy | Array, Hash Map |
+| 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](./C++/26_Remove_Duplicates_from_Sorted_Array.cpp)<br>[Java](./Java/Remove_Duplicates_from_Sorted_Array.java)<br>[Python](./Python/Remove_Duplicates_from_Sorted_Array.py) | *O(n)* | *O(1)* | Easy | Array, In-Place, Two Pointers |
+| 27  | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./C++/27_Remove%20Element.cpp)<br>[Java](./Java/Remove_Element.java)<br>[Python](./Python/Remove_Element.py) | *O(n)* | *O(1)* | Easy | Array, In-Place, Two Pointers |
+| 53  | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./C++/53_Maximum_Subarray.cpp)<br>[Java](./Java/Maximum_Subarray.java)<br>[Python](./Python/Maximum_Subarray.py) | *O(n)* | *O(1)* | Medium | Array, Dynamic Programming, Kadane's Algorithm |
+| 88  | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](./C++/88_Merge_Sorted_Array.cpp)<br>[Java](./Java/Merge_Sorted_Array.java)<br>[Python](./Python/Merge_Sorted_Array.py) | *O(m + n)* | *O(1)* | Easy | Array, In-Place, Sorting, Two Pointers |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C++](./C++/121_Best_Time_to_Buy_and_Sell_Stock.cpp)<br>[Java](./Java/Best_Time_to_Buy_and_Sell_Stock.java)<br>[Python](./Python/Best_Time_to_Buy_and_Sell_Stock.py) | *O(n)* | *O(1)* | Easy | Array, Greedy, Two Pointers |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./C++/136_Single_Number.cpp)<br>[Java](./Java/Single_Number.java)<br>[Python](./Python/Single_Number.py) | *O(n)* | *O(1)* | Easy | Array, Bit Manipulation, XOR |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./C++/283_Move_zeroes.cpp)<br>[Java](./Java/Move_Zeroes.java)<br>[Python](./Python/Move_Zeroes.py) | *O(n)* | *O(1)* | Easy | Array, In-Place, Two Pointers |
+| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [C++](./C++/209_Minimum_Size_Subarray_Sum.cpp)<br>[Java](./Java/Minimum_Size_Subarray_Sum.java)<br>[Python](./Python/Minimum_Size_Subarray_Sum.py) | *O(n)* | *O(1)* | Medium | Sliding Window |
+| 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [C++](./C++/581_Shortest_Unsorted_Continuous_Subarray.cpp)<br>[Java](./Java/Shortest_Unsorted_Continuous_Subarray.java)<br>[Python](./Python/Shortest_Unsorted_Continuous_Subarray.py) | *O(n)* | *O(1)* | Medium | Array, Sorting |
 
 ---
 
-- **String Problems**
+### String Problems
 
 | #   | Title | Solutions | Time | Space | Difficulty | Tags |
 |-----|-------|-----------|------|-------|------------|------|
-| 14  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [C++](./C++/14_Longest_Common_Prefix.cpp) <br> [Java](./Java/Longest_Common_Prefix.java) <br> [Python](./Python/Longest_Common_Prefix.py) | O(n*m) | O(1) | Easy | String, Trie, Horizontal/Vertical Scanning |
-| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](./C++/125_Valid_Palindrome.cpp)<br>[Java](./Java/Valid_Palindrome.java)<br>[Python](./Python/Valid_Palindrome.py) | O(n) | O(1) | Easy | Two Pointers, String |
+| 14  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [C++](./C++/14_Longest_Common_Prefix.cpp)<br>[Java](./Java/Longest_Common_Prefix.java)<br>[Python](./Python/Longest_Common_Prefix.py) | *O(n * m)* | *O(1)* | Easy | Horizontal/Vertical Scanning, String, Trie |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](./C++/125_Valid_Palindrome.cpp)<br>[Java](./Java/Valid_Palindrome.java)<br>[Python](./Python/Valid_Palindrome.py) | *O(n)* | *O(1)* | Easy | String, Two Pointers |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](./C++/Valid_Anagram.cpp)<br>[Java](./Java/Valid_Anagram.java)<br>[Python](./Python/Valid_Anagram.py) | *O(n log n)* | *O(log n)* | Easy | Hash Table, Sorting, String |
 
 ---
 
 ## Contributing
-
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## License
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">
+  If you find this repository helpful, please consider giving it a ⭐ on GitHub!
+</p>
