@@ -1,8 +1,8 @@
-<h1 align="center">DSA LeetCode Solutions (C++, Java, Python)</h1>
+<h1 align="center">DSA LeetCode Solutions (C++, Java)</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/DSA-LeetCode-blue?style=for-the-badge&logo=leetcode" />
-  <img src="https://img.shields.io/badge/Language-C++%2FJava%2FPython-yellow?style=for-the-badge&logo=code" />
+  <img src="https://img.shields.io/badge/Language-C++%2FJava-yellow?style=for-the-badge&logo=code" />
   <img src="https://img.shields.io/badge/Problems%20Solved-xx-green?style=for-the-badge&logo=github" />
   <img src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge&logo=open-source-initiative" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&logo=github" />
@@ -11,7 +11,7 @@
 ---
 
 ## Overview
-This repository contains **Data Structures & Algorithms (DSA)** solutions for various **LeetCode problems** implemented in **C++**, **Java**, and **Python**.  
+This repository contains **Data Structures & Algorithms (DSA)** solutions for various **LeetCode problems** implemented in **C++** and **Java**.  
 The aim is to provide **clean, well-structured, and optimized solutions** with proper time and space complexity analysis.
 
 ---
@@ -21,8 +21,7 @@ The aim is to provide **clean, well-structured, and optimized solutions** with p
 ```
 DSA/
 ├── C++/      # C++ solutions
-├── Java/     # Java solutions
-└── Python/   # Python solutions
+└── Java/     # Java solutions
 ```
 
 Each folder contains solutions to LeetCode problems, organized by language.  
