@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/DSA-LeetCode-blue?style=for-the-badge&logo=leetcode" />
   <img src="https://img.shields.io/badge/Language-C++%2FJava-yellow?style=for-the-badge&logo=code" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-13-green?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-15-green?style=for-the-badge&logo=github" />
   <img src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge&logo=open-source-initiative" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&logo=github" />
 </p>
@@ -42,8 +42,8 @@ Find the problem you want and access its solution in your preferred language.
 | 88  | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](./C++/88_Merge_Sorted_Array.cpp)<br>[Java](./Java/Merge_Sorted_Array.java) | *O(m + n)* | *O(1)* | Easy | Array, In-Place, Sorting, Two Pointers |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C++](./C++/121_Best_Time_to_Buy_and_Sell_Stock.cpp)<br>[Java](./Java/Best_Time_to_Buy_and_Sell_Stock.java) | *O(n)* | *O(1)* | Easy | Array, Greedy, Two Pointers |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./C++/136_Single_Number.cpp)<br>[Java](./Java/Single_Number.java) | *O(n)* | *O(1)* | Easy | Array, Bit Manipulation, XOR |
-| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./C++/283_Move_zeroes.cpp)<br>[Java](./Java/Move_Zeroes.java) | *O(n)* | *O(1)* | Easy | Array, In-Place, Two Pointers |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [C++](./C++/209_Minimum_Size_Subarray_Sum.cpp)<br>[Java](./Java/Minimum_Size_Subarray_Sum.java) | *O(n)* | *O(1)* | Medium | Sliding Window |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./C++/283_Move_zeroes.cpp)<br>[Java](./Java/Move_Zeroes.java) | *O(n)* | *O(1)* | Easy | Array, In-Place, Two Pointers |
 | 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [C++](./C++/581_Shortest_Unsorted_Continuous_Subarray.cpp)<br>[Java](./Java/Shortest_Unsorted_Continuous_Subarray.java) | *O(n)* | *O(1)* | Medium | Array, Sorting |
 
 ---
@@ -55,6 +55,8 @@ Find the problem you want and access its solution in your preferred language.
 | 14  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [C++](./C++/14_Longest_Common_Prefix.cpp)<br>[Java](./Java/Longest_Common_Prefix.java) | *O(n * m)* | *O(1)* | Easy | Horizontal/Vertical Scanning, String, Trie |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](./C++/125_Valid_Palindrome.cpp)<br>[Java](./Java/Valid_Palindrome.java) | *O(n)* | *O(1)* | Easy | String, Two Pointers |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](./C++/Valid_Anagram.cpp)<br>[Java](./Java/Valid_Anagram.java) | *O(n log n)* | *O(log n)* | Easy | Hash Table, Sorting, String |
+| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [C++](./C++/Ransom_Note.cpp)<br>[Java](./Java/Ransom_Note.java) | *O(n)* | *O(1)* | Easy | Hash Table, String |
+| 76  | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [C++](./C++/Minimum_Window_Substring.cpp)<br>[Java](./Java/Minimum_Window_Substring.java) | *O(n)* | *O(k)* | Hard | Sliding Window, Hash Table, String |
 
 ---
 
