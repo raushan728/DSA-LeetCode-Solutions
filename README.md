@@ -54,7 +54,7 @@ Find the problem you want and access its solution in your preferred language.
 |-----|-------|-----------|------|-------|------------|------|
 | 14  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [C++](./C++/14_Longest_Common_Prefix.cpp)<br>[Java](./Java/Longest_Common_Prefix.java) | *O(n * m)* | *O(1)* | Easy | Horizontal/Vertical Scanning, String, Trie |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](./C++/125_Valid_Palindrome.cpp)<br>[Java](./Java/Valid_Palindrome.java) | *O(n)* | *O(1)* | Easy | String, Two Pointers |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](./C++/Valid_Anagram.cpp)<br>[Java](./Java/Valid_Anagram.java) | *O(n log n)* | *O(log n)* | Easy | Hash Table, Sorting, String |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](./C++/Valid_Anagram.cpp)<br>[Java](./Java/Valid_Anagram.java) | *O(n)* | *O(1)* | Easy | Hash Table, String  |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [C++](./C++/Ransom_Note.cpp)<br>[Java](./Java/Ransom_Note.java) | *O(n)* | *O(1)* | Easy | Hash Table, String |
 | 76  | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [C++](./C++/Minimum_Window_Substring.cpp)<br>[Java](./Java/Minimum_Window_Substring.java) | *O(n)* | *O(k)* | Hard | Sliding Window, Hash Table, String |
 
