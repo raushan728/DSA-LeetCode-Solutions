@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/DSA-LeetCode-blue?style=for-the-badge&logo=leetcode" />
   <img src="https://img.shields.io/badge/Language-C++%2FJava-yellow?style=for-the-badge&logo=code" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-16-green?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-17-green?style=for-the-badge&logo=github" />
   <img src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge&logo=open-source-initiative" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&logo=github" />
 </p>
@@ -46,6 +46,7 @@ Find the problem you want and access its solution in your preferred language.
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./C++/283_Move_zeroes.cpp)<br>[Java](./Java/Move_Zeroes.java) | *O(n)* | *O(1)* | Easy | Array, In-Place, Two Pointers |
 | 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [C++](./C++/581_Shortest_Unsorted_Continuous_Subarray.cpp)<br>[Java](./Java/Shortest_Unsorted_Continuous_Subarray.java) | *O(n)* | *O(1)* | Medium | Array, Sorting |
 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](./C++/Median_of_Two_Sorted_Arrays.cpp)<br> [Java](./Java/Median_of_Two_Sorted_Arrays.java) | *O(log(min(n1,n2)))* | *O(1)* | Hard | Binary Search, Sorting |
+217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](./C++/Contains_Duplicate.cpp) <br> [Java](./Java/Contains_Duplicate.java) | *O(n)* | *O(n)* | Easy | Array, Hash Table, Hashing|
 
 ---
 
