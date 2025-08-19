@@ -59,6 +59,7 @@ Find the problem you want and access its solution in your preferred language.
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](./C++/Valid_Anagram.cpp)<br>[Java](./Java/Valid_Anagram.java) | *O(n)* | *O(1)* | Easy | Hash Table, String  |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [C++](./C++/Ransom_Note.cpp)<br>[Java](./Java/Ransom_Note.java) | *O(n)* | *O(1)* | Easy | Hash Table, String |
 | 76  | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [C++](./C++/Minimum_Window_Substring.cpp)<br>[Java](./Java/Minimum_Window_Substring.java) | *O(n)* | *O(k)* | Hard | String, Hash, SlideWin|
+49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](./C++/Group_Anagrams.cpp) <br> [Java](./Java/Group_Anagrams.java) | *O(n * k)* | *O(n * k)* | Medium | Hash Table, String |
 
 ---
 
