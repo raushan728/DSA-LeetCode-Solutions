@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/DSA-LeetCode-blue?style=for-the-badge&logo=leetcode" />
   <img src="https://img.shields.io/badge/Language-C++%2FJava-yellow?style=for-the-badge&logo=code" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-17-green?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-18-green?style=for-the-badge&logo=github" />
   <img src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge&logo=open-source-initiative" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&logo=github" />
 </p>
