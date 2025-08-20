@@ -32,7 +32,7 @@ The solutions are optimized for performance with detailed time and space complex
 |---|---------|----------|------|-------|------------|------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./C++/001_Two_Sum.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Map |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](./C++/26_Remove_Duplicates_from_Sorted_Array.cpp) | *O(n)* | *O(1)* | Easy | Array, In-Place, Two Pointers |
-| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./C++/27_Remove%20Element.cpp) | *O(n)* | *O(1)* | Easy | Array, In-Place, Two Pointers |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./C++/27_Remove_Element.cpp) | *O(n)* | *O(1)* | Easy | Array, In-Place, Two Pointers |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./C++/53_Maximum_Subarray.cpp) | *O(n)* | *O(1)* | Medium | Array, Dynamic Programming |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](./C++/88_Merge_Sorted_Array.cpp) | *O(m+n)* | *O(1)* | Easy | Array, In-Place, Two Pointers |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C++](./C++/121_Best_Time_to_Buy_and_Sell_Stock.cpp) | *O(n)* | *O(1)* | Easy | Array, Greedy |
