@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/DSA-LeetCode-0052CC?style=for-the-badge&logo=leetcode" />
   <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-19-success?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-20-success?style=for-the-badge&logo=github" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=for-the-badge&logo=github" />
 </p>
@@ -43,6 +43,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](./C++/Median_of_Two_Sorted_Arrays.cpp) | *O(log(min(n1,n2)))* | *O(1)* | Hard | Binary Search |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](./C++/Contains_Duplicate.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Table |
 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](./C++/Top_K_Frequent_Elements.cpp) | *O(n)* | *O(n)* | Medium | Array, Hash Table, Heap |
+169 | [Majority Element](https://leetcode.com/problems/majority-element/description/) | [C++](./C++/Majority_Element.cpp) | O(n) | O(1)  | Easy | Array |
 
 ### String Problems
 
