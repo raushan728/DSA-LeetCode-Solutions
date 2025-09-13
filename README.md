@@ -3,21 +3,24 @@
 <p align="center">
   <img src="https://img.shields.io/badge/DSA-LeetCode-0052CC?style=for-the-badge&logo=leetcode" />
   <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-21-success?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-22-success?style=for-the-badge&logo=github" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=for-the-badge&logo=github" />
 </p>
 
 ---
 
+
 ## Quick Navigation
 
 - [Array Problems](#array-problems)
 - [String Problems](#string-problems)
+- [Two Pointers Problems](#two-pointers-problems)
 - [Math Problems](#math-problems)
 - [Binary Search Problems](#binary-search-problems)
 - [Dynamic Programming Problems](#dynamic-programming-problems)
 - [Hash Table Problems](#hash-table-problems)
+- [Bit Manipulation Problems](#bit-manipulation-problems)
 
 ---
 
@@ -48,6 +51,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](./C++/Contains_Duplicate.cpp) | *O(n)* | *O(n)* | Easy | Hash Table, Array |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](./C++/Top_K_Frequent_Elements.cpp) | *O(n log k)* | *O(n)* | Medium | Hash Table, Heap |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C++](./C++/Majority_Element.cpp) | *O(n)* | *O(1)* | Easy | Array, Boyer–Moore |
+11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./C++/Container_With_Most_Water.cpp) | *O(n)*| *O(1)* | Medium| Array, Two Pointers, Greedy |
 
 ---
 
@@ -55,12 +59,25 @@ The solutions are optimized for performance with detailed time and space complex
 
 | # | Problem | Solution | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
-| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [C++](./C++/14_Longest_Common_Prefix.cpp) | *O(n×m)* | *O(1)* | Easy | String, Trie |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [C++](./C++/14_Longest_Common_Prefix.cpp) | *O(n×m)* | *O(1)* | Easy | String, Array |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](./C++/125_Valid_Palindrome.cpp) | *O(n)* | *O(1)* | Easy | String, Two Pointers |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](./C++/Valid_Anagram.cpp) | *O(n)* | *O(1)* | Easy | Hash Table, String |
-| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [C++](./C++/Ransom_Note.cpp) | *O(n)* | *O(1)* | Easy | Hash Table, String |
-| 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [C++](./C++/Minimum_Window_Substring.cpp) | *O(n)* | *O(k)* | Hard | String, Sliding Window |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](./C++/Group_Anagrams.cpp) | *O(n×k)* | *O(n×k)* | Medium | Hash Table, String |
+| Group Anagrams | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](./C++/Group_Anagrams.cpp) | *O(NK)* | *O(NK)* | Medium | Array, Hash Table |
+| Ransom Note | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [C++](./C++/Ransom_Note.cpp) | *O(n)* | *O(1)* | Easy | Array, Hash Table |
+| Minimum Window Substring | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [C++](./C++/Minimum_Window_Substring.cpp) | *O(n)* | *O(k)* | Hard | String, Sliding Window |
+
+---
+
+### Two Pointers Problems
+
+| # | Problem | Solution | Time | Space | Difficulty | Tags |
+|---|---------|----------|------|-------|------------|------|
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](./C++/26_Remove_Duplicates_from_Sorted_Array.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./C++/27_Remove_Element.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](./C++/88_Merge_Sorted_Array.cpp) | *O(m+n)* | *O(1)* | Easy | Array, Two Pointers |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./C++/283_Move_zeroes.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./C++/Container_With_Most_Water.cpp) | *O(n)*| *O(1)* | Medium| Array, Two Pointers, Greedy |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](./C++/125_Valid_Palindrome.cpp) | *O(n)* | *O(1)* | Easy | String, Two Pointers |
 
 ---
 
@@ -92,9 +109,20 @@ The solutions are optimized for performance with detailed time and space complex
 
 | # | Problem | Solution | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./C++/001_Two_Sum.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Map |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](./C++/Contains_Duplicate.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Table |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](./C++/Top_K_Frequent_Elements.cpp) | *O(n log k)* | *O(n)* | Medium | Array, Hash Table, Heap |
+| Group Anagrams | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](./C++/Group_Anagrams.cpp) | *O(NK)* | *O(NK)* | Medium | Array, Hash Table |
+| Ransom Note | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [C++](./C++/Ransom_Note.cpp) | *O(n)* | *O(1)* | Easy | Array, Hash Table |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](./C++/Valid_Anagram.cpp) | *O(n)* | *O(1)* | Easy | Hash Table, String |
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](./C++/Contains_Duplicate.cpp) | *O(n)* | *O(n)* | Easy | Hash Table, Array |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](./C++/Top_K_Frequent_Elements.cpp) | *O(n log k)* | *O(n)* | Medium | Hash Table, Heap |
+
+---
+
+### Bit Manipulation Problems
+
+| # | Problem | Solution | Time | Space | Difficulty | Tags |
+|---|---------|----------|------|-------|------------|------|
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./C++/136_Single_Number.cpp) | *O(n)* | *O(1)* | Easy | Array, Bit Manipulation |
 
 ---
 
