@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/DSA-LeetCode-0052CC?style=for-the-badge&logo=leetcode" />
   <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-22-success?style=for-the-badge&logo=github" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=for-the-badge&logo=github" />
 </p>
@@ -62,9 +61,9 @@ The solutions are optimized for performance with detailed time and space complex
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [C++](./C++/14_Longest_Common_Prefix.cpp) | *O(n×m)* | *O(1)* | Easy | String, Array |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](./C++/125_Valid_Palindrome.cpp) | *O(n)* | *O(1)* | Easy | String, Two Pointers |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](./C++/Valid_Anagram.cpp) | *O(n)* | *O(1)* | Easy | Hash Table, String |
-| Group Anagrams | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](./C++/Group_Anagrams.cpp) | *O(NK)* | *O(NK)* | Medium | Array, Hash Table |
-| Ransom Note | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [C++](./C++/Ransom_Note.cpp) | *O(n)* | *O(1)* | Easy | Array, Hash Table |
-| Minimum Window Substring | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [C++](./C++/Minimum_Window_Substring.cpp) | *O(n)* | *O(k)* | Hard | String, Sliding Window |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](./C++/Group_Anagrams.cpp) | *O(NK)* | *O(NK)* | Medium | Array, Hash Table |
+| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [C++](./C++/Ransom_Note.cpp) | *O(n)* | *O(1)* | Easy | Array, Hash Table |
+| 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [C++](./C++/Minimum_Window_Substring.cpp) | *O(n)* | *O(k)* | Hard | String, Sliding Window |
 
 ---
 
@@ -112,8 +111,8 @@ The solutions are optimized for performance with detailed time and space complex
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./C++/001_Two_Sum.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Map |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](./C++/Contains_Duplicate.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Table |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](./C++/Top_K_Frequent_Elements.cpp) | *O(n log k)* | *O(n)* | Medium | Array, Hash Table, Heap |
-| Group Anagrams | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](./C++/Group_Anagrams.cpp) | *O(NK)* | *O(NK)* | Medium | Array, Hash Table |
-| Ransom Note | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [C++](./C++/Ransom_Note.cpp) | *O(n)* | *O(1)* | Easy | Array, Hash Table |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](./C++/Group_Anagrams.cpp) | *O(NK)* | *O(NK)* | Medium | Array, Hash Table |
+| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [C++](./C++/Ransom_Note.cpp) | *O(n)* | *O(1)* | Easy | Array, Hash Table |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](./C++/Valid_Anagram.cpp) | *O(n)* | *O(1)* | Easy | Hash Table, String |
 
 ---
