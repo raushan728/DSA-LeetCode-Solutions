@@ -4,18 +4,14 @@ on:
   push:
     paths:
       - 'C++/*.cpp'
-
-permissions:
-  contents: write
+      - 'README.md'
+  workflow_dispatch:
 
 jobs:
   update-badge:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          persist-credentials: true
+      - uses: actions/checkout@v3
 
       - name: Count .cpp files and update badge
         run: |
@@ -25,7 +21,8 @@ jobs:
           echo "===== BEFORE ====="
           cat README.md
 
-          sed -i "s|Problems%20Solved-[0-9]\+-success?style=for-the-badge&logo=github|Problems%20Solved-${count}-success?style=for-the-badge&logo=github|" README.md
+          # Update only the number in badge
+          sed -i "s/Problems%20Solved-[0-9]\+-success/Problems%20Solved-${count}-success/" README.md
 
           echo "===== AFTER ====="
           cat README.md
