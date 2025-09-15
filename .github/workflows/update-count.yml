@@ -1,27 +1,26 @@
-permissions:
-  contents: write
-
 name: Update Problem Count Badge
 
 on:
   push:
     paths:
       - 'C++/*.cpp'
-      - 'README.md'
-  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-badge:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Count .cpp files and update badge
         run: |
           count=$(ls C++/*.cpp | wc -l)
-          sed -i "s/Problems%20Solved-[0-9]\+-success/Problems%20Solved-$count-success/" README.md
+          echo "Found $count cpp files"
+          sed -i "s|Problems%20Solved-[0-9]\+-success?style=for-the-badge&logo=github|Problems%20Solved-${count}-success?style=for-the-badge&logo=github|" README.md
+          echo "Updated README.md"
 
       - name: Commit changes
         run: |
