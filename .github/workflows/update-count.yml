@@ -12,14 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Count .cpp files
-        id: count
+      - name: Count .cpp files and update badge
         run: |
           count=$(ls C++/*.cpp | wc -l)
-          echo "count=$count" >> $GITHUB_ENV
-      - name: Update README badge
-        run: |
-          sed -i "s/Problems%20Solved-[0-9]\+/Problems%20Solved-${{ env.count }}/" README.md
+          sed -i "s/Problems%20Solved-[0-9]\+/Problems%20Solved-$count/" README.md
       - name: Commit changes
         run: |
           git config --global user.name "github-actions"
