@@ -3,7 +3,7 @@ name: Update Problem Count Badge
 on:
   push:
     paths:
-      - 'C++/*.cpp'
+      - 'C++/**/*.cpp'
       - 'README.md'
   workflow_dispatch:
 
@@ -23,9 +23,9 @@ jobs:
 
           # Update badge number
           if sed --version 2>/dev/null; then
-            sed -i -E "s/Problems%20Solved-[0-9]+-success/Problems%20Solved-$count-success/" README.md
+            sed -i -E "s/Problems%20Solved-[0-9]+-success/Problems%20Solved-$count-success/" README.md || true
           else
-            sed -i '' -E "s/Problems%20Solved-[0-9]+-success/Problems%20Solved-$count-success/" README.md
+            sed -i '' -E "s/Problems%20Solved-[0-9]+-success/Problems%20Solved-$count-success/" README.md || true
           fi
 
       - name: Commit changes
