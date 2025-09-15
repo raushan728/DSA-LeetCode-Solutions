@@ -22,7 +22,7 @@ jobs:
           echo "Found $count cpp files"
 
           # Update badge number
-          sed -i "s/Problems%20Solved-[0-9]\+-success/Problems%20Solved-${count}-success/" README.md
+          sed -i "s/Problems%20Solved-[0-9]\+-success/Problems%20Solved-$count-success/" README.md
 
       - name: Commit changes
         run: |
@@ -30,4 +30,6 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add README.md
           git commit -m "Update problem count badge" || echo "No changes to commit"
-          git push origin main
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
