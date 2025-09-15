@@ -3,7 +3,7 @@ name: Update Problem Count Badge
 on:
   push:
     paths:
-      - 'C++/*.cpp'
+      - 'C++/**.cpp'
       - 'README.md'
   workflow_dispatch:
 
