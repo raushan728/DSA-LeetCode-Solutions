@@ -22,7 +22,11 @@ jobs:
           echo "Found $count cpp files"
 
           # Update badge number
-          sed -i -E "s/Problems%20Solved-[0-9]+-success/Problems%20Solved-$count-success/" README.md
+          if sed --version 2>/dev/null; then
+            sed -i -E "s/Problems%20Solved-[0-9]+-success/Problems%20Solved-$count-success/" README.md
+          else
+            sed -i '' -E "s/Problems%20Solved-[0-9]+-success/Problems%20Solved-$count-success/" README.md
+          fi
 
       - name: Commit changes
         run: |
