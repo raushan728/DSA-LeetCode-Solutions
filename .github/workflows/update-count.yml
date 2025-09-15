@@ -7,6 +7,9 @@ on:
       - 'README.md'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-badge:
     runs-on: ubuntu-latest
@@ -18,14 +21,8 @@ jobs:
           count=$(ls C++/*.cpp | wc -l)
           echo "Found $count cpp files"
 
-          echo "===== BEFORE ====="
-          cat README.md
-
-          # Update only the number in badge
+          # Update badge number
           sed -i "s/Problems%20Solved-[0-9]\+-success/Problems%20Solved-${count}-success/" README.md
-
-          echo "===== AFTER ====="
-          cat README.md
 
       - name: Commit changes
         run: |
