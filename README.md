@@ -5,6 +5,7 @@
   <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-23-success?style=for-the-badge&logo=github" />
 </p>
 
 ---
@@ -51,6 +52,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](./C++/Top_K_Frequent_Elements.cpp) | *O(n log k)* | *O(n)* | Medium | Hash Table, Heap |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C++](./C++/Majority_Element.cpp) | *O(n)* | *O(1)* | Easy | Array, Boyer–Moore |
 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./C++/Container_With_Most_Water.cpp) | *O(n)*| *O(1)* | Medium| Array, Two Pointers, Greedy |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./C++/Product_of_Array_Except_Self.cpp) | *O(n)* | *O(1)* | Medium | Array, Prefix Product, Suffix Product, Space Optimization |
 
 ---
 
