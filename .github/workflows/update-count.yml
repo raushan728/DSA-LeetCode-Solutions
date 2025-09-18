@@ -29,11 +29,10 @@ jobs:
           if ! git diff --quiet README.md; then
             git config --global user.name "github-actions"
             git config --global user.email "github-actions@github.com"
+            git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/raushan728/DSA-LeetCode-Solutions.git
             git add README.md
             git commit -m "Update problem count badge"
             git push
           else
             echo "No changes to commit"
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
