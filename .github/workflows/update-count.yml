@@ -3,8 +3,8 @@ name: Update Problem Count Badge
 on:
   push:
     paths:
-      - "C++/*.cpp"       # directly inside C++ folder
-      - "C++/**/*.cpp"    # inside subfolders
+      - "Cpp/*.cpp"
+      - "Cpp/**/*.cpp"
       - "README.md"
   workflow_dispatch:
 
@@ -19,7 +19,7 @@ jobs:
 
       - name: Count .cpp files and update badge
         run: |
-          count=$(find "C++" -name "*.cpp" | wc -l)
+          count=$(find "Cpp" -name "*.cpp" | wc -l)
           echo "Found $count cpp files"
 
           # Update badge number
