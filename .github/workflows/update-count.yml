@@ -14,26 +14,26 @@ jobs:
   update-badge:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Count .cpp files and update badge
         run: |
-          count=$(ls C++/*.cpp | wc -l)
+          count=$(find C++ -name "*.cpp" | wc -l)
           echo "Found $count cpp files"
 
           # Update badge number
-          if sed --version 2>/dev/null; then
-            sed -i -E "s/Problems%20Solved-[0-9]+-success/Problems%20Solved-$count-success/" README.md || true
-          else
-            sed -i '' -E "s/Problems%20Solved-[0-9]+-success/Problems%20Solved-$count-success/" README.md || true
-          fi
+          sed -i -E "s/Problems%20Solved-[0-9]+-success/Problems%20Solved-$count-success/" README.md
 
-      - name: Commit changes
+      - name: Commit and push changes if any
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add README.md
-          git commit -m "Update problem count badge" || echo "No changes to commit"
-          git push
+          if ! git diff --quiet README.md; then
+            git config --global user.name "github-actions"
+            git config --global user.email "github-actions@github.com"
+            git add README.md
+            git commit -m "Update problem count badge"
+            git push
+          else
+            echo "No changes to commit"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
