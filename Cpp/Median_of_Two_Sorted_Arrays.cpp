@@ -6,12 +6,11 @@ public:
             return findMedianSortedArrays(nums2, nums1);
         int low = 0, high = n1, half = (n1 + n2 + 1) / 2;
         while (low <= high) {
-            int i = (low + high) / 2;
-            int j = half - i;
-            int l1 = (i > 0) ? nums1[i - 1] : INT_MIN;
-            int l2 = (j > 0) ? nums2[j - 1] : INT_MIN;
-            int r1 = (i < n1) ? nums1[i] : INT_MAX;
-            int r2 = (j < n2) ? nums2[j] : INT_MAX;
+            int i = (low + high) / 2, j = half - i,
+                l1 = (i > 0) ? nums1[i - 1] : INT_MIN,
+                l2 = (j > 0) ? nums2[j - 1] : INT_MIN,
+                r1 = (i < n1) ? nums1[i] : INT_MAX,
+                r2 = (j < n2) ? nums2[j] : INT_MAX;
             if (l1 <= r2 && l2 <= r1) {
                 return ((n1 + n2) % 2 == 0) ? (max(l1, l2) + min(r1, r2)) / 2.0
                                             : max(l1, l2);
