@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-23-success?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-24-success?style=for-the-badge&logo=github" />
 </p>
 
 ---
@@ -52,6 +52,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](./Cpp/Top_K_Frequent_Elements.cpp) | *O(n log k)* | *O(n)* | Medium | Hash Table, Heap |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./Cpp/Container_With_Most_Water.cpp) | *O(n)* | *O(1)* | Medium | Array, Two Pointers, Greedy |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C++](./Cpp/Majority_Element.cpp) | *O(n)* | *O(1)* | Easy | Array, Hash Table, Boyer–Moore |
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./Cpp/Search_in_Rotated_Sorted_Array.c) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
 ---
 
 ### String Problems
@@ -93,6 +94,7 @@ The solutions are optimized for performance with detailed time and space complex
 | # | Problem | Solution | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](./Cpp/Median_of_Two_Sorted_Arrays.cpp) | *O(log(min(n1,n2)))* | *O(1)* | Hard | Binary Search |
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./Cpp/Search_in_Rotated_Sorted_Array.c) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
 
 ---
 
