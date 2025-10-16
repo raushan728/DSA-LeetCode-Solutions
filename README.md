@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-24-success?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-26-success?style=for-the-badge&logo=github" />
 </p>
 
 ---
@@ -55,6 +55,8 @@ The solutions are optimized for performance with detailed time and space complex
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./Cpp/Search_in_Rotated_Sorted_Array.c) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [C++](./Cpp/Single_Element_in_a_Sorted_Array.c) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [C++](./Cpp/Peak_Index_in_a_Mountain_Array.cpp) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./Cpp/Product_of_Array_Except_Self.cpp) | *O(n)* | *O(1)* | Medium | Array, Prefix/Suffix Product |
+
 ---
 
 ### String Problems
