@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-26-success?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-27-success?style=for-the-badge&logo=github" />
 </p>
 
 ---
@@ -41,6 +41,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](./Cpp/26_Remove_Duplicates_from_Sorted_Array.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./Cpp/27_Remove_Element.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./Cpp/53_Maximum_Subarray.cpp) | *O(n)* | *O(1)* | Medium | Array, Kadane’s Algorithm |
+| 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](./Cpp/Sort_Colors.cpp) | *O(n)* | *O(1)* | Medium | Array, Two Pointers, Dutch National Flag |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](./Cpp/88_Merge_Sorted_Array.cpp) | *O(m+n)* | *O(1)* | Easy | Array, Two Pointers |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C++](./Cpp/121_Best_Time_to_Buy_and_Sell_Stock.cpp) | *O(n)* | *O(1)* | Easy | Array, Greedy |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./Cpp/136_Single_Number.cpp) | *O(n)* | *O(1)* | Easy | Array, Bit Manipulation |
@@ -58,6 +59,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./Cpp/Product_of_Array_Except_Self.cpp) | *O(n)* | *O(1)* | Medium | Array, Prefix/Suffix Product |
 
 ---
+
 
 ### String Problems
 
