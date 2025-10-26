@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-27-success?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-28-success?style=for-the-badge&logo=github" />
 </p>
 
 ---
@@ -40,6 +40,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./Cpp/001_Two_Sum.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Map |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](./Cpp/26_Remove_Duplicates_from_Sorted_Array.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./Cpp/27_Remove_Element.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
+| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [C++](./Cpp/Next_Permutation.cpp) | *O(n)* | *O(1)* | Medium | Array |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./Cpp/53_Maximum_Subarray.cpp) | *O(n)* | *O(1)* | Medium | Array, Kadane’s Algorithm |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](./Cpp/Sort_Colors.cpp) | *O(n)* | *O(1)* | Medium | Array, Two Pointers, Dutch National Flag |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](./Cpp/88_Merge_Sorted_Array.cpp) | *O(m+n)* | *O(1)* | Easy | Array, Two Pointers |
