@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-29-success?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-30-success?style=for-the-badge&logo=github" />
 </p>
 
 ---
@@ -38,6 +38,7 @@ The solutions are optimized for performance with detailed time and space complex
 | # | Problem | Solution | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./Cpp/001_Two_Sum.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Map |
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) | [C++](./Cpp/3Sum.cpp) | *O(n²)* | *O(1)* | Medium | Array, Two Pointers |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](./Cpp/26_Remove_Duplicates_from_Sorted_Array.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./Cpp/27_Remove_Element.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [C++](./Cpp/Next_Permutation.cpp) | *O(n)* | *O(1)* | Medium | Array |
@@ -85,6 +86,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](./Cpp/88_Merge_Sorted_Array.cpp) | *O(m+n)* | *O(1)* | Easy | Array, Two Pointers |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./Cpp/283_Move_zeroes.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./Cpp/Container_With_Most_Water.cpp) | *O(n)*| *O(1)* | Medium| Array, Two Pointers, Greedy |
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) | [C++](./Cpp/3Sum.cpp) | *O(n²)* | *O(1)* | Medium | Array, Two Pointers |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](./Cpp/125_Valid_Palindrome.cpp) | *O(n)* | *O(1)* | Easy | String, Two Pointers |
 
 ---
