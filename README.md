@@ -3,10 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/DSA-LeetCode-0052CC?style=flat&logo=leetcode" />
   <img src="https://img.shields.io/badge/Language-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/github/stars/raushan728/DSA-LeetCode-Solutions?style=flat" />
-  <img src="https://img.shields.io/github/forks/raushan728/DSA-LeetCode-Solutions?style=flat" />
-  <img src="https://img.shields.io/github/issues/raushan728/DSA-LeetCode-Solutions?style=flat" />
-  <img src="https://img.shields.io/github/last-commit/raushan728/DSA-LeetCode-Solutions/main?style=flat" />
+  <img src="https://img.shields.io/badge/Languages-8-blue?style=flat&logo=programming" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=flat&logo=github" />
   <img src="https://img.shields.io/badge/Problems%20Solved-42-success?style=flat&logo=github" />
