@@ -5,7 +5,6 @@
   <img src="https://img.shields.io/badge/Language-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/Languages-8-blue?style=flat&logo=programming" />
   <img src="https://img.shields.io/github/contributors/raushan728/DSA-LeetCode-Solutions?style=flat" />
-  <img src="https://img.shields.io/github/repo-size/raushan728/DSA-LeetCode-Solutions?style=flat" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=flat&logo=github" />
   <img src="https://img.shields.io/badge/Problems%20Solved-42-success?style=flat&logo=github" />
