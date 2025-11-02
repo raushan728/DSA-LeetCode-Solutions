@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-31-success?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-42-success?style=for-the-badge&logo=github" />
 </p>
 
 ---
@@ -21,6 +21,7 @@
 - [Dynamic Programming Problems](#dynamic-programming-problems)
 - [Hash Table Problems](#hash-table-problems)
 - [Bit Manipulation Problems](#bit-manipulation-problems)
+- [Recursion & Backtracking Problems](#recursion--backtracking-problems)
 
 ---
 
@@ -105,6 +106,7 @@ The solutions are optimized for performance with detailed time and space complex
 
 | # | Problem | Solution | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
+| 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [C++](./Cpp/Binary_Search.cpp) | *O(log n)* | *O(log n)* | Easy | Binary Search, Recursion |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](./Cpp/Median_of_Two_Sorted_Arrays.cpp) | *O(log(min(n1,n2)))* | *O(1)* | Hard | Binary Search |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./Cpp/Search_in_Rotated_Sorted_Array.c) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [C++](./Cpp/Single_Element_in_a_Sorted_Array.c) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
@@ -138,6 +140,14 @@ The solutions are optimized for performance with detailed time and space complex
 | # | Problem | Solution | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./Cpp/136_Single_Number.cpp) | *O(n)* | *O(1)* | Easy | Array, Bit Manipulation |
+
+---
+
+### Recursion & Backtracking Problems
+
+| # | Problem | Solution | Time | Space | Difficulty | Tags |
+|---|---------|----------|------|-------|------------|------|
+| 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [C++](./Cpp/Binary_Search.cpp) | *O(log n)* | *O(log n)* | Easy | Binary Search, Recursion |
 
 ---
 
