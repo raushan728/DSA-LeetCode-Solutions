@@ -1,0 +1,39 @@
+name: Update Problems Solved Badge
+
+on:
+  push:
+    paths:
+      - 'Cpp/*.cpp'
+  workflow_dispatch:
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Count C++ files
+      id: count
+      run: |
+        cpp_count=$(find Cpp -name "*.cpp" | wc -l)
+        echo "cpp_count=$cpp_count" >> $GITHUB_OUTPUT
+
+    - name: Update README.md
+      run: |
+        sed -i "s|Problems%20Solved-[0-9]*-success|Problems%20Solved-${{ steps.count.outputs.cpp_count }}-success|g" README.md
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add README.md
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update Problems Solved badge to ${{ steps.count.outputs.cpp_count }}"
+          git push
+        fi
