@@ -101,6 +101,7 @@ The solutions are optimized for performance with detailed time and space complex
 | # | Problem | Solution | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [C++](./Cpp/Pow(x,%20n).cpp) | *O(log N)* | *O(1)* | Medium | Math, Binary Exponentiation |
+| 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [C++](./Cpp/Fibonacci_Number.cpp) | *O(n)* | *O(1)* | Easy | Math, Dynamic Programming |
 
 ---
 
@@ -149,6 +150,7 @@ The solutions are optimized for performance with detailed time and space complex
 
 | # | Problem | Solution | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
+| 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [C++](./Cpp/Fibonacci_Number.cpp) | *O(2^n)* | *O(n)* | Easy | Math, Recursion |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [C++](./Cpp/Binary_Search.cpp) | *O(log n)* | *O(log n)* | Easy | Binary Search, Recursion |
 
 ---
