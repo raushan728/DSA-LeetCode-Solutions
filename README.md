@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/github/contributors/raushan728/DSA-LeetCode-Solutions?style=flat" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=flat&logo=github" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-31-success?style=flat&logo=github" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-43-success?style=flat&logo=github" />
 </p>
 
 ---
@@ -38,7 +38,7 @@ The solutions are optimized for performance with detailed time and space complex
 
 ### Array Problems
 
-| # | Problem | Solution | Time | Space | Difficulty | Tags |
+| # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./Cpp/001_Two_Sum.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Map |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [C++](./Cpp/3Sum.cpp) | *O(n²)* | *O(1)* | Medium | Array, Two Pointers |
@@ -59,17 +59,20 @@ The solutions are optimized for performance with detailed time and space complex
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](./Cpp/Top_K_Frequent_Elements.cpp) | *O(n log k)* | *O(n)* | Medium | Hash Table, Heap |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./Cpp/Container_With_Most_Water.cpp) | *O(n)* | *O(1)* | Medium | Array, Two Pointers, Greedy |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C++](./Cpp/Majority_Element.cpp) | *O(n)* | *O(1)* | Easy | Array, Hash Table, Boyer–Moore |
-| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./Cpp/Search_in_Rotated_Sorted_Array.c) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
-| 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [C++](./Cpp/Single_Element_in_a_Sorted_Array.c) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./Cpp/Search_in_Rotated_Sorted_Array.cpp) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
+| 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [C++](./Cpp/Single_Element_in_a_Sorted_Array.cpp) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [C++](./Cpp/Peak_Index_in_a_Mountain_Array.cpp) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./Cpp/Product_of_Array_Except_Self.cpp) | *O(n)* | *O(1)* | Medium | Array, Prefix/Suffix Product |
+| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [C++](./Cpp/Find_the_Duplicate_Number.cpp) | *O(n)* | *O(1)* | Medium | Array, Two Pointers, Cycle Detection |
+| 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | [C++](./Cpp/Find_Missing_and_Repeated_Values.cpp) | *O(n)* | *O(1)* | Easy | Array, Hash Table |
+| 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [C++](./Cpp/Subarray_Sum_Equals_K.cpp) | *O(n)* | *O(n)* | Medium | Array, Hash Table, Prefix Sum |
 
 ---
 
 
 ### String Problems
 
-| # | Problem | Solution | Time | Space | Difficulty | Tags |
+| # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [C++](./Cpp/14_Longest_Common_Prefix.cpp) | *O(n×m)* | *O(1)* | Easy | String, Array |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](./Cpp/125_Valid_Palindrome.cpp) | *O(n)* | *O(1)* | Easy | String, Two Pointers |
@@ -78,12 +81,15 @@ The solutions are optimized for performance with detailed time and space complex
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [C++](./Cpp/Ransom_Note.cpp) | *O(n)* | *O(1)* | Easy | Array, Hash Table |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [C++](./Cpp/Minimum_Window_Substring.cpp) | *O(n)* | *O(k)* | Hard | String, Sliding Window |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | [C++](./Cpp/Remove_All_Occurrences_of_a_Substring.cpp) | *O(n×m)* | *O(1)* | Medium | String |
+| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [C++](./Cpp/Reverse_Words_in_a_String.cpp) | *O(n)* | *O(1)* | Medium | String, Two Pointers |
+| 443 | [String Compression](https://leetcode.com/problems/string-compression/) | [C++](./Cpp/String_Compression.cpp) | *O(n)* | *O(1)* | Easy | String, Two Pointers |
+| 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [C++](./Cpp/Permutation_in_String.cpp) | *O(n)* | *O(1)* | Medium | String, Sliding Window |
 
 ---
 
 ### Two Pointers Problems
 
-| # | Problem | Solution | Time | Space | Difficulty | Tags |
+| # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](./Cpp/26_Remove_Duplicates_from_Sorted_Array.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./Cpp/27_Remove_Element.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
@@ -93,6 +99,10 @@ The solutions are optimized for performance with detailed time and space complex
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [C++](./Cpp/3Sum.cpp) | *O(n²)* | *O(1)* | Medium | Array, Two Pointers |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | [C++](./Cpp/4Sum.cpp) | *O(n³)* | *O(1)* | Medium | Array, Two Pointers |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](./Cpp/125_Valid_Palindrome.cpp) | *O(n)* | *O(1)* | Easy | String, Two Pointers |
+| 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](./Cpp/Sort_Colors.cpp) | *O(n)* | *O(1)* | Medium | Array, Two Pointers, Dutch National Flag |
+| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [C++](./Cpp/Find_the_Duplicate_Number.cpp) | *O(n)* | *O(1)* | Medium | Array, Two Pointers, Cycle Detection |
+| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [C++](./Cpp/Reverse_Words_in_a_String.cpp) | *O(n)* | *O(1)* | Medium | String, Two Pointers |
+| 443 | [String Compression](https://leetcode.com/problems/string-compression/) | [C++](./Cpp/String_Compression.cpp) | *O(n)* | *O(1)* | Easy | String, Two Pointers |
 
 ---
 
@@ -111,8 +121,8 @@ The solutions are optimized for performance with detailed time and space complex
 |---|---------|----------|------|-------|------------|------|
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [C++](./Cpp/Binary_Search.cpp) | *O(log n)* | *O(log n)* | Easy | Binary Search, Recursion |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](./Cpp/Median_of_Two_Sorted_Arrays.cpp) | *O(log(min(n1,n2)))* | *O(1)* | Hard | Binary Search |
-| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./Cpp/Search_in_Rotated_Sorted_Array.c) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
-| 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [C++](./Cpp/Single_Element_in_a_Sorted_Array.c) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./Cpp/Search_in_Rotated_Sorted_Array.cpp) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
+| 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [C++](./Cpp/Single_Element_in_a_Sorted_Array.cpp) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [C++](./Cpp/Peak_Index_in_a_Mountain_Array.cpp) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
 
 ---
@@ -151,6 +161,11 @@ The solutions are optimized for performance with detailed time and space complex
 | # | Problem | Solution | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [C++](./Cpp/Fibonacci_Number.cpp) | *O(2^n)* | *O(n)* | Easy | Math, Recursion |
+| 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [C++](./Cpp/Sudoku_Solver.cpp) | *Exponential* | *O(1)* | Hard | Backtracking, Recursion |
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) | [C++](./Cpp/Permutations.cpp) | *O(n × n!)* | *O(n)* | Medium | Backtracking, Recursion |
+| 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | [C++](./Cpp/N-Queens.cpp) | *Exponential* | *O(n)* | Hard | Backtracking, Recursion |
+| 78 | [Subsets](https://leetcode.com/problems/subsets/) | [C++](./Cpp/Subsets.cpp) | *O(n × 2^n)* | *O(n)* | Medium | Backtracking, Recursion |
+| 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | [C++](./Cpp/Subsets_II.cpp) | *O(n × 2^n)* | *O(n)* | Medium | Backtracking, Recursion |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [C++](./Cpp/Binary_Search.cpp) | *O(log n)* | *O(log n)* | Easy | Binary Search, Recursion |
 
 ---
