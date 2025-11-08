@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/github/contributors/raushan728/DSA-LeetCode-Solutions?style=flat" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=flat&logo=github" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-45-success?style=flat&logo=github" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-44-success?style=flat&logo=github" />
 </p>
 
 ---
@@ -160,6 +160,7 @@ The solutions are optimized for performance with detailed time and space complex
 
 | # | Problem | Solution | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
+| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [C++](./Cpp/Combination_Sum.cpp) | *O(2^n)* | *O(n)* | Medium | Backtracking, Recursion |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [C++](./Cpp/Fibonacci_Number.cpp) | *O(2^n)* | *O(n)* | Easy | Math, Recursion |
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [C++](./Cpp/Sudoku_Solver.cpp) | *Exponential* | *O(1)* | Hard | Backtracking, Recursion |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | [C++](./Cpp/Permutations.cpp) | *O(n × n!)* | *O(n)* | Medium | Backtracking, Recursion |
