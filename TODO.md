@@ -1,3 +1,0 @@
-- [x] Update the Problems Solved badge from 44 to 45 in README.md
-- [x] Add "Linked List Problems" to the Quick Navigation section in README.md
-- [x] Insert the new Linked List Problems section with the Reverse Linked List entry after the Array Problems table in README.md
