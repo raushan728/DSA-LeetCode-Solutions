@@ -5,13 +5,8 @@
   <img src="https://img.shields.io/github/contributors/raushan728/DSA-LeetCode-Solutions?style=flat" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=flat&logo=github" />
-<<<<<<< HEAD
-  <img src="https://img.shields.io/badge/Problems%20Solved-49-success?style=flat&logo=github" />
-=======
-  <img src="https://img.shields.io/badge/Problems%20Solved-49-success?style=flat&logo=github" />
->>>>>>> origin/main
+  <img src="https://img.shields.io/badge/Problems%20Solved-47%20(Easy%3A%2020%2C%20Medium%3A%2022%2C%20Hard%3A%205)-success?style=flat&logo=leetcode" />
 </p>
-
 
 ---
 
