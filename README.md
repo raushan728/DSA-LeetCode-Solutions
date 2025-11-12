@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/github/contributors/raushan728/DSA-LeetCode-Solutions?style=flat" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=flat&logo=github" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-48%20(Easy%3A%2018%2C%20Medium%3A%2026%2C%20Hard%3A%204)-success?style=flat&logo=leetcode" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-49%20(Easy%3A%2019%2C%20Medium%3A%2026%2C%20Hard%3A%204)-success?style=flat&logo=leetcode" />
 </p>
 
 ---
@@ -75,6 +75,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [C++](./Cpp/Reverse_Linked_List.cpp) | *O(n)* | *O(1)* | Easy | Linked List |
 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/) | [C++](./Cpp/Middle_of_the_Linked_List.cpp) | *O(n)* | *O(1)* | Easy | Linked List |
 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [C++](./Cpp/Linked_List_Cycle.cpp) | *O(n)* | *O(1)* | Easy | Linked List |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [C++](./Cpp/Merge_Two_Sorted_Lists.cpp) | *O(n+m)* | *O(n+m)* | Easy | Linked List, Recursion |
 
 ---
 
@@ -179,6 +180,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [C++](./Cpp/Binary_Search.cpp) | *O(log n)* | *O(log n)* | Easy | Binary Search, Recursion |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | [C++](./Cpp/Palindrome_Partitioning.cpp) | *O(n × 2^n)* | *O(n)* | Medium | Backtracking, Recursion, String |
 | 2596 | [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/) | [C++](./Cpp/Check_Knight_Tour_Configuration.cpp) | *O(n²)* | *O(n²)* | Medium | Array, Backtracking |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [C++](./Cpp/Merge_Two_Sorted_Lists.cpp) | *O(n+m)* | *O(n+m)* | Easy | Recursion, Linked List |
 
 ---
 
