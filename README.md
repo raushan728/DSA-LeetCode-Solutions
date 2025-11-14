@@ -76,6 +76,7 @@ The solutions are optimized for performance with detailed time and space complex
 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/) | [C++](./Cpp/Middle_of_the_Linked_List.cpp) | *O(n)* | *O(1)* | Easy | Linked List |
 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [C++](./Cpp/Linked_List_Cycle.cpp) | *O(n)* | *O(1)* | Easy | Linked List |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [C++](./Cpp/Merge_Two_Sorted_Lists.cpp) | *O(n+m)* | *O(n+m)* | Easy | Linked List, Recursion |
+138| [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [C++](./Cpp/Copy_List_with_Random_Pointer.cpp) | *O(n)* | *O(n)* | Medium | Linked List |
 
 ---
 
