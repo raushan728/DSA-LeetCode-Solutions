@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/github/contributors/raushan728/DSA-LeetCode-Solutions?style=flat" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=flat&logo=github" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-49%20(Easy%3A%2019%2C%20Medium%3A%2026%2C%20Hard%3A%204)-success?style=flat&logo=leetcode" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-54%20(Easy%3A%2020%2C%20Medium%3A%2029%2C%20Hard%3A%205)-success?style=flat&logo=leetcode" />
 </p>
 
 ---
@@ -77,6 +77,7 @@ The solutions are optimized for performance with detailed time and space complex
 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/) | [C++](./Cpp/Middle_of_the_Linked_List.cpp) | *O(n)* | *O(1)* | Easy | Linked List |
 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [C++](./Cpp/Linked_List_Cycle.cpp) | *O(n)* | *O(1)* | Easy | Linked List |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [C++](./Cpp/Merge_Two_Sorted_Lists.cpp) | *O(n+m)* | *O(n+m)* | Easy | Linked List, Recursion |
+| 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [C++](./Cpp/Swap_Nodes_in_Pairs.cpp) | *O(n)* | *O(1)* | Medium | Linked List, Two Pointers |
 | 138| [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [C++](./Cpp/Copy_List_with_Random_Pointer.cpp) | *O(n)* | *O(n)* | Medium | Linked List |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [C++](./Cpp/Reverse_Nodes_in_k_Group.cpp) | *O(n)* | *O(n/k)* | Hard | Linked List, Recursion |
 
@@ -124,6 +125,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [C++](./Cpp/Find_the_Duplicate_Number.cpp) | *O(n)* | *O(1)* | Medium | Array, Two Pointers, Cycle Detection |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [C++](./Cpp/Reverse_Words_in_a_String.cpp) | *O(n)* | *O(1)* | Medium | String, Two Pointers |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | [C++](./Cpp/String_Compression.cpp) | *O(n)* | *O(1)* | Easy | String, Two Pointers |
+| 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [C++](./Cpp/Swap_Nodes_in_Pairs.cpp) | *O(n)* | *O(1)* | Medium | Linked List, Two Pointers |
 
 ---
 
