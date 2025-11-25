@@ -16,6 +16,7 @@
 - [Array Problems](#array-problems)
 - [Linked List Problems](#linked-list-problems)
 - [Doubly Linked List Problems](#doubly-linked-list-problems)
+- [Stack Problems](#stack-problems)
 - [String Problems](#string-problems)
 - [Two Pointers Problems](#two-pointers-problems)
 - [Math Problems](#math-problems)
@@ -35,6 +36,12 @@ The solutions are optimized for performance with detailed time and space complex
 ---
 
 ## Problem Solutions
+
+### Stack Problems
+
+| # | Problem | Solutions | Time | Space | Difficulty | Tags |
+|---|---------|----------|------|-------|------------|------|
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [C++](./Cpp/Valid_Parentheses.cpp) | *O(n)* | *O(n)* | Easy | String, Stack |
 
 ### Array Problems
 
@@ -106,6 +113,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | [C++](./Cpp/String_Compression.cpp) | *O(n)* | *O(1)* | Easy | String, Two Pointers |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [C++](./Cpp/Permutation_in_String.cpp) | *O(n)* | *O(1)* | Medium | String, Sliding Window |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | [C++](./Cpp/Palindrome_Partitioning.cpp) | *O(n × 2^n)* | *O(n)* | Medium | Backtracking, Recursion, String |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [C++](./Cpp/Valid_Parentheses.cpp) | *O(n)* | *O(n)* | Easy | String, Stack |
 
 ---
 
