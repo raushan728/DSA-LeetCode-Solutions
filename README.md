@@ -71,11 +71,12 @@ The solutions are optimized for performance with detailed time and space complex
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [C++](./Cpp/Peak_Index_in_a_Mountain_Array.cpp) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
 | 2596 | [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/) | [C++](./Cpp/Check_Knight_Tour_Configuration.cpp) | *O(n²)* | *O(n²)* | Medium | Array, Backtracking |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | [C++](./Cpp/Find_Missing_and_Repeated_Values.cpp) | *O(n²)* | *O(n²)* | Easy | Array, Hash Table |
+84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [C++](./Cpp/Largest_Rectangle_in_Histogram.cpp) | *O(n)* | *O(n)* | Hard | Array, Stack |
 
 ---
 
 ### Linked List Problems
-
+t
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [C++](./Cpp/Merge_Two_Sorted_Lists.cpp) | *O(n+m)* | *O(n+m)* | Easy | Linked List, Recursion |
@@ -104,6 +105,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [C++](./Cpp/Valid_Parentheses.cpp) | *O(n)* | *O(n)* | Easy | String, Stack |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [C++](./Cpp/Min_Stack.cpp) | *O(1)* | *O(n)* | Medium | Stack, Design |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [C++](./Cpp/Next_Greater_Element_I.cpp) | *O(n+m)* | *O(n)* | Easy | Array, Stack, Hash Table |
+84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [C++](./Cpp/Largest_Rectangle_in_Histogram.cpp) | *O(n)* | *O(n)* | Hard | Array, Stack |
 
 ---
 
