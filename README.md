@@ -51,6 +51,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./Cpp/27_Remove_Element.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [C++](./Cpp/Next_Permutation.cpp) | *O(n)* | *O(1)* | Medium | Array |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./Cpp/Search_in_Rotated_Sorted_Array.cpp) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
+| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [C++](./Cpp/Trapping_Rain_Water.cpp) | *O(n)* | *O(1)* | Hard | Array, Two Pointers |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](./Cpp/Group_Anagrams.cpp) | *O(NK)* | *O(NK)* | Medium | Array, Hash Table |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./Cpp/53_Maximum_Subarray.cpp) | *O(n)* | *O(1)* | Medium | Array, Kadane’s Algorithm, Dynamic Programming |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](./Cpp/Sort_Colors.cpp) | *O(n)* | *O(1)* | Medium | Array, Two Pointers, Dutch National Flag |
@@ -137,6 +138,7 @@ t
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [C++](./Cpp/Swap_Nodes_in_Pairs.cpp) | *O(n)* | *O(1)* | Medium | Linked List, Two Pointers |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](./Cpp/26_Remove_Duplicates_from_Sorted_Array.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./Cpp/27_Remove_Element.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
+42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [C++](./Cpp/Trapping_Rain_Water.cpp) | *O(n)* | *O(1)* | Hard | Array, Two Pointers |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](./Cpp/Sort_Colors.cpp) | *O(n)* | *O(1)* | Medium | Array, Two Pointers, Dutch National Flag |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](./Cpp/88_Merge_Sorted_Array.cpp) | *O(m+n)* | *O(1)* | Easy | Array, Two Pointers |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](./Cpp/125_Valid_Palindrome.cpp) | *O(n)* | *O(1)* | Easy | String, Two Pointers |
