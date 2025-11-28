@@ -17,6 +17,7 @@
 - [Linked List Problems](#linked-list-problems)
 - [Doubly Linked List Problems](#doubly-linked-list-problems)
 - [Stack Problems](#stack-problems)
+- [Queue Problems](#queue-problems)
 - [String Problems](#string-problems)
 - [Two Pointers Problems](#two-pointers-problems)
 - [Math Problems](#math-problems)
@@ -110,8 +111,18 @@ t
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [C++](./Cpp/Next_Greater_Element_I.cpp) | *O(n+m)* | *O(n)* | Easy | Array, Stack, Hash Table |
 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | [C++](./Cpp/Next_Greater_Element_II.cpp) | *O(n)* | *O(n)* | Medium | Array, Stack |
 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [C++](./Cpp/Largest_Rectangle_in_Histogram.cpp) | *O(n)* | *O(n)* | Hard | Array, Stack |
+225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [C++](./Cpp/Implement_Stack_using_Queues.cpp) | *O(n)* | *O(n)* | Easy | Stack, Queue |
+232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [C++](./Cpp/Implement_Queue_using_Stacks.cpp) | *O(n)* | *O(n)* | Easy | Queue, Stack |
 ---
 
+### Queue Problems
+
+| # | Problem | Solutions | Time | Space | Difficulty | Tags |
+|---|---------|----------|------|-------|------------|------|
+225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [C++](./Cpp/Implement_Stack_using_Queues.cpp) | *O(n)* | *O(n)* | Easy | Stack, Queue |
+232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [C++](./Cpp/Implement_Queue_using_Stacks.cpp) | *O(n)* | *O(n)* | Easy | Queue, Stack |
+
+---
 ### String Problems
 
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
