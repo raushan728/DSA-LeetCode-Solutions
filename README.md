@@ -96,6 +96,7 @@ t
 
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
+146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [C++](./Cpp/LRU_Cache.cpp) | *O(1)* | *O(Capacity)* | Medium | Hash Table, Doubly Linked List, Design |
 | 430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [C++](./Cpp/Flatten_a_Multilevel_Doubly_Linked_List.cpp) | *O(n)* | *O(1)* | Medium | Linked List, Doubly Linked List, Recursion, DFS |
 
 ---
@@ -189,6 +190,7 @@ t
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./Cpp/001_Two_Sum.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Map |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](./Cpp/Group_Anagrams.cpp) | *O(NK)* | *O(NK)* | Medium | Array, Hash Table |
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [C++](./Cpp/Copy_List_with_Random_Pointer.cpp) | *O(n)* | *O(n)* | Medium | Linked List, Hash Table |
+146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [C++](./Cpp/LRU_Cache.cpp) | *O(1)* | *O(Capacity)* | Medium | Hash Table, Doubly Linked List, Design |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C++](./Cpp/Majority_Element.cpp) | *O(n)* | *O(1)* | Easy | Array, Hash Table, Boyer–Moore |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](./Cpp/Contains_Duplicate.cpp) | *O(n)* | *O(n)* | Easy | Hash Table, Array |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](./Cpp/Valid_Anagram.cpp) | *O(n)* | *O(1)* | Easy | Hash Table, String |
