@@ -134,6 +134,7 @@ t
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | [C++](./Cpp/Palindrome_Partitioning.cpp) | *O(n × 2^n)* | *O(n)* | Medium | Backtracking, Recursion, String |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [C++](./Cpp/Reverse_Words_in_a_String.cpp) | *O(n)* | *O(1)* | Medium | String, Two Pointers |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](./Cpp/Valid_Anagram.cpp) | *O(n)* | *O(1)* | Easy | Hash Table, String |
+| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [C++](./Cpp/First_Unique_Character_in_a_String.cpp) | *O(n)* | *O(1)* | Easy | Hash Table, String |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | [C++](./Cpp/String_Compression.cpp) | *O(n)* | *O(1)* | Easy | String, Two Pointers |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [C++](./Cpp/Permutation_in_String.cpp) | *O(n)* | *O(1)* | Medium | String, Sliding Window |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | [C++](./Cpp/Remove_All_Occurrences_of_a_Substring.cpp) | *O(n×m)* | *O(1)* | Medium | String |
@@ -207,6 +208,7 @@ t
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](./Cpp/Valid_Anagram.cpp) | *O(n)* | *O(1)* | Easy | Hash Table, String |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](./Cpp/Top_K_Frequent_Elements.cpp) | *O(n log k)* | *O(n)* | Medium | Hash Table, Heap |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [C++](./Cpp/Ransom_Note.cpp) | *O(n)* | *O(1)* | Easy | Array, Hash Table |
+| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [C++](./Cpp/First_Unique_Character_in_a_String.cpp) | *O(n)* | *O(1)* | Easy | Hash Table, String |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [C++](./Cpp/Next_Greater_Element_I.cpp) | *O(n+m)* | *O(n)* | Easy | Array, Stack, Hash Table |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [C++](./Cpp/Subarray_Sum_Equals_K.cpp) | *O(n)* | *O(n)* | Medium | Array, Hash Table, Prefix Sum |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | [C++](./Cpp/Find_Missing_and_Repeated_Values.cpp) | *O(n²)* | *O(n²)* | Easy | Array, Hash Table |
