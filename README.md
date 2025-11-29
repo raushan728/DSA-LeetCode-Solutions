@@ -64,6 +64,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [C++](./Cpp/209_Minimum_Size_Subarray_Sum.cpp) | *O(n)* | *O(1)* | Medium | Sliding Window, Array, Binary Search |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](./Cpp/Contains_Duplicate.cpp) | *O(n)* | *O(n)* | Easy | Hash Table, Array |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./Cpp/Product_of_Array_Except_Self.cpp) | *O(n)* | *O(1)* | Medium | Array, Prefix/Suffix Product |
+| 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [C++](./Cpp/Sliding_Window_Maximum.cpp) | *O(n)* | *O(1)* | Hard | Array, Sliding Window |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./Cpp/283_Move_zeroes.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [C++](./Cpp/Find_the_Duplicate_Number.cpp) | *O(n)* | *O(1)* | Medium | Array, Two Pointers, Cycle Detection |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [C++](./Cpp/Ransom_Note.cpp) | *O(n)* | *O(1)* | Easy | Array, Hash Table |
