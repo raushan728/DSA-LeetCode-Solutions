@@ -256,6 +256,7 @@ t
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C++](./Cpp/Lowest_Common_Ancestor_of_a_Binary_Tree.cpp) | *O(n)* | *O(h)* | Easy | Tree, Depth-First Search, Binary Tree |
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [C++](./Cpp/Binary_Tree_Paths.cpp) | *O(n)* | *O(h)* | Easy | Tree, Depth-First Search, Binary Tree |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [C++](./Cpp/Diameter_of_Binary_Tree.cpp) | *O(n)* | *O(h)* | Easy | Tree, Depth-First Search, Binary Tree |
+| 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [C++](./Cpp/Maximum_Width_of_Binary_Tree.cpp) | *O(n)* | *O(n)* | Medium | Tree, Depth-First Search, Binary Tree |
 
 ---
 
