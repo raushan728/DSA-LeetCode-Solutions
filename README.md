@@ -254,6 +254,7 @@ t
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [C++](./Cpp/Same_Tree.cpp) | *O(n)* | *O(log n)* | Easy | Tree, Depth-First Search, Binary Tree |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](./Cpp/Construct_Binary_Tree_from_Preorder_and_inorder_Traversal.cpp) | *O(n)* | *O(n)* | Medium | Tree, Depth-First Search, Binary Tree |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C++](./Cpp/Lowest_Common_Ancestor_of_a_Binary_Tree.cpp) | *O(n)* | *O(h)* | Easy | Tree, Depth-First Search, Binary Tree |
+| 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [C++](./Cpp/Binary_Tree_Paths.cpp) | *O(n)* | *O(h)* | Easy | Tree, Depth-First Search, Binary Tree |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [C++](./Cpp/Diameter_of_Binary_Tree.cpp) | *O(n)* | *O(h)* | Easy | Tree, Depth-First Search, Binary Tree |
 
 ---
