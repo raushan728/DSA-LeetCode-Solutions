@@ -26,6 +26,7 @@
 - [Hash Table Problems](#hash-table-problems)
 - [Bit Manipulation Problems](#bit-manipulation-problems)
 - [Recursion & Backtracking Problems](#recursion--backtracking-problems)
+- [Tree Problems](#tree-problems)
 
 ---
 
@@ -243,6 +244,14 @@ t
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [C++](./Cpp/Fibonacci_Number.cpp) | *O(n)* | *O(1)* | Easy | Math, Dynamic Programming, Recursion |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [C++](./Cpp/Binary_Search.cpp) | *O(log n)* | *O(log n)* | Easy | Binary Search, Recursion |
 | 2596 | [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/) | [C++](./Cpp/Check_Knight_Tour_Configuration.cpp) | *O(n²)* | *O(n²)* | Medium | Array, Backtracking |
+
+---
+
+### Tree Problems
+
+| # | Problem | Solutions | Time | Space | Difficulty | Tags |
+|---|---------|----------|------|-------|------------|------|
+| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [C++](./Cpp/Same_Tree.cpp) | *O(n)* | *O(log n)* | Easy | Tree, Depth-First Search, Binary Tree |
 
 ---
 
