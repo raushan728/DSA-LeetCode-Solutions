@@ -240,6 +240,7 @@ t
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | [C++](./Cpp/Subsets.cpp) | *O(n × 2^n)* | *O(n)* | Medium | Backtracking, Recursion |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | [C++](./Cpp/Subsets_II.cpp) | *O(n × 2^n)* | *O(n)* | Medium | Backtracking, Recursion |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | [C++](./Cpp/Palindrome_Partitioning.cpp) | *O(n × 2^n)* | *O(n)* | Medium | Backtracking, Recursion, String |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [C++](./Cpp/Lowest_Common_Ancestor_of_a_Binary_Search_Tree.cpp) | *O(n)* | *O(h)* | Easy | Tree, Depth-First Search, Binary Tree |
 | 430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [C++](./Cpp/Flatten_a_Multilevel_Doubly_Linked_List.cpp) | *O(n)* | *O(1)* | Medium | Linked List, Doubly Linked List, Recursion, DFS |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [C++](./Cpp/Fibonacci_Number.cpp) | *O(n)* | *O(1)* | Easy | Math, Dynamic Programming, Recursion |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [C++](./Cpp/Binary_Search.cpp) | *O(log n)* | *O(log n)* | Easy | Binary Search, Recursion |
