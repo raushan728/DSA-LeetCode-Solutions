@@ -252,6 +252,7 @@ t
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [C++](./Cpp/Binary_Tree_Inorder_Traversal.cpp) | *O(n)* | *O(h)* | Easy | Tree, Depth-First Search, Binary Tree |
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [C++](./Cpp/Validate_Binary_Search_Tree.cpp) | *O(n)* | *O(h)* | Medium | Tree, Depth-First Search, Binary Tree |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [C++](./Cpp/Same_Tree.cpp) | *O(n)* | *O(log n)* | Easy | Tree, Depth-First Search, Binary Tree |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](./Cpp/Construct_Binary_Tree_from_Preorder_and_inorder_Traversal.cpp) | *O(n)* | *O(n)* | Medium | Tree, Depth-First Search, Binary Tree |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [C++](./Cpp/Convert_Sorted_Array_to_Binary_Search_Tree.cpp) | *O(n)* | *O(log n)* | Easy | Tree, Depth-First Search, Binary Tree |
