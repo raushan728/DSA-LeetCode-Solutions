@@ -261,6 +261,7 @@ t
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [C++](./Cpp/Binary_Tree_Paths.cpp) | *O(n)* | *O(h)* | Easy | Tree, Depth-First Search, Binary Tree |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [C++](./Cpp/Diameter_of_Binary_Tree.cpp) | *O(n)* | *O(h)* | Easy | Tree, Depth-First Search, Binary Tree |
 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [C++](./Cpp/Maximum_Width_of_Binary_Tree.cpp) | *O(n)* | *O(n)* | Medium | Tree, Depth-First Search, Binary Tree |
+| 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [C++](./Cpp/Minimum_Distance_Between_BST_Nodes.cpp) | *O(n)* | *O(h)* | Easy | Tree, Depth-First Search, Binary Tree |
 
 ---
 
