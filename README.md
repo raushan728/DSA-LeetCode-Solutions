@@ -172,7 +172,7 @@ t
 
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
-| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [C++](./Cpp/Pow(x, n).cpp) | *O(log N)* | *O(1)* | Medium | Math, Binary Exponentiation |
+| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [C++](./Cpp/Pow(x,%20n).cpp) | *O(log N)* | *O(1)* | Medium | Math, Binary Exponentiation |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [C++](./Cpp/Fibonacci_Number.cpp) | *O(n)* | *O(1)* | Easy | Math, Dynamic Programming, Recursion |
 
 ---
