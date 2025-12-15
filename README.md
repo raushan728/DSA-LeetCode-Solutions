@@ -45,6 +45,7 @@ The solutions are optimized for performance with detailed time and space complex
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./Cpp/001_Two_Sum.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Map |
+| 493 | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) | [C++](./Cpp/Reverse-Pairs.cpp) | *O(n)* | *O(n)* | Hard | Array|
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [C++](./Cpp/73_Set_Matrix_Zeroes.cpp) | *O(n)* | *O(n)* | Medium | Array|
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./Cpp/238_Product_of_Array_Except_Self.cpp) | *O(n)* | *O(n)* | Medium | Array|
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | [C++](./Cpp/Word-Search.cpp) | *O(n)* | *O(n)* | Medium | Array|
