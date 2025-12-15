@@ -124,6 +124,7 @@ t
 
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
+207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [C++](./Cpp/Course_Schedule.cpp) | *O(n)* | *O(n)* | Medium | Graph, Depth-First Search, Breadth-First Search |
 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [C++](./Cpp/Implement_Stack_using_Queues.cpp) | *O(n)* | *O(n)* | Easy | Stack, Queue |
 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [C++](./Cpp/Implement_Queue_using_Stacks.cpp) | *O(n)* | *O(n)* | Easy | Queue, Stack |
 
