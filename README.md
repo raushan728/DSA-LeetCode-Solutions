@@ -133,6 +133,7 @@ t
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [C++](./Cpp/Number_of_Islands.cpp) | *O(n)* | *O(n)* | Medium | Graph, Depth-First Search, Breadth-First Search |
+994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [C++](./Cpp/Rotting_Oranges.cpp) | *O(n)* | *O(n)* | Medium | Graph, Breadth-First Search |
 
 ---
 ### String Problems
