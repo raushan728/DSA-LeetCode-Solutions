@@ -46,6 +46,8 @@ The solutions are optimized for performance with detailed time and space complex
 |---|---------|----------|------|-------|------------|------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./Cpp/001_Two_Sum.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Map |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [C++](./Cpp/73_Set_Matrix_Zeroes.cpp) | *O(n)* | *O(n)* | Medium | Array|
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./Cpp/238_Product_of_Array_Except_Self.cpp) | *O(n)* | *O(n)* | Medium | Array|
+| 79 | [Word Search](https://leetcode.com/problems/word-search/) | [C++](./Cpp/Word-Search.cpp) | *O(n)* | *O(n)* | Medium | Array|
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [C++](./Cpp/Longest-Substring-Without-Repeating-Characters.cpp) | *O(n)* | *O(n)* | Medium | Array, Hash Map |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](./Cpp/Median_of_Two_Sorted_Arrays.cpp) | *O(log(min(n1,n2)))* | *O(1)* | Hard | Binary Search, Array |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./Cpp/Container_With_Most_Water.cpp) | *O(n)* | *O(1)* | Medium | Array, Two Pointers, Greedy |
