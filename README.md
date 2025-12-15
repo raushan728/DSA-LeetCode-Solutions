@@ -18,6 +18,7 @@
 - [Doubly Linked List Problems](#doubly-linked-list-problems)
 - [Stack Problems](#stack-problems)
 - [Queue Problems](#queue-problems)
+- [Graph Problems](#graph-problems)
 - [String Problems](#string-problems)
 - [Two Pointers Problems](#two-pointers-problems)
 - [Math Problems](#math-problems)
@@ -125,6 +126,13 @@ t
 |---|---------|----------|------|-------|------------|------|
 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [C++](./Cpp/Implement_Stack_using_Queues.cpp) | *O(n)* | *O(n)* | Easy | Stack, Queue |
 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [C++](./Cpp/Implement_Queue_using_Stacks.cpp) | *O(n)* | *O(n)* | Easy | Queue, Stack |
+
+---
+### Graph Problems
+
+| # | Problem | Solutions | Time | Space | Difficulty | Tags |
+|---|---------|----------|------|-------|------------|------|
+200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [C++](./Cpp/Number_of_Islands.cpp) | *O(n)* | *O(n)* | Medium | Graph, Depth-First Search, Breadth-First Search |
 
 ---
 ### String Problems
