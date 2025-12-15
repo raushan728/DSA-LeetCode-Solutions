@@ -45,6 +45,8 @@ The solutions are optimized for performance with detailed time and space complex
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./Cpp/001_Two_Sum.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Map |
+| 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [C++](./Cpp/73_Set_Matrix_Zeroes.cpp) | *O(n)* | *O(n)* | Medium | Array|
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [C++](./Cpp/Longest-Substring-Without-Repeating-Characters.cpp) | *O(n)* | *O(n)* | Medium | Array, Hash Map |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](./Cpp/Median_of_Two_Sorted_Arrays.cpp) | *O(log(min(n1,n2)))* | *O(1)* | Hard | Binary Search, Array |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./Cpp/Container_With_Most_Water.cpp) | *O(n)* | *O(1)* | Medium | Array, Two Pointers, Greedy |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [C++](./Cpp/14_Longest_Common_Prefix.cpp) | *O(n*m)* | *O(1)* | Easy | String, Array |
@@ -216,6 +218,7 @@ t
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./Cpp/001_Two_Sum.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Map |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [C++](./Cpp/Longest-Substring-Without-Repeating-Characters.cpp) | *O(n)* | *O(n)* | Medium | Array, Hash Map |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](./Cpp/Group_Anagrams.cpp) | *O(NK)* | *O(NK)* | Medium | Array, Hash Table |
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [C++](./Cpp/Copy_List_with_Random_Pointer.cpp) | *O(n)* | *O(n)* | Medium | Linked List, Hash Table |
 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [C++](./Cpp/LRU_Cache.cpp) | *O(1)* | *O(Capacity)* | Medium | Hash Table, Doubly Linked List, Design |
