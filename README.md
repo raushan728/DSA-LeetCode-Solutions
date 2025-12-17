@@ -76,6 +76,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [C++](./Cpp/Sliding_Window_Maximum.cpp) | *O(n)* | *O(1)* | Hard | Array, Sliding Window |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./Cpp/283_Move_zeroes.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [C++](./Cpp/Find_the_Duplicate_Number.cpp) | *O(n)* | *O(1)* | Medium | Array, Two Pointers, Cycle Detection |
+| 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [C++](./Cpp/First-Missing-Positive.cpp) | *O(n)* | *O(1)* | Hard | Array |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [C++](./Cpp/Ransom_Note.cpp) | *O(n)* | *O(1)* | Easy | Array, Hash Table |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [C++](./Cpp/Next_Greater_Element_I.cpp) | *O(n+m)* | *O(n)* | Easy | Array, Stack, Hash Table |
 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | [C++](./Cpp/Next_Greater_Element_II.cpp) | *O(n)* | *O(n)* | Medium | Array, Stack |
