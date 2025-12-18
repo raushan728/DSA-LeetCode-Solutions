@@ -59,6 +59,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./Cpp/27_Remove_Element.cpp) | *O(n)* | *O(1)* | Easy | Array, Two Pointers |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [C++](./Cpp/Next_Permutation.cpp) | *O(n)* | *O(1)* | Medium | Array |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./Cpp/Search_in_Rotated_Sorted_Array.cpp) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
+| 410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [C++](./Cpp/Split_Array_Largest_Sum.cpp) | *O(Nlog(Sum(Nums)))* | *O(1)* | Hard | Array, Binary Search |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [C++](./Cpp/Rotate_Array.cpp) | *O(n)* | *O(1)* | Medium | Array |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [C++](./Cpp/Trapping_Rain_Water.cpp) | *O(n)* | *O(1)* | Hard | Array, Two Pointers |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](./Cpp/Group_Anagrams.cpp) | *O(NK)* | *O(NK)* | Medium | Array, Hash Table |
@@ -203,6 +204,7 @@ t
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](./Cpp/Median_of_Two_Sorted_Arrays.cpp) | *O(log(min(n1,n2)))* | *O(1)* | Hard | Binary Search, Array |
+| 410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [C++](./Cpp/Split_Array_Largest_Sum.cpp) | *O(Nlog(Sum(Nums)))* | *O(1)* | Hard | Array, Binary Search |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./Cpp/Search_in_Rotated_Sorted_Array.cpp) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [C++](./Cpp/209_Minimum_Size_Subarray_Sum.cpp) | *O(n)* | *O(1)* | Medium | Sliding Window, Array, Binary Search |
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [C++](./Cpp/Single_Element_in_a_Sorted_Array.cpp) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
