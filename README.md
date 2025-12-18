@@ -45,7 +45,7 @@ The solutions are optimized for performance with detailed time and space complex
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./Cpp/001_Two_Sum.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Map |
-| 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [C++](./Cpp/875_Koko_Eating_Bananas.cpp) | *O(Nlogm)* | *O(1)* | Medium | Array Binary Search |
+| 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [C++](./Cpp/Koko_Eating_Bananas.cpp) | *O(Nlogm)* | *O(1)* | Medium | Array Binary Search |
 | 493 | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) | [C++](./Cpp/Reverse-Pairs.cpp) | *O(n)* | *O(n)* | Hard | Array|
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [C++](./Cpp/73_Set_Matrix_Zeroes.cpp) | *O(n)* | *O(n)* | Medium | Array|
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./Cpp/238_Product_of_Array_Except_Self.cpp) | *O(n)* | *O(n)* | Medium | Array|
@@ -205,7 +205,7 @@ t
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](./Cpp/Median_of_Two_Sorted_Arrays.cpp) | *O(log(min(n1,n2)))* | *O(1)* | Hard | Binary Search, Array |
-| 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [C++](./Cpp/875_Koko_Eating_Bananas.cpp) | *O(Nlogm)* | *O(1)* | Medium | Array Binary Search |
+| 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [C++](./Cpp/Koko_Eating_Bananas.cpp) | *O(Nlogm)* | *O(1)* | Medium | Array Binary Search |
 | 410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [C++](./Cpp/Split_Array_Largest_Sum.cpp) | *O(Nlog(Sum(Nums)))* | *O(1)* | Hard | Array, Binary Search |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./Cpp/Search_in_Rotated_Sorted_Array.cpp) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [C++](./Cpp/209_Minimum_Size_Subarray_Sum.cpp) | *O(n)* | *O(1)* | Medium | Sliding Window, Array, Binary Search |
