@@ -68,6 +68,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [C++](./Cpp/Merge_Intervals.cpp) | *O(n log n)* | *O(n)* | Medium | Array, Sorting |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](./Cpp/Sort_Colors.cpp) | *O(n)* | *O(1)* | Medium | Array, Two Pointers, Dutch National Flag |
 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [C++](./Cpp/Largest_Rectangle_in_Histogram.cpp) | *O(n)* | *O(n)* | Hard | Array, Stack |
+| 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | [C++](./Cpp/Capacity_To_Ship_Packages_Within_D_Days.cpp) | *O(Nlog(Sum(Weights)))* | *O(1)* | Medium | Array, Binary Search |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](./Cpp/88_Merge_Sorted_Array.cpp) | *O(m+n)* | *O(1)* | Easy | Array, Two Pointers |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C++](./Cpp/121_Best_Time_to_Buy_and_Sell_Stock.cpp) | *O(n)* | *O(1)* | Easy | Array, Greedy |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | [C++](./Cpp/Gas_Station.cpp) | *O(n)* | *O(1)* | Medium | Array, Greedy |
@@ -207,6 +208,7 @@ t
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](./Cpp/Median_of_Two_Sorted_Arrays.cpp) | *O(log(min(n1,n2)))* | *O(1)* | Hard | Binary Search, Array |
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [C++](./Cpp/Koko_Eating_Bananas.cpp) | *O(Nlogm)* | *O(1)* | Medium | Array Binary Search |
 | 410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [C++](./Cpp/Split_Array_Largest_Sum.cpp) | *O(Nlog(Sum(Nums)))* | *O(1)* | Hard | Array, Binary Search |
+| 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | [C++](./Cpp/Capacity_To_Ship_Packages_Within_D_Days.cpp) | *O(Nlog(Sum(Weights)))* | *O(1)* | Medium | Array, Binary Search |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./Cpp/Search_in_Rotated_Sorted_Array.cpp) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [C++](./Cpp/209_Minimum_Size_Subarray_Sum.cpp) | *O(n)* | *O(1)* | Medium | Sliding Window, Array, Binary Search |
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [C++](./Cpp/Single_Element_in_a_Sorted_Array.cpp) | *O(log n)* | *O(1)* | Medium | Array, Binary Search |
