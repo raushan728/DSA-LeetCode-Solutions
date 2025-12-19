@@ -45,6 +45,7 @@ The solutions are optimized for performance with detailed time and space complex
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./Cpp/001_Two_Sum.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Map |
+40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [C++](./Cpp/40_Combination_Sum_II.cpp) | *O(K∗2^N)* | *O(n)* | Medium | Array, Backtracking |
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [C++](./Cpp/Koko_Eating_Bananas.cpp) | *O(Nlogm)* | *O(1)* | Medium | Array Binary Search |
 | 493 | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) | [C++](./Cpp/Reverse-Pairs.cpp) | *O(n)* | *O(n)* | Hard | Array|
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [C++](./Cpp/73_Set_Matrix_Zeroes.cpp) | *O(n)* | *O(n)* | Medium | Array|
@@ -262,6 +263,7 @@ t
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [C++](./Cpp/Merge_Two_Sorted_Lists.cpp) | *O(n+m)* | *O(n+m)* | Easy | Linked List, Recursion |
+40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [C++](./Cpp/40_Combination_Sum_II.cpp) | *O(K∗2^N)* | *O(n)* | Medium | Array, Backtracking |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [C++](./Cpp/Reverse_Nodes_in_k_Group.cpp) | *O(n)* | *O(n/k)* | Hard | Linked List, Recursion |
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [C++](./Cpp/Sudoku_Solver.cpp) | *Exponential* | *O(1)* | Hard | Backtracking, Recursion |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [C++](./Cpp/Combination_Sum.cpp) | *O(2^n)* | *O(n)* | Medium | Backtracking, Recursion |
