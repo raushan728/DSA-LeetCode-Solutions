@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/github/contributors/raushan728/DSA-LeetCode-Solutions?style=flat" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=flat&logo=github" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-100-success?style=flat&logo=leetcode" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-101-success?style=flat&logo=leetcode" />
 </p>
 
 ---
