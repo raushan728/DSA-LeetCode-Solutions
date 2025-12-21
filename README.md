@@ -14,20 +14,19 @@
 ## Quick Navigation
 
 - [Array Problems](#array-problems)
+- [String Problems](#string-problems)
+- [Two Pointers Problems](#two-pointers-problems)
 - [Linked List Problems](#linked-list-problems)
-- [Doubly Linked List Problems](#doubly-linked-list-problems)
+- [Bit Manipulation Problems](#bit-manipulation-problems)
 - [Stack Problems](#stack-problems)
 - [Queue Problems](#queue-problems)
 - [Graph Problems](#graph-problems)
-- [String Problems](#string-problems)
-- [Two Pointers Problems](#two-pointers-problems)
+- [Tree Problems](#tree-problems)
 - [Math Problems](#math-problems)
 - [Binary Search Problems](#binary-search-problems)
 - [Dynamic Programming Problems](#dynamic-programming-problems)
 - [Hash Table Problems](#hash-table-problems)
-- [Bit Manipulation Problems](#bit-manipulation-problems)
 - [Recursion & Backtracking Problems](#recursion--backtracking-problems)
-- [Tree Problems](#tree-problems)
 
 ---
 
@@ -101,22 +100,16 @@ The solutions are optimized for performance with detailed time and space complex
 |---|---------|----------|------|-------|------------|------|
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [C++](./Cpp/Merge_Two_Sorted_Lists.cpp) | *O(n+m)* | *O(n+m)* | Easy | Linked List, Recursion |
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [C++](./Cpp/Swap_Nodes_in_Pairs.cpp) | *O(n)* | *O(1)* | Medium | Linked List, Two Pointers |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [C++](./Cpp/Add_Two_Numbers.cpp) | *O(n)* | *O(1)* | Medium | Linked List, Math |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [C++](./Cpp/Palindrome_Linked_List.cpp) | *O(n)* | *O(1)* | Easy | Linked List, Two Pointers |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [C++](./Cpp/Reverse_Nodes_in_k_Group.cpp) | *O(n)* | *O(n/k)* | Hard | Linked List, Recursion |
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [C++](./Cpp/Copy_List_with_Random_Pointer.cpp) | *O(n)* | *O(n)* | Medium | Linked List, Hash Table |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [C++](./Cpp/Linked_List_Cycle.cpp) | *O(n)* | *O(1)* | Easy | Linked List, Two Pointers |
+146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [C++](./Cpp/LRU_Cache.cpp) | *O(1)* | *O(Capacity)* | Medium | Hash Table, Doubly Linked List, Design |
+142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++](./Cpp/Linked_List_Cycle_II.cpp) | *O(n)* | *O(1)* | Medium | Linked List, Two Pointers |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [C++](./Cpp/Reverse_Linked_List.cpp) | *O(n)* | *O(1)* | Easy | Linked List |
 | 430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [C++](./Cpp/Flatten_a_Multilevel_Doubly_Linked_List.cpp) | *O(n)* | *O(1)* | Medium | Linked List, Doubly Linked List, Recursion, DFS |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [C++](./Cpp/Middle_of_the_Linked_List.cpp) | *O(n)* | *O(1)* | Easy | Linked List, Two Pointers |
-
----
-
-### Doubly Linked List Problems
-
-| # | Problem | Solutions | Time | Space | Difficulty | Tags |
-|---|---------|----------|------|-------|------------|------|
-146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [C++](./Cpp/LRU_Cache.cpp) | *O(1)* | *O(Capacity)* | Medium | Hash Table, Doubly Linked List, Design |
-| 430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [C++](./Cpp/Flatten_a_Multilevel_Doubly_Linked_List.cpp) | *O(n)* | *O(1)* | Medium | Linked List, Doubly Linked List, Recursion, DFS |
 
 ---
 
