@@ -98,6 +98,7 @@ The solutions are optimized for performance with detailed time and space complex
 
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
+| 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [C++](./Cpp/Reverse_Linked_List_II.cpp) | *O(n)* | *O(1)* | Medium | Linked List, Two Pointers |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [C++](./Cpp/Merge_Two_Sorted_Lists.cpp) | *O(n+m)* | *O(n+m)* | Easy | Linked List, Recursion |
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [C++](./Cpp/Swap_Nodes_in_Pairs.cpp) | *O(n)* | *O(1)* | Medium | Linked List, Two Pointers |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [C++](./Cpp/Add_Two_Numbers.cpp) | *O(n)* | *O(1)* | Medium | Linked List, Math |
