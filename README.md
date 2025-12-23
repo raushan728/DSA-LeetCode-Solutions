@@ -119,6 +119,7 @@ The solutions are optimized for performance with detailed time and space complex
 
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 |---|---------|----------|------|-------|------------|------|
+901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span/) | [C++](./Cpp/Online_Stock_Span.cpp) | *O(1)* | *O(n)* | Medium | Stack |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [C++](./Cpp/Valid_Parentheses.cpp) | *O(n)* | *O(n)* | Easy | String, Stack |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [C++](./Cpp/Min_Stack.cpp) | *O(1)* | *O(n)* | Medium | Stack, Design |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [C++](./Cpp/Next_Greater_Element_I.cpp) | *O(n+m)* | *O(n)* | Easy | Array, Stack, Hash Table |
