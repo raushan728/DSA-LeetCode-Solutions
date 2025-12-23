@@ -136,6 +136,7 @@ The solutions are optimized for performance with detailed time and space complex
 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [C++](./Cpp/Implement_Stack_using_Queues.cpp) | *O(n)* | *O(n)* | Easy | Stack, Queue |
 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [C++](./Cpp/Implement_Queue_using_Stacks.cpp) | *O(n)* | *O(n)* | Easy | Queue, Stack |
 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | [C++](./Cpp/Number_of_Recent_Calls.cpp) | *O(1)* | *O(W)* | Easy | Queue |
+2073 |	[Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) |	[C++](./Cpp/Time_Needed_to_Buy_Tickets.cpp) |	*O(n)* |	*O(n)* |	Easy	| Queue, Simulation |
 
 ---
 ### Graph Problems
