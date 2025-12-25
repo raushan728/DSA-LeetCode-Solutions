@@ -32,7 +32,7 @@
 
 ## Overview
 
-This repository contains **Data Structures & Algorithms (DSA)** solutions for various **LeetCode problems** implemented in **C++**.  
+This repository contains **Data Structures & Algorithms (DSA)** solutions for various **LeetCode problems** implemented in **C++**.
 The solutions are optimized for performance with detailed time and space complexity analysis.
 
 ---
@@ -285,6 +285,8 @@ The solutions are optimized for performance with detailed time and space complex
 |---|---------|----------|------|-------|------------|------|
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [C++](./Cpp/Binary_Tree_Inorder_Traversal.cpp) | *O(n)* | *O(h)* | Easy | Tree, Depth-First Search, Binary Tree |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [C++](./Cpp/Validate_Binary_Search_Tree.cpp) | *O(n)* | *O(h)* | Medium | Tree, Depth-First Search, Binary Tree |
+| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [C++](./Cpp/Binary_Tree_Preorder_Traversal.cpp) | *O(n)* | *O(h)* | Easy | Tree, Depth-First Search, Binary Tree |
+| 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [C++](./Cpp/Binary_Tree_Postorder_Traversal.cpp) | *O(n)* | *O(h)* | Easy | Tree, Depth-First Search, Binary Tree |
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | [C++](./Cpp/Recover_Binary_Search_Tree.cpp) | *O(n)* | *O(h)* | Medium | Tree, Depth-First Search, Binary Tree |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [C++](./Cpp/Same_Tree.cpp) | *O(n)* | *O(log n)* | Easy | Tree, Depth-First Search, Binary Tree |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](./Cpp/Construct_Binary_Tree_from_Preorder_and_inorder_Traversal.cpp) | *O(n)* | *O(n)* | Medium | Tree, Depth-First Search, Binary Tree |
