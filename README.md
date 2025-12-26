@@ -293,6 +293,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [C++](./Cpp/Same_Tree.cpp) | *O(n)* | *O(log n)* | Easy | Tree, Depth-First Search, Binary Tree |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](./Cpp/Construct_Binary_Tree_from_Preorder_and_inorder_Traversal.cpp) | *O(n)* | *O(n)* | Medium | Tree, Depth-First Search, Binary Tree |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [C++](./Cpp/Convert_Sorted_Array_to_Binary_Search_Tree.cpp) | *O(n)* | *O(log n)* | Easy | Tree, Depth-First Search, Binary Tree |
+| 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [C++](./Cpp/Balanced_Binary_Tree.cpp) | *O(n)* | *O(h)* | Easy | Tree, Depth-First Search, Binary Tree |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [C++](./Cpp/Flatten_Binary_Tree_to_Linked_List.cpp) | *O(n)* | *O(1)* | Medium | Tree, Depth-First Search, Binary Tree |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [C++](./Cpp/Populating_Next_Right_Pointers_in_Each_Node.cpp) | *O(n)* | *O(1)* | Medium | Tree, Depth-First Search, Binary Tree |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [C++](./Cpp/Binary_Search_Tree_Iterator.cpp) | *O(n)* | *O(h)* | Medium | Tree, Depth-First Search, Binary Tree |
@@ -309,4 +310,3 @@ The solutions are optimized for performance with detailed time and space complex
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
