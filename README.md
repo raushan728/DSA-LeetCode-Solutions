@@ -49,6 +49,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 493 | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) | [C++](./Cpp/Reverse-Pairs.cpp) | *O(n)* | *O(n)* | Hard | Array|
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [C++](./Cpp/73_Set_Matrix_Zeroes.cpp) | *O(n)* | *O(n)* | Medium | Array|
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./Cpp/238_Product_of_Array_Except_Self.cpp) | *O(n)* | *O(n)* | Medium | Array|
+295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [C++](./Cpp/Find_Median_from_Data_Stream.cpp) | *O(log n)* | *O(n)* | Hard | Array, Heap |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | [C++](./Cpp/Word-Search.cpp) | *O(n)* | *O(n)* | Medium | Array|
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [C++](./Cpp/Longest-Substring-Without-Repeating-Characters.cpp) | *O(n)* | *O(n)* | Medium | Array, Hash Map |
 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [C++](./Cpp/Kth_Largest_Element_in_an_Array.cpp) | *O(n log k)* | *O(k)* | Medium | Array, Hash Map, Heap |
