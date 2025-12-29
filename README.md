@@ -52,6 +52,7 @@ The solutions are optimized for performance with detailed time and space complex
 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [C++](./Cpp/Find_Median_from_Data_Stream.cpp) | *O(log n)* | *O(n)* | Hard | Array, Heap |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | [C++](./Cpp/Word-Search.cpp) | *O(n)* | *O(n)* | Medium | Array|
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [C++](./Cpp/Longest-Substring-Without-Repeating-Characters.cpp) | *O(n)* | *O(n)* | Medium | Array, Hash Map |
+| 632 | [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | [C++](./Cpp/Smallest_Range_Covering_Elements_from_K_Lists.cpp) | *O(n log k)* | *O(k)* | Hard | Array, Hash Map, Heap |
 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [C++](./Cpp/Kth_Largest_Element_in_an_Array.cpp) | *O(n log k)* | *O(k)* | Medium | Array, Hash Map, Heap |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](./Cpp/Median_of_Two_Sorted_Arrays.cpp) | *O(log(min(n1,n2)))* | *O(1)* | Hard | Binary Search, Array |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./Cpp/Container_With_Most_Water.cpp) | *O(n)* | *O(1)* | Medium | Array, Two Pointers, Greedy |
@@ -236,6 +237,7 @@ The solutions are optimized for performance with detailed time and space complex
 |---|---------|----------|------|-------|------------|------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./Cpp/001_Two_Sum.cpp) | *O(n)* | *O(n)* | Easy | Array, Hash Map |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [C++](./Cpp/Longest-Substring-Without-Repeating-Characters.cpp) | *O(n)* | *O(n)* | Medium | Array, Hash Map |
+| 632 | [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | [C++](./Cpp/Smallest_Range_Covering_Elements_from_K_Lists.cpp) | *O(n log k)* | *O(k)* | Hard | Array, Hash Map, Heap |
 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [C++](./Cpp/Kth_Largest_Element_in_an_Array.cpp) | *O(n log k)* | *O(k)* | Medium | Array, Hash Map, Heap |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](./Cpp/Group_Anagrams.cpp) | *O(NK)* | *O(NK)* | Medium | Array, Hash Table |
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [C++](./Cpp/Copy_List_with_Random_Pointer.cpp) | *O(n)* | *O(n)* | Medium | Linked List, Hash Table |
