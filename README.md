@@ -217,12 +217,15 @@ The solutions are optimized for performance with detailed time and space complex
 
 ### Graph Problems
 
-| #   | Problem                                                                                                           | Solutions                                                | Time   | Space  | Difficulty | Tags                                            |
-| --- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ | ------ | ---------- | ----------------------------------------------- |
-| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                             | [C++](./Cpp/Number_of_Islands.cpp)                       | _O(n)_ | _O(n)_ | Medium     | Graph, Depth-First Search, Breadth-First Search |
-| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/)                                                 | [C++](./Cpp/Course_Schedule.cpp)                         | _O(n)_ | _O(n)_ | Medium     | Graph, Depth-First Search, Breadth-First Search |
-| 430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [C++](./Cpp/Flatten_a_Multilevel_Doubly_Linked_List.cpp) | _O(n)_ | _O(1)_ | Medium     | Linked List, Doubly Linked List, Recursion, DFS |
-| 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)                                                 | [C++](./Cpp/Rotting_Oranges.cpp)                         | _O(n)_ | _O(n)_ | Medium     | Graph, Breadth-First Search                     |
+| #   | Problem                                                                                                           | Solutions                                                | Time             | Space    | Difficulty | Tags                                                        |
+| --- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ---------------- | -------- | ---------- | ----------------------------------------------------------- |
+| 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/)                                                         | [C++](./Cpp/Clone_Graph.cpp)                             | _O(n)_           | _O(n)_   | Medium     | Graph, Hash Table, Depth-First Search, Breadth-First Search |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                             | [C++](./Cpp/Number_of_Islands.cpp)                       | _O(n)_           | _O(n)_   | Medium     | Graph, Depth-First Search, Breadth-First Search             |
+| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/)                                                 | [C++](./Cpp/Course_Schedule.cpp)                         | _O(n)_           | _O(n)_   | Medium     | Graph, Depth-First Search, Breadth-First Search             |
+| 430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [C++](./Cpp/Flatten_a_Multilevel_Doubly_Linked_List.cpp) | _O(n)_           | _O(1)_   | Medium     | Linked List, Doubly Linked List, Recursion, DFS             |
+| 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/)                                           | [C++](./Cpp/Network_Delay_Time.cpp)                      | _O((V+E) log V)_ | _O(V+E)_ | Medium     | Graph, Dijkstra, Heap, Shortest Path                        |
+| 785 | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)                                          | [C++](./Cpp/Is_Graph_Bipartite?.cpp)                     | _O(V+E)_         | _O(V)_   | Medium     | Graph, Depth-First Search, Breadth-First Search, Bipartite  |
+| 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)                                                 | [C++](./Cpp/Rotting_Oranges.cpp)                         | _O(n)_           | _O(n)_   | Medium     | Graph, Breadth-First Search                                 |
 
 ---
 
@@ -314,18 +317,20 @@ The solutions are optimized for performance with detailed time and space complex
 
 ### Trie Problems
 
-| #   | Problem                                                                                   | Solutions                                       | Time   | Space  | Difficulty | Tags                 |
-| --- | ----------------------------------------------------------------------------------------- | ----------------------------------------------- | ------ | ------ | ---------- | -------------------- |
-| 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [C++](<./Cpp/Implement_Trie_(Prefix_Tree).cpp>) | _O(n)_ | _O(n)_ | Medium     | Trie, Design, String |
+| #   | Problem                                                                                                                 | Solutions                                                   | Time   | Space  | Difficulty | Tags                                     |
+| --- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ------ | ------ | ---------- | ---------------------------------------- |
+| 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)                               | [C++](<./Cpp/Implement_Trie_(Prefix_Tree).cpp>)             | _O(n)_ | _O(n)_ | Medium     | Trie, Design, String                     |
+| 211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [C++](./Cpp/Design_Add_and_Search_Words_Data_Structure.cpp) | _O(n)_ | _O(n)_ | Medium     | Trie, Design, String, Depth-First Search |
 
 ---
 
 ### Design Problems
 
-| #   | Problem                                                                                   | Solutions                                       | Time   | Space  | Difficulty | Tags                 |
-| --- | ----------------------------------------------------------------------------------------- | ----------------------------------------------- | ------ | ------ | ---------- | -------------------- |
-| 155 | [Min Stack](https://leetcode.com/problems/min-stack/)                                     | [C++](./Cpp/Min_Stack.cpp)                      | _O(1)_ | _O(n)_ | Medium     | Stack, Design        |
-| 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [C++](<./Cpp/Implement_Trie_(Prefix_Tree).cpp>) | _O(n)_ | _O(n)_ | Medium     | Trie, Design, String |
+| #   | Problem                                                                                                                 | Solutions                                                   | Time   | Space  | Difficulty | Tags                                     |
+| --- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ------ | ------ | ---------- | ---------------------------------------- |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/)                                                                   | [C++](./Cpp/Min_Stack.cpp)                                  | _O(1)_ | _O(n)_ | Medium     | Stack, Design                            |
+| 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)                               | [C++](<./Cpp/Implement_Trie_(Prefix_Tree).cpp>)             | _O(n)_ | _O(n)_ | Medium     | Trie, Design, String                     |
+| 211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [C++](./Cpp/Design_Add_and_Search_Words_Data_Structure.cpp) | _O(n)_ | _O(n)_ | Medium     | Trie, Design, String, Depth-First Search |
 
 ---
 
@@ -371,41 +376,3 @@ The solutions are optimized for performance with detailed time and space complex
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## Git Status Issues
-
-**Last Checked:** 2026-01-01
-
-When running `git status`, the following issues were identified:
-
-### Untracked Files
-
-The following files are present in the repository but have not been added to Git:
-
-1. `Cpp/Clone_Graph.cpp`
-2. `Cpp/Design_Add_and_Search_Words_Data_Structure.cpp`
-3. `Cpp/Is_Graph_Bipartite?.cpp`
-4. `Cpp/Network_Delay_Time.cpp`
-
-**Action Required:** These files need to be added to the repository using:
-
-```bash
-git add Cpp/Clone_Graph.cpp
-git add Cpp/Design_Add_and_Search_Words_Data_Structure.cpp
-git add "Cpp/Is_Graph_Bipartite?.cpp"
-git add Cpp/Network_Delay_Time.cpp
-```
-
-Or add all at once:
-
-```bash
-git add Cpp/*.cpp
-```
-
-Then commit the changes:
-
-```bash
-git commit -m "Add new C++ solutions for graph problems"
-```
