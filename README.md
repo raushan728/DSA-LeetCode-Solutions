@@ -93,6 +93,10 @@ The solutions are optimized for performance with detailed time and space complex
 | 852  | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)                                 | [C++](./Cpp/Peak_Index_in_a_Mountain_Array.cpp)                 | _O(log n)_              | _O(1)_  | Medium     | Array, Binary Search                           |
 | 875  | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)                                                       | [C++](./Cpp/Koko_Eating_Bananas.cpp)                            | _O(Nlogm)_              | _O(1)_  | Medium     | Array Binary Search                            |
 | 88   | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                                                         | [C++](./Cpp/88_Merge_Sorted_Array.cpp)                          | _O(m+n)_                | _O(1)_  | Easy       | Array, Two Pointers                            |
+| 503  | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)                                               | [C++](./Cpp/Next_Greater_Element_II.cpp)                        | _O(n)_                  | _O(n)_  | Medium     | Stack, Array                                   |
+| 455  | [Assign Cookies](https://leetcode.com/problems/assign-cookies/)                                                                 | [C++](./Cpp/Assign_Cookies.cpp)                                 | _O(nlogn)_              | _O(1)_  | Easy       | Greedy, Array                                  |
+| 435  | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)                                           | [C++](./Cpp/Non-overlapping_Intervals.cpp)                      | _O(nlogn)_              | _O(1)_  | Medium     | Greedy, Array                                  |
+| 215  | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)                               | [C++](./Cpp/Kth_Largest_Element_in_an_Array.cpp)                | _O(n)_                  | _O(1)_  | Medium     | Heap, Array                                    |
 
 ---
 
@@ -112,6 +116,9 @@ The solutions are optimized for performance with detailed time and space complex
 | 443  | [String Compression](https://leetcode.com/problems/string-compression/)                                                                 | [C++](./Cpp/String_Compression.cpp)                                 | _O(n)_       | _O(1)_ | Easy       | String, Two Pointers            |
 | 567  | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)                                                           | [C++](./Cpp/Permutation_in_String.cpp)                              | _O(n)_       | _O(1)_ | Medium     | String, Sliding Window          |
 | 76   | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                                     | [C++](./Cpp/Minimum_Window_Substring.cpp)                           | _O(n)_       | _O(k)_ | Hard       | String, Sliding Window          |
+| 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                                           | [C++](./Cpp/14_Longest_Common_Prefix.cpp)                           | _O(S)_       | _O(1)_ | Easy       | String                          |
+| 12   | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                                                                     | [C++](./Cpp/Integer_to_Roman.cpp)                                   | _O(1)_       | _O(1)_ | Medium     | Math, String                    |
+| 13   | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                                                     | [C++](./Cpp/Roman_to_Integer.cpp)                                   | _O(n)_       | _O(1)_ | Easy       | Math, String                    |
 
 ---
 
@@ -172,6 +179,8 @@ The solutions are optimized for performance with detailed time and space complex
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)                 | [C++](./Cpp/Next_Greater_Element_I.cpp)         | _O(n+m)_ | _O(n)_ | Easy       | Array, Stack, Hash Table |
 | 84  | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [C++](./Cpp/Largest_Rectangle_in_Histogram.cpp) | _O(n)_   | _O(n)_ | Hard       | Array, Stack             |
 | 901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span/)                           | [C++](./Cpp/Online_Stock_Span.cpp)              | _O(1)_   | _O(n)_ | Medium     | Stack                    |
+| 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)               | [C++](./Cpp/Next_Greater_Element_II.cpp)        | _O(n)_   | _O(n)_ | Medium     | Stack, Array             |
+| 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)     | [C++](./Cpp/Implement_Stack_using_Queues.cpp)   | _O(n)_   | _O(n)_ | Easy       | Stack, Queue             |
 
 ---
 
@@ -181,6 +190,8 @@ The solutions are optimized for performance with detailed time and space complex
 | ---- | ------------------------------------------------------------------------------------------- | --------------------------------------------- | ------ | ------ | ---------- | ----------------- |
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)     | [C++](./Cpp/Time_Needed_to_Buy_Tickets.cpp)   | _O(n)_ | _O(n)_ | Easy       | Queue, Simulation |
 | 232  | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [C++](./Cpp/Implement_Queue_using_Stacks.cpp) | _O(n)_ | _O(n)_ | Easy       | Queue, Stack      |
+| 933  | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)             | [C++](./Cpp/Number_of_Recent_Calls.cpp)       | _O(1)_ | _O(n)_ | Easy       | Queue, Design     |
+| 225  | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [C++](./Cpp/Implement_Stack_using_Queues.cpp) | _O(n)_ | _O(n)_ | Easy       | Stack, Queue      |
 
 ---
 
@@ -212,20 +223,26 @@ The solutions are optimized for performance with detailed time and space complex
 | 94   | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                                         | [C++](./Cpp/Binary_Tree_Inorder_Traversal.cpp)                             | _O(n)_ | _O(h)_     | Easy       | Tree, Depth-First Search, Binary Tree |
 | 98   | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)                                                             | [C++](./Cpp/Validate_Binary_Search_Tree.cpp)                               | _O(n)_ | _O(h)_     | Medium     | Tree, Depth-First Search, Binary Tree |
 | 99   | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)                                                               | [C++](./Cpp/Recover_Binary_Search_Tree.cpp)                                | _O(n)_ | _O(h)_     | Medium     | Tree, Depth-First Search, Binary Tree |
+| 112  | [Path Sum](https://leetcode.com/problems/path-sum/)                                                                                                   | [C++](./Cpp/Path_Sum.cpp)                                                  | _O(n)_ | _O(h)_     | Easy       | Tree, DFS                             |
+| 113  | [Path Sum II](https://leetcode.com/problems/path-sum-ii/)                                                                                             | [C++](./Cpp/Path_Sum_II.cpp)                                               | _O(n)_ | _O(h)_     | Medium     | Tree, DFS                             |
 
 ---
 
 ### Graph Problems
 
-| #   | Problem                                                                                                           | Solutions                                                | Time             | Space    | Difficulty | Tags                                                        |
-| --- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ---------------- | -------- | ---------- | ----------------------------------------------------------- |
-| 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/)                                                         | [C++](./Cpp/Clone_Graph.cpp)                             | _O(n)_           | _O(n)_   | Medium     | Graph, Hash Table, Depth-First Search, Breadth-First Search |
-| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                             | [C++](./Cpp/Number_of_Islands.cpp)                       | _O(n)_           | _O(n)_   | Medium     | Graph, Depth-First Search, Breadth-First Search             |
-| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/)                                                 | [C++](./Cpp/Course_Schedule.cpp)                         | _O(n)_           | _O(n)_   | Medium     | Graph, Depth-First Search, Breadth-First Search             |
-| 430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [C++](./Cpp/Flatten_a_Multilevel_Doubly_Linked_List.cpp) | _O(n)_           | _O(1)_   | Medium     | Linked List, Doubly Linked List, Recursion, DFS             |
-| 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/)                                           | [C++](./Cpp/Network_Delay_Time.cpp)                      | _O((V+E) log V)_ | _O(V+E)_ | Medium     | Graph, Dijkstra, Heap, Shortest Path                        |
-| 785 | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)                                          | [C++](./Cpp/Is_Graph_Bipartite?.cpp)                     | _O(V+E)_         | _O(V)_   | Medium     | Graph, Depth-First Search, Breadth-First Search, Bipartite  |
-| 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)                                                 | [C++](./Cpp/Rotting_Oranges.cpp)                         | _O(n)_           | _O(n)_   | Medium     | Graph, Breadth-First Search                                 |
+| #   | Problem                                                                                                           | Solutions                                                | Time             | Space     | Difficulty | Tags                                                        |
+| --- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ---------------- | --------- | ---------- | ----------------------------------------------------------- |
+| 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/)                                                         | [C++](./Cpp/Clone_Graph.cpp)                             | _O(n)_           | _O(n)_    | Medium     | Graph, Hash Table, Depth-First Search, Breadth-First Search |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                             | [C++](./Cpp/Number_of_Islands.cpp)                       | _O(n)_           | _O(n)_    | Medium     | Graph, Depth-First Search, Breadth-First Search             |
+| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/)                                                 | [C++](./Cpp/Course_Schedule.cpp)                         | _O(n)_           | _O(n)_    | Medium     | Graph, Depth-First Search, Breadth-First Search             |
+| 430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [C++](./Cpp/Flatten_a_Multilevel_Doubly_Linked_List.cpp) | _O(n)_           | _O(1)_    | Medium     | Linked List, Doubly Linked List, Recursion, DFS             |
+| 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/)                                           | [C++](./Cpp/Network_Delay_Time.cpp)                      | _O((V+E) log V)_ | _O(V+E)_  | Medium     | Graph, Dijkstra, Heap, Shortest Path                        |
+| 785 | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)                                          | [C++](./Cpp/Is_Graph_Bipartite?.cpp)                     | _O(V+E)_         | _O(V)_    | Medium     | Graph, Depth-First Search, Breadth-First Search, Bipartite  |
+| 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)                                                 | [C++](./Cpp/Rotting_Oranges.cpp)                         | _O(n)_           | _O(n)_    | Medium     | Graph, Breadth-First Search                                 |
+| 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/)                                                           | [C++](./Cpp/Flood-Fill.cpp)                              | _O(m\*n)_        | _O(m\*n)_ | Easy       | Graph, DFS, BFS                                             |
+| 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)                                         | [C++](./Cpp/Number_of_Provinces.cpp)                     | _O(n²)_          | _O(n)_    | Medium     | Graph, DFS, Union Find                                      |
+| 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                           | [C++](./Cpp/Course-Schedule-II.cpp)                      | _O(V+E)_         | _O(V+E)_  | Medium     | Graph, Topological Sort                                     |
+| 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)                 | [C++](./Cpp/Cheapest_Flights_Within_K_Stops.cpp)         | _O((V+E)logV)_   | _O(V+E)_  | Medium     | Dynamic Programming, Graph                                  |
 
 ---
 
@@ -242,15 +259,29 @@ The solutions are optimized for performance with detailed time and space complex
 | 704  | [Binary Search](https://leetcode.com/problems/binary-search/)                                                     | [C++](./Cpp/Binary_Search.cpp)                           | _O(log n)_              | _O(log n)_ | Easy       | Binary Search, Recursion             |
 | 852  | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)                   | [C++](./Cpp/Peak_Index_in_a_Mountain_Array.cpp)          | _O(log n)_              | _O(1)_     | Medium     | Array, Binary Search                 |
 | 875  | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)                                         | [C++](./Cpp/Koko_Eating_Bananas.cpp)                     | _O(Nlogm)_              | _O(1)_     | Medium     | Array Binary Search                  |
+| 300  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                   | [C++](./Cpp/Longest_Increasing_Subsequence.cpp)          | _O(nlogn)_              | _O(n)_     | Medium     | Dynamic Programming, Binary Search   |
+| 1235 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)               | [C++](./Cpp/Maximum_Profit_in_Job_Scheduling.cpp)        | _O(nlogn)_              | _O(n)_     | Hard       | Dynamic Programming, Binary Search   |
 
 ---
 
 ### Dynamic Programming Problems
 
-| #   | Problem                                                             | Solutions                            | Time   | Space  | Difficulty | Tags                                           |
-| --- | ------------------------------------------------------------------- | ------------------------------------ | ------ | ------ | ---------- | ---------------------------------------------- |
-| 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [C++](./Cpp/Fibonacci_Number.cpp)    | _O(n)_ | _O(1)_ | Easy       | Math, Dynamic Programming, Recursion           |
-| 53  | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./Cpp/53_Maximum_Subarray.cpp) | _O(n)_ | _O(1)_ | Medium     | Array, Kadane’s Algorithm, Dynamic Programming |
+| #    | Problem                                                                                             | Solutions                                         | Time           | Space       | Difficulty | Tags                                           |
+| ---- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------- | -------------- | ----------- | ---------- | ---------------------------------------------- |
+| 509  | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)                                 | [C++](./Cpp/Fibonacci_Number.cpp)                 | _O(n)_         | _O(1)_      | Easy       | Math, Dynamic Programming, Recursion           |
+| 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                 | [C++](./Cpp/53_Maximum_Subarray.cpp)              | _O(n)_         | _O(1)_      | Medium     | Array, Kadane’s Algorithm, Dynamic Programming |
+| 787  | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)   | [C++](./Cpp/Cheapest_Flights_Within_K_Stops.cpp)  | _O((V+E)logV)_ | _O(V+E)_    | Medium     | Dynamic Programming, Graph                     |
+| 322  | [Coin Change](https://leetcode.com/problems/coin-change/)                                           | [C++](./Cpp/Coin_Change.cpp)                      | _O(S\*n)_      | _O(S)_      | Medium     | Dynamic Programming                            |
+| 518  | [Coin Change II](https://leetcode.com/problems/coin-change-ii/)                                     | [C++](./Cpp/Coin_Change_II.cpp)                   | _O(S\*n)_      | _O(S)_      | Medium     | Dynamic Programming                            |
+| 72   | [Edit Distance](https://leetcode.com/problems/edit-distance/)                                       | [C++](./Cpp/Edit_Distance.cpp)                    | _O(m\*n)_      | _O(m\*n)_   | Medium     | Dynamic Programming                            |
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)             | [C++](./Cpp/Longest_Common_Subsequence.cpp)       | _O(m\*n)_      | _O(m\*n)_   | Medium     | Dynamic Programming                            |
+| 300  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)     | [C++](./Cpp/Longest_Increasing_Subsequence.cpp)   | _O(nlogn)_     | _O(n)_      | Medium     | Dynamic Programming, Binary Search             |
+| 516  | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)   | [C++](./Cpp/Longest_Palindromic_Subsequence.cpp)  | _O(n²)_        | _O(n²)_     | Medium     | Dynamic Programming                            |
+| 646  | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)         | [C++](./Cpp/Maximum_Length_of_Pair_Chain.cpp)     | _O(nlogn)_     | _O(n)_      | Medium     | Dynamic Programming, Greedy                    |
+| 1235 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | [C++](./Cpp/Maximum_Profit_in_Job_Scheduling.cpp) | _O(nlogn)_     | _O(n)_      | Hard       | Dynamic Programming, Binary Search             |
+| 416  | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)             | [C++](./Cpp/Partition_Equal_Subset_Sum.cpp)       | _O(n\*sum)_    | _O(sum)_    | Medium     | Dynamic Programming                            |
+| 494  | [Target Sum](https://leetcode.com/problems/target-sum/)                                             | [C++](./Cpp/Target_Sum.cpp)                       | _O(n\*sum)_    | _O(n\*sum)_ | Medium     | Dynamic Programming                            |
+| 139  | [Word Break](https://leetcode.com/problems/word-break/)                                             | [C++](./Cpp/Word_Break.cpp)                       | _O(n²)_        | _O(n)_      | Medium     | Dynamic Programming                            |
 
 ---
 
@@ -272,6 +303,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 496  | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)                                                 | [C++](./Cpp/Next_Greater_Element_I.cpp)                         | _O(n+m)_     | _O(n)_  | Easy       | Array, Stack, Hash Table       |
 | 560  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                                                   | [C++](./Cpp/Subarray_Sum_Equals_K.cpp)                          | _O(n)_       | _O(n)_  | Medium     | Array, Hash Table, Prefix Sum  |
 | 632  | [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)   | [C++](./Cpp/Smallest_Range_Covering_Elements_from_K_Lists.cpp)  | _O(n log k)_ | _O(k)_  | Hard       | Array, Hash Map, Heap          |
+| 146  | [LRU Cache](https://leetcode.com/problems/lru-cache/)                                                                           | [C++](./Cpp/LRU_Cache.cpp)                                      | _O(1)_       | _O(n)_  | Medium     | Design, Hash Table             |
 
 ---
 
@@ -302,16 +334,21 @@ The solutions are optimized for performance with detailed time and space complex
 | 704  | [Binary Search](https://leetcode.com/problems/binary-search/)                                                     | [C++](./Cpp/Binary_Search.cpp)                           | _O(log n)_    | _O(log n)_ | Easy       | Binary Search, Recursion                        |
 | 78   | [Subsets](https://leetcode.com/problems/subsets/)                                                                 | [C++](./Cpp/Subsets.cpp)                                 | _O(n × 2^n)_  | _O(n)_     | Medium     | Backtracking, Recursion                         |
 | 90   | [Subsets II](https://leetcode.com/problems/subsets-ii/)                                                           | [C++](./Cpp/Subsets_II.cpp)                              | _O(n × 2^n)_  | _O(n)_     | Medium     | Backtracking, Recursion                         |
+| 40   | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)                                           | [C++](./Cpp/Combination_Sum_II.cpp)                      | _O(2^n)_      | _O(n)_     | Medium     | Backtracking, Recursion                         |
+| 50   | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                                                                | [C++](./Cpp/Pow(x, n).cpp)                               | _O(logn)_     | _O(1)_     | Medium     | Math, Recursion                                 |
 
 ---
 
 ### Math Problems
 
-| #   | Problem                                                             | Solutions                         | Time   | Space  | Difficulty | Tags                                 |
-| --- | ------------------------------------------------------------------- | --------------------------------- | ------ | ------ | ---------- | ------------------------------------ |
-| 2   | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)   | [C++](./Cpp/Add_Two_Numbers.cpp)  | _O(n)_ | _O(1)_ | Medium     | Linked List, Math                    |
-| 268 | [Missing Number](https://leetcode.com/problems/missing-number/)     | [C++](./Cpp/Missing_Number.cpp)   | _O(n)_ | _O(1)_ | Easy       | Array, Math                          |
-| 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [C++](./Cpp/Fibonacci_Number.cpp) | _O(n)_ | _O(1)_ | Easy       | Math, Dynamic Programming, Recursion |
+| #   | Problem                                                             | Solutions                         | Time      | Space  | Difficulty | Tags                                 |
+| --- | ------------------------------------------------------------------- | --------------------------------- | --------- | ------ | ---------- | ------------------------------------ |
+| 2   | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)   | [C++](./Cpp/Add_Two_Numbers.cpp)  | _O(n)_    | _O(1)_ | Medium     | Linked List, Math                    |
+| 268 | [Missing Number](https://leetcode.com/problems/missing-number/)     | [C++](./Cpp/Missing_Number.cpp)   | _O(n)_    | _O(1)_ | Easy       | Array, Math                          |
+| 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [C++](./Cpp/Fibonacci_Number.cpp) | _O(n)_    | _O(1)_ | Easy       | Math, Dynamic Programming, Recursion |
+| 12  | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [C++](./Cpp/Integer_to_Roman.cpp) | _O(1)_    | _O(1)_ | Medium     | Math, String                         |
+| 13  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [C++](./Cpp/Roman_to_Integer.cpp) | _O(n)_    | _O(1)_ | Easy       | Math, String                         |
+| 50  | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                  | [C++](./Cpp/Pow(x, n).cpp)        | _O(logn)_ | _O(1)_ | Medium     | Math, Recursion                      |
 
 ---
 
@@ -326,11 +363,14 @@ The solutions are optimized for performance with detailed time and space complex
 
 ### Design Problems
 
-| #   | Problem                                                                                                                 | Solutions                                                   | Time   | Space  | Difficulty | Tags                                     |
-| --- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ------ | ------ | ---------- | ---------------------------------------- |
-| 155 | [Min Stack](https://leetcode.com/problems/min-stack/)                                                                   | [C++](./Cpp/Min_Stack.cpp)                                  | _O(1)_ | _O(n)_ | Medium     | Stack, Design                            |
-| 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)                               | [C++](<./Cpp/Implement_Trie_(Prefix_Tree).cpp>)             | _O(n)_ | _O(n)_ | Medium     | Trie, Design, String                     |
-| 211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [C++](./Cpp/Design_Add_and_Search_Words_Data_Structure.cpp) | _O(n)_ | _O(n)_ | Medium     | Trie, Design, String, Depth-First Search |
+| #   | Problem                                                                                                                 | Solutions                                                   | Time      | Space  | Difficulty | Tags                                     |
+| --- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------- | ------ | ---------- | ---------------------------------------- |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/)                                                                   | [C++](./Cpp/Min_Stack.cpp)                                  | _O(1)_    | _O(n)_ | Medium     | Stack, Design                            |
+| 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)                               | [C++](<./Cpp/Implement_Trie_(Prefix_Tree).cpp>)             | _O(n)_    | _O(n)_ | Medium     | Trie, Design, String                     |
+| 211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [C++](./Cpp/Design_Add_and_Search_Words_Data_Structure.cpp) | _O(n)_    | _O(n)_ | Medium     | Trie, Design, String, Depth-First Search |
+| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/)                                                                   | [C++](./Cpp/LRU_Cache.cpp)                                  | _O(1)_    | _O(n)_ | Medium     | Design, Hash Table                       |
+| 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)                                         | [C++](./Cpp/Number_of_Recent_Calls.cpp)                     | _O(1)_    | _O(n)_ | Easy       | Queue, Design                            |
+| 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)                             | [C++](./Cpp/Find_Median_from_Data_Stream.cpp)               | _O(logn)_ | _O(n)_ | Hard       | Heap, Design                             |
 
 ---
 
@@ -351,6 +391,8 @@ The solutions are optimized for performance with detailed time and space complex
 | --- | ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------ | ------ | ---------- | --------------------- |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                                             | [C++](./Cpp/Top_K_Frequent_Elements.cpp)                       | _O(n log k)_ | _O(n)_ | Medium     | Hash Table, Heap      |
 | 632 | [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | [C++](./Cpp/Smallest_Range_Covering_Elements_from_K_Lists.cpp) | _O(n log k)_ | _O(k)_ | Hard       | Array, Hash Map, Heap |
+| 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)                                   | [C++](./Cpp/Find_Median_from_Data_Stream.cpp)                  | _O(logn)_    | _O(n)_ | Hard       | Heap, Design          |
+| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)                             | [C++](./Cpp/Kth_Largest_Element_in_an_Array.cpp)               | _O(n)_       | _O(1)_ | Medium     | Heap, Array           |
 
 ---
 
@@ -365,11 +407,14 @@ The solutions are optimized for performance with detailed time and space complex
 
 ### Greedy Problems
 
-| #   | Problem                                                                                           | Solutions                                            | Time   | Space  | Difficulty | Tags                        |
-| --- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | ------ | ------ | ---------- | --------------------------- |
-| 11  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)             | [C++](./Cpp/Container_With_Most_Water.cpp)           | _O(n)_ | _O(1)_ | Medium     | Array, Two Pointers, Greedy |
-| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C++](./Cpp/121_Best_Time_to_Buy_and_Sell_Stock.cpp) | _O(n)_ | _O(1)_ | Easy       | Array, Greedy               |
-| 134 | [Gas Station](https://leetcode.com/problems/gas-station/)                                         | [C++](./Cpp/Gas_Station.cpp)                         | _O(n)_ | _O(1)_ | Medium     | Array, Greedy               |
+| #   | Problem                                                                                           | Solutions                                            | Time       | Space  | Difficulty | Tags                        |
+| --- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | ---------- | ------ | ---------- | --------------------------- |
+| 11  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)             | [C++](./Cpp/Container_With_Most_Water.cpp)           | _O(n)_     | _O(1)_ | Medium     | Array, Two Pointers, Greedy |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C++](./Cpp/121_Best_Time_to_Buy_and_Sell_Stock.cpp) | _O(n)_     | _O(1)_ | Easy       | Array, Greedy               |
+| 134 | [Gas Station](https://leetcode.com/problems/gas-station/)                                         | [C++](./Cpp/Gas_Station.cpp)                         | _O(n)_     | _O(1)_ | Medium     | Array, Greedy               |
+| 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/)                                   | [C++](./Cpp/Assign_Cookies.cpp)                      | _O(nlogn)_ | _O(1)_ | Easy       | Greedy, Array               |
+| 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)             | [C++](./Cpp/Non-overlapping_Intervals.cpp)           | _O(nlogn)_ | _O(1)_ | Medium     | Greedy, Array               |
+| 646 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)       | [C++](./Cpp/Maximum_Length_of_Pair_Chain.cpp)        | _O(nlogn)_ | _O(n)_ | Medium     | Dynamic Programming, Greedy |
 
 ---
 
