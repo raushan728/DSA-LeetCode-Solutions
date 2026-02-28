@@ -1,6 +1,6 @@
-use std::rc::Rc;
 use std::cell::RefCell;
 use std::cmp;
+use std::rc::Rc;
 
 impl Solution {
     pub fn is_balanced(root: Option<Rc<RefCell<TreeNode>>>) -> bool {
@@ -12,7 +12,7 @@ impl Solution {
             None => 0,
             Some(node) => {
                 let node_ref = node.borrow();
-                
+
                 let left_h = Self::check_height(node_ref.left.clone());
                 if left_h == -1 {
                     return -1;

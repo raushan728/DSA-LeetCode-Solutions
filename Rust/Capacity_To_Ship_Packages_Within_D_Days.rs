@@ -20,7 +20,7 @@ impl Solution {
         let mut ans = high;
         while low <= high {
             let mid_capacity = low + (high - low) / 2;
-            
+
             if Self::is_possible(&weights, d, mid_capacity) {
                 ans = mid_capacity;
                 high = mid_capacity - 1;

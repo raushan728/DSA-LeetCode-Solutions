@@ -23,17 +23,21 @@ impl Solution {
         lps
     }
     pub fn str_str(haystack: String, needle: String) -> i32 {
-        if needle.is_empty() { return 0; }
+        if needle.is_empty() {
+            return 0;
+        }
 
         let n = haystack.len();
         let m = needle.len();
 
-        if m > n { return -1; }
+        if m > n {
+            return -1;
+        }
 
         let lps = Self::compute_lps(&needle);
         let haystack_bytes = haystack.as_bytes();
         let needle_bytes = needle.as_bytes();
-        
+
         let mut i = 0;
         let mut j = 0;
 

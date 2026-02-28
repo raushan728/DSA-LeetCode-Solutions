@@ -4,7 +4,7 @@
 //   pub val: i32,
 //   pub next: Option<Box<ListNode>>
 // }
-// 
+//
 // impl ListNode {
 //   #[inline]
 //   fn new(val: i32) -> Self {
@@ -24,7 +24,9 @@ impl Solution {
             curr = &node.next;
         }
 
-        if len <= 1 { return true; }
+        if len <= 1 {
+            return true;
+        }
         let mut second_half = &mut head;
         for _ in 0..(len + 1) / 2 {
             second_half = &mut second_half.as_mut().unwrap().next;
@@ -40,7 +42,7 @@ impl Solution {
         }
         let mut p1 = &head;
         let mut p2 = &prev;
-        
+
         while let (Some(n1), Some(n2)) = (p1, p2) {
             if n1.val != n2.val {
                 return false;
