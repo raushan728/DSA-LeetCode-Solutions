@@ -244,7 +244,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 101  | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)                                                                                       | [C++](./Cpp/Symmetric_Tree.cpp)                                            | _O(n)_ | _O(h)_     | Easy       | Tree, Recursion, Binary Tree          |
 | 102  | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)                                                 | [C++](./Cpp/Binary_Tree_Level_Order_Traversal.cpp)                         | _O(n)_ | _O(n)_     | Medium     | Tree, Depth-First Search, Binary Tree |
 | 104  | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                                                           | [C++](./Cpp/Maximum_Depth_of_Binary_Tree.cpp)                              | _O(n)_ | _O(h)_     | Easy       | Tree, Depth-First Search, Binary Tree |
-| 105  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](./Cpp/Construct_Binary_Tree_from_Preorder_and_inorder_Traversal.cpp) | _O(n)_ | _O(n)_     | Medium     | Tree, Depth-First Search, Binary Tree |
+| 105  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](<./Cpp/Construct Binary Tree_from_Preorder_and_inorder_Traversal.cpp>) | _O(n)_ | _O(n)_     | Medium     | Tree, Depth-First Search, Binary Tree |
 | 108  | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)                               | [C++](./Cpp/Convert_Sorted_Array_to_Binary_Search_Tree.cpp)                | _O(n)_ | _O(log n)_ | Easy       | Tree, Depth-First Search, Binary Tree |
 | 110  | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                                                                           | [C++](./Cpp/Balanced_Binary_Tree.cpp)                                      | _O(n)_ | _O(h)_     | Easy       | Tree, Depth-First Search, Binary Tree |
 | 114  | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)                                               | [C++](./Cpp/Flatten_Binary_Tree_to_Linked_List.cpp)                        | _O(n)_ | _O(1)_     | Medium     | Tree, Depth-First Search, Binary Tree |
@@ -254,7 +254,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 145  | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)                                                     | [C++](./Cpp/Binary_Tree_Postorder_Traversal.cpp)                           | _O(n)_ | _O(h)_     | Easy       | Tree, Depth-First Search, Binary Tree |
 | 173  | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)                                                             | [C++](./Cpp/Binary_Search_Tree_Iterator.cpp)                               | _O(n)_ | _O(h)_     | Medium     | Tree, Depth-First Search, Binary Tree |
 | 230  | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)                                                         | [C++](./Cpp/Kth_Smallest_Element_in_a_BST.cpp)                             | _O(n)_ | _O(h)_     | Medium     | Tree, Depth-First Search, Binary Tree |
-| 235  | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)                       | [C++](./Cpp/Lowest_Common_Ancestor_of_a_Binary_Search_Tree.cpp)            | _O(n)_ | _O(h)_     | Easy       | Tree, Depth-First Search, Binary Tree |
+| 235  | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)                       | [C++](<./Cpp/Lowest Common_Ancestor_of_a_Binary_Search_Tree.cpp>)            | _O(n)_ | _O(h)_     | Easy       | Tree, Depth-First Search, Binary Tree |
 | 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)                                     | [C++](./Cpp/Lowest_Common_Ancestor_of_a_Binary_Tree.cpp)                   | _O(n)_ | _O(h)_     | Easy       | Tree, Depth-First Search, Binary Tree |
 | 257  | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)                                                                                 | [C++](./Cpp/Binary_Tree_Paths.cpp)                                         | _O(n)_ | _O(h)_     | Easy       | Tree, Depth-First Search, Binary Tree |
 | 543  | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)                                                                     | [C++](./Cpp/Diameter_of_Binary_Tree.cpp)                                   | _O(n)_ | _O(h)_     | Easy       | Tree, Depth-First Search, Binary Tree |
@@ -266,7 +266,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 112  | [Path Sum](https://leetcode.com/problems/path-sum/)                                                                                                   | [C++](./Cpp/Path_Sum.cpp)                                                  | _O(n)_ | _O(h)_     | Easy       | Tree, DFS                             |
 | 113  | [Path Sum II](https://leetcode.com/problems/path-sum-ii/)                                                                                             | [C++](./Cpp/Path_Sum_II.cpp)                                               | _O(n)_ | _O(h)_     | Medium     | Tree, DFS                             |
 
-| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](./Cpp/Construct Binary Tree_from_Preorder_and_inorder_Traversal.cpp) | _O(n)_ | _O(n)_ | Medium | Tree, Depth-First Search, Binary Tree |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](<./Cpp/Construct Binary Tree_from_Preorder_and_inorder_Traversal.cpp>) | _O(n)_ | _O(n)_ | Medium | Tree, Depth-First Search, Binary Tree |
 ---
 
 ### Graph Problems
@@ -287,7 +287,7 @@ The solutions are optimized for performance with detailed time and space complex
 
 | 417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [C++](./Cpp/Pacific_Atlantic_Water_Flow.cpp) | _O(n)_ | _O(n)_ | Medium | Graph |
 | 778 | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | [C++](./Cpp/Swim_in_Rising_Water.cpp) | _O(n)_ | _O(n)_ | Hard | Graph |
-| 1625 | [Lexicographically Smallest String After Applying Operations](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/) | [C++](./Cpp/Lexicographically_Smallest String_After_Applying_Operations.cpp) | _O(n)_ | _O(n)_ | Medium | Graph, String |
+| 1625 | [Lexicographically Smallest String After Applying Operations](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/) | [C++](<./Cpp/Lexicographically_Smallest String_After_Applying_Operations.cpp>) | _O(n)_ | _O(n)_ | Medium | Graph, String |
 ---
 
 ### Binary Search Problems
@@ -306,7 +306,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 300  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                   | [C++](./Cpp/Longest_Increasing_Subsequence.cpp)          | _O(nlogn)_              | _O(n)_     | Medium     | Dynamic Programming, Binary Search   |
 | 1235 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)               | [C++](./Cpp/Maximum_Profit_in_Job_Scheduling.cpp)        | _O(nlogn)_              | _O(n)_     | Hard       | Dynamic Programming, Binary Search   |
 
-| 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [C++](./Cpp/Lowest Common_Ancestor_of_a_Binary_Search_Tree.cpp) | _O(n)_ | _O(h)_ | Medium | Tree, Depth-First Search, Binary Tree |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [C++](<./Cpp/Lowest Common_Ancestor_of_a_Binary_Search_Tree.cpp>) | _O(n)_ | _O(h)_ | Medium | Tree, Depth-First Search, Binary Tree |
 ---
 
 ### Dynamic Programming Problems
@@ -385,7 +385,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 78   | [Subsets](https://leetcode.com/problems/subsets/)                                                                 | [C++](./Cpp/Subsets.cpp)                                 | _O(n × 2^n)_  | _O(n)_     | Medium     | Backtracking, Recursion                         |
 | 90   | [Subsets II](https://leetcode.com/problems/subsets-ii/)                                                           | [C++](./Cpp/Subsets_II.cpp)                              | _O(n × 2^n)_  | _O(n)_     | Medium     | Backtracking, Recursion                         |
 | 40   | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)                                           | [C++](./Cpp/Combination_Sum_II.cpp)                      | _O(2^n)_      | _O(n)_     | Medium     | Backtracking, Recursion                         |
-| 50   | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                                                                | [C++](./Cpp/Pow(x, n).cpp)                               | _O(logn)_     | _O(1)_     | Medium     | Math, Recursion                                 |
+| 50   | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                                                                | [C++](<./Cpp/Pow(x, n).cpp>)                               | _O(logn)_     | _O(1)_     | Medium     | Math, Recursion                                 |
 
 ---
 
@@ -398,7 +398,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [C++](./Cpp/Fibonacci_Number.cpp) | _O(n)_    | _O(1)_ | Easy       | Math, Dynamic Programming, Recursion |
 | 12  | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [C++](./Cpp/Integer_to_Roman.cpp) | _O(1)_    | _O(1)_ | Medium     | Math, String                         |
 | 13  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [C++](./Cpp/Roman_to_Integer.cpp) | _O(n)_    | _O(1)_ | Easy       | Math, String                         |
-| 50  | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                  | [C++](./Cpp/Pow(x, n).cpp)        | _O(logn)_ | _O(1)_ | Medium     | Math, Recursion                      |
+| 50  | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                  | [C++](<./Cpp/Pow(x, n).cpp>)        | _O(logn)_ | _O(1)_ | Medium     | Math, Recursion                      |
 
 | 120 | [Triangle](https://leetcode.com/problems/triangle/) | [C++](./Cpp/Triangle.cpp) | _O(n)_ | _O(n)_ | Medium | Math |
 | 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [C++](./Cpp/Fraction_to_Recurring_Decimal.cpp) | _O(n)_ | _O(n)_ | Medium | Math |
@@ -412,7 +412,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | [C++](./Cpp/Final_Value_of_Variable_After_Performing_Operations.cpp) | _O(n)_ | _O(n)_ | Easy | Math |
 | 2169 | [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/) | [C++](./Cpp/Count_Operations_to_Obtain_Zero.cpp) | _O(n)_ | _O(n)_ | Easy | Math |
 | 2348 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | [C++](./Cpp/Number_of_Zero-Filled_Subarrays.cpp) | _O(n)_ | _O(n)_ | Medium | Math, Array |
-| 2598 | [Smallest Missing Non-negative Integer After Operations](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/) | [C++](./Cpp/Smallest_Missing Non-negative_Integer_After_Operations.cpp) | _O(n)_ | _O(n)_ | Medium | Math |
+| 2598 | [Smallest Missing Non-negative Integer After Operations](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/) | [C++](<./Cpp/Smallest_Missing Non-negative_Integer_After_Operations.cpp>) | _O(n)_ | _O(n)_ | Medium | Math |
 | 2749 | [Minimum Operations to Make the Integer Zero](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/) | [C++](./Cpp/Minimum_Operations_to_Make_the_Integer_Zero.cpp) | _O(n)_ | _O(n)_ | Medium | Math |
 | 3021 | [Alice and Bob Playing Flower Game](https://leetcode.com/problems/alice-and-bob-playing-flower-game/) | [C++](./Cpp/Alice_and_Bob_Playing_Flower_Game.cpp) | _O(n)_ | _O(n)_ | Medium | Math |
 | 3100 | [Water Bottles II](https://leetcode.com/problems/water-bottles-ii/) | [C++](./Cpp/Water_Bottles_II.cpp) | _O(n)_ | _O(n)_ | Medium | Math |
