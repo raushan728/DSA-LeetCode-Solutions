@@ -98,6 +98,39 @@ The solutions are optimized for performance with detailed time and space complex
 | 435  | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)                                           | [C++](./Cpp/Non-overlapping_Intervals.cpp)                      | _O(nlogn)_              | _O(1)_  | Medium     | Greedy, Array                                  |
 | 215  | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)                               | [C++](./Cpp/Kth_Largest_Element_in_an_Array.cpp)                | _O(n)_                  | _O(1)_  | Medium     | Heap, Array                                    |
 
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [C++](./Cpp/Valid_Sudoku.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [C++](./Cpp/Maximal_Rectangle.cpp) | _O(n)_ | _O(n)_ | Hard | Array |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./Cpp/238_Product_of_Array_Except_Self.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 407 | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) | [C++](./Cpp/Trapping_Rain_Water_II.cpp) | _O(n)_ | _O(n)_ | Hard | Array |
+| 679 | [24 Game](https://leetcode.com/problems/24-game/) | [C++](./Cpp/24_Game.cpp) | _O(n)_ | _O(n)_ | Hard | Array |
+| 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | [C++](./Cpp/Count_Square_Submatrices_with_All_Ones.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | [C++](./Cpp/Maximum_69_Number.cpp) | _O(n)_ | _O(n)_ | Easy | Array |
+| 1488 | [Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/) | [C++](./Cpp/Avoid_Flood_in_The_City.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | [C++](./Cpp/Longest_Subarray_of_1's_After_Deleting_One_Element.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 1504 | [Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/) | [C++](./Cpp/Count_Submatrices_With_All_Ones.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 1526 | [Minimum Number of Increments on Subarrays to Form a Target Array](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | [C++](./Cpp/Minimum_Number_of_Increments_on_Subarrays_to_Form_a_Target_Array.cpp) | _O(n)_ | _O(n)_ | Hard | Array |
+| 1578 | [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) | [C++](./Cpp/Minimum_Time_to_Make_Rope_Colorful.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | [C++](./Cpp/Partitioning_Into_Minimum_Number_Of_Deci-Binary_Numbers.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 1733 | [Minimum Number of People to Teach](https://leetcode.com/problems/minimum-number-of-people-to-teach/) | [C++](./Cpp/Minimum_Number_of_People_to_Teach.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 2048 | [Next Greater Numerically Balanced Number](https://leetcode.com/problems/next-greater-numerically-balanced-number/) | [C++](./Cpp/Next_Greater_Balanced_Number.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 2125 | [Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/) | [C++](./Cpp/Number_of_Laser_Beams_in_a_Bank.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 2197 | [Replace Non-Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/) | [C++](./Cpp/Replace_Non-Coprime_Numbers_in_Array.cpp) | _O(n)_ | _O(n)_ | Hard | Array |
+| 2221 | [Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/) | [C++](./Cpp/Find_Triangular_Sum_of_an_Array.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 2300 | [Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/) | [C++](./Cpp/Successful_Pairs_of_Spells_and_Potions.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 2327 | [Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/) | [C++](./Cpp/Number_of_People_Aware_of_a_Secret.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 3000 | [Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/) | [C++](./Cpp/Maximum_Area_of_Longest_Diagonal_Rectangle.cpp) | _O(n)_ | _O(n)_ | Easy | Array |
+| 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/) | [C++](./Cpp/Count_Elements_With_Maximum_Frequency.cpp) | _O(n)_ | _O(n)_ | Easy | Array |
+| 3025 | [Find the Number of Ways to Place People I](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/) | [C++](./Cpp/Find_the_Number_of_Ways_to_Place_People_I.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 3027 | [Find the Number of Ways to Place People II](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/) | [C++](./Cpp/Find_the_Number_of_Ways_to_Place_People_II.cpp) | _O(n)_ | _O(n)_ | Hard | Array |
+| 3147 | [Taking Maximum Energy From the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/) | [C++](./Cpp/Taking_Maximum_Energy_the_Mystic_Dungeon.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 3195 | [Find the Minimum Area to Cover All Ones I](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/) | [C++](./Cpp/Find_the_Minimum_Area_to_Cover_All_Ones_I.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 3197 | [Find the Minimum Area to Cover All Ones II](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-ii/) | [C++](./Cpp/Find_the_Minimum_Area_to_Cover_All_Ones_II.cpp) | _O(n)_ | _O(n)_ | Hard | Array |
+| 3289 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | [C++](./Cpp/The_Two_Sneaky_Numbers_of_Digitville.cpp) | _O(n)_ | _O(n)_ | Easy | Array |
+| 3349 | [Adjacent Increasing Subarrays Detection I](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/) | [C++](./Cpp/Adjacent_Increasing_Subarrays_Detection_I.cpp) | _O(n)_ | _O(n)_ | Easy | Array |
+| 3350 | [Adjacent Increasing Subarrays Detection II](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/) | [C++](./Cpp/Adjacent_Increasing_Subarrays_Detection_II.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 3494 | [Find the Minimum Amount of Time to Brew Potions](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/) | [C++](./Cpp/Find_the_Minimum_Amount_of_Time_to_Brew_Potions.cpp) | _O(n)_ | _O(n)_ | Medium | Array |
+| 3516 | [Find Closest Person](https://leetcode.com/problems/find-closest-person/) | [C++](./Cpp/Find_Closest_Person.cpp) | _O(n)_ | _O(n)_ | Easy | Array |
+| 3539 | [Find Sum of Array Product of Magical Sequences](https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/) | [C++](./Cpp/Find_Sum_of_Array_Product_of_Magical_Sequences.cpp) | _O(n)_ | _O(n)_ | Hard | Array |
 ---
 
 ### String Problems
@@ -120,6 +153,11 @@ The solutions are optimized for performance with detailed time and space complex
 | 12   | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                                                                     | [C++](./Cpp/Integer_to_Roman.cpp)                                   | _O(1)_       | _O(1)_ | Medium     | Math, String                    |
 | 13   | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                                                     | [C++](./Cpp/Roman_to_Integer.cpp)                                   | _O(n)_       | _O(1)_ | Easy       | Math, String                    |
 
+| 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | [C++](./Cpp/Compare_Version_Numbers.cpp) | _O(n)_ | _O(n)_ | Medium | String |
+| 966 | [Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/) | [C++](./Cpp/Vowel_Spellchecker.cpp) | _O(n)_ | _O(n)_ | Medium | String |
+| 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | [C++](./Cpp/Maximum_Number_of_Words_You_Can_Type.cpp) | _O(n)_ | _O(n)_ | Easy | String |
+| 3227 | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | [C++](./Cpp/Vowels_Game_in_a_String.cpp) | _O(n)_ | _O(n)_ | Medium | String |
+| 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | [C++](./Cpp/Find_Most_Frequent_Vowel_and_Consonant.cpp) | _O(n)_ | _O(n)_ | Easy | String |
 ---
 
 ### Two Pointers Problems
@@ -167,6 +205,8 @@ The solutions are optimized for performance with detailed time and space complex
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                             | [C++](./Cpp/Middle_of_the_Linked_List.cpp)               | _O(n)_   | _O(1)_   | Easy       | Linked List, Two Pointers                       |
 | 92  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)                                   | [C++](./Cpp/Reverse_Linked_List_II.cpp)                  | _O(n)_   | _O(1)_   | Medium     | Linked List, Two Pointers                       |
 
+| 86 | [Partition List](https://leetcode.com/problems/partition-list/) | [C++](./Cpp/Partition_List.cpp) | _O(n)_ | _O(n)_ | Medium | Linked List |
+| 3217 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/) | [C++](./Cpp/Delete_Nodes_From_Linked_List_Present_in_Array.cpp) | _O(n)_ | _O(n)_ | Medium | Linked List, Array |
 ---
 
 ### Stack Problems
@@ -226,6 +266,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 112  | [Path Sum](https://leetcode.com/problems/path-sum/)                                                                                                   | [C++](./Cpp/Path_Sum.cpp)                                                  | _O(n)_ | _O(h)_     | Easy       | Tree, DFS                             |
 | 113  | [Path Sum II](https://leetcode.com/problems/path-sum-ii/)                                                                                             | [C++](./Cpp/Path_Sum_II.cpp)                                               | _O(n)_ | _O(h)_     | Medium     | Tree, DFS                             |
 
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](./Cpp/Construct Binary Tree_from_Preorder_and_inorder_Traversal.cpp) | _O(n)_ | _O(n)_ | Medium | Tree, Depth-First Search, Binary Tree |
 ---
 
 ### Graph Problems
@@ -244,6 +285,9 @@ The solutions are optimized for performance with detailed time and space complex
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                           | [C++](./Cpp/Course-Schedule-II.cpp)                      | _O(V+E)_         | _O(V+E)_  | Medium     | Graph, Topological Sort                                     |
 | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)                 | [C++](./Cpp/Cheapest_Flights_Within_K_Stops.cpp)         | _O((V+E)logV)_   | _O(V+E)_  | Medium     | Dynamic Programming, Graph                                  |
 
+| 417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [C++](./Cpp/Pacific_Atlantic_Water_Flow.cpp) | _O(n)_ | _O(n)_ | Medium | Graph |
+| 778 | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | [C++](./Cpp/Swim_in_Rising_Water.cpp) | _O(n)_ | _O(n)_ | Hard | Graph |
+| 1625 | [Lexicographically Smallest String After Applying Operations](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/) | [C++](./Cpp/Lexicographically_Smallest String_After_Applying_Operations.cpp) | _O(n)_ | _O(n)_ | Medium | Graph, String |
 ---
 
 ### Binary Search Problems
@@ -262,6 +306,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 300  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                   | [C++](./Cpp/Longest_Increasing_Subsequence.cpp)          | _O(nlogn)_              | _O(n)_     | Medium     | Dynamic Programming, Binary Search   |
 | 1235 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)               | [C++](./Cpp/Maximum_Profit_in_Job_Scheduling.cpp)        | _O(nlogn)_              | _O(n)_     | Hard       | Dynamic Programming, Binary Search   |
 
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [C++](./Cpp/Lowest Common_Ancestor_of_a_Binary_Search_Tree.cpp) | _O(n)_ | _O(h)_ | Medium | Tree, Depth-First Search, Binary Tree |
 ---
 
 ### Dynamic Programming Problems
@@ -283,6 +328,8 @@ The solutions are optimized for performance with detailed time and space complex
 | 494  | [Target Sum](https://leetcode.com/problems/target-sum/)                                             | [C++](./Cpp/Target_Sum.cpp)                       | _O(n\*sum)_    | _O(n\*sum)_ | Medium     | Dynamic Programming                            |
 | 139  | [Word Break](https://leetcode.com/problems/word-break/)                                             | [C++](./Cpp/Word_Break.cpp)                       | _O(n²)_        | _O(n)_      | Medium     | Dynamic Programming                            |
 
+| 837 | [New 21 Game](https://leetcode.com/problems/new-21-game/) | [C++](./Cpp/New_21_Game.cpp) | _O(n)_ | _O(n)_ | Medium | Dynamic Programming |
+| 1039 | [Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/) | [C++](./Cpp/Minimum_Score_Triangulation_of_Polygon.cpp) | _O(n)_ | _O(n)_ | Medium | Dynamic Programming |
 ---
 
 ### Hash Table Problems
@@ -305,6 +352,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 632  | [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)   | [C++](./Cpp/Smallest_Range_Covering_Elements_from_K_Lists.cpp)  | _O(n log k)_ | _O(k)_  | Hard       | Array, Hash Map, Heap          |
 | 146  | [LRU Cache](https://leetcode.com/problems/lru-cache/)                                                                           | [C++](./Cpp/LRU_Cache.cpp)                                      | _O(1)_       | _O(n)_  | Medium     | Design, Hash Table             |
 
+| 2273 | [Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/) | [C++](./Cpp/Find_Resultant_Array_After_Removing_Anagrams.cpp) | _O(n)_ | _O(n)_ | Easy | Hash Table, Array |
 ---
 
 ### Bit Manipulation Problems
@@ -313,6 +361,8 @@ The solutions are optimized for performance with detailed time and space complex
 | --- | ------------------------------------------------------------- | ---------------------------------- | ------ | ------ | ---------- | ----------------------- |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./Cpp/136_Single_Number.cpp) | _O(n)_ | _O(1)_ | Easy       | Array, Bit Manipulation |
 
+| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [C++](./Cpp/Power_of_Four.cpp) | _O(n)_ | _O(n)_ | Easy | Bit Manipulation |
+| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | [C++](./Cpp/Smallest_Number_With_All_Set_Bits.cpp) | _O(n)_ | _O(n)_ | Easy | Bit Manipulation |
 ---
 
 ### Recursion & Backtracking Problems
@@ -350,6 +400,27 @@ The solutions are optimized for performance with detailed time and space complex
 | 13  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [C++](./Cpp/Roman_to_Integer.cpp) | _O(n)_    | _O(1)_ | Easy       | Math, String                         |
 | 50  | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                  | [C++](./Cpp/Pow(x, n).cpp)        | _O(logn)_ | _O(1)_ | Medium     | Math, Recursion                      |
 
+| 120 | [Triangle](https://leetcode.com/problems/triangle/) | [C++](./Cpp/Triangle.cpp) | _O(n)_ | _O(n)_ | Medium | Math |
+| 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [C++](./Cpp/Fraction_to_Recurring_Decimal.cpp) | _O(n)_ | _O(n)_ | Medium | Math |
+| 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | [C++](./Cpp/Valid_Triangle_Number.cpp) | _O(n)_ | _O(n)_ | Medium | Math |
+| 812 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | [C++](./Cpp/Largest_Triangle_Area.cpp) | _O(n)_ | _O(n)_ | Easy | Math |
+| 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [C++](./Cpp/Largest_Perimeter_Triangle.cpp) | _O(n)_ | _O(n)_ | Easy | Math |
+| 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | [C++](./Cpp/Find_N_Unique_Integers_Sum_up_to_Zero.cpp) | _O(n)_ | _O(n)_ | Easy | Math |
+| 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | [C++](./Cpp/Convert_Integer_to_the_Sum_of_Two_No-Zero_Integers.cpp) | _O(n)_ | _O(n)_ | Easy | Math |
+| 1518 | [Water Bottles](https://leetcode.com/problems/water-bottles/) | [C++](./Cpp/Water_Bottles.cpp) | _O(n)_ | _O(n)_ | Easy | Math |
+| 1716 | [Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/) | [C++](./Cpp/Calculate_Money_in_Leetcode_Bank.cpp) | _O(n)_ | _O(n)_ | Easy | Math |
+| 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | [C++](./Cpp/Final_Value_of_Variable_After_Performing_Operations.cpp) | _O(n)_ | _O(n)_ | Easy | Math |
+| 2169 | [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/) | [C++](./Cpp/Count_Operations_to_Obtain_Zero.cpp) | _O(n)_ | _O(n)_ | Easy | Math |
+| 2348 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | [C++](./Cpp/Number_of_Zero-Filled_Subarrays.cpp) | _O(n)_ | _O(n)_ | Medium | Math, Array |
+| 2598 | [Smallest Missing Non-negative Integer After Operations](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/) | [C++](./Cpp/Smallest_Missing Non-negative_Integer_After_Operations.cpp) | _O(n)_ | _O(n)_ | Medium | Math |
+| 2749 | [Minimum Operations to Make the Integer Zero](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/) | [C++](./Cpp/Minimum_Operations_to_Make_the_Integer_Zero.cpp) | _O(n)_ | _O(n)_ | Medium | Math |
+| 3021 | [Alice and Bob Playing Flower Game](https://leetcode.com/problems/alice-and-bob-playing-flower-game/) | [C++](./Cpp/Alice_and_Bob_Playing_Flower_Game.cpp) | _O(n)_ | _O(n)_ | Medium | Math |
+| 3100 | [Water Bottles II](https://leetcode.com/problems/water-bottles-ii/) | [C++](./Cpp/Water_Bottles_II.cpp) | _O(n)_ | _O(n)_ | Medium | Math |
+| 3346 | [Maximum Frequency of an Element After Performing Operations I](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/) | [C++](./Cpp/Maximum_Frequency_of_an_Element_After_Performing_Operations_I.cpp) | _O(n)_ | _O(n)_ | Medium | Math |
+| 3354 | [Make Array Elements Equal to Zero](https://leetcode.com/problems/make-array-elements-equal-to-zero/) | [C++](./Cpp/Make_Array_Elements_to_Zero.cpp) | _O(n)_ | _O(n)_ | Easy | Math, Array |
+| 3397 | [Maximum Number of Distinct Elements After Operations](https://leetcode.com/problems/maximum-number-of-distinct-elements-after-operations/) | [C++](./Cpp/Maximum_Number_of_Distinct_Elements_After_Operations.cpp) | _O(n)_ | _O(n)_ | Medium | Math |
+| 3461 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | [C++](./Cpp/Check_If_Digits_Are_Equal_in_String_After_Operations_I.cpp) | _O(n)_ | _O(n)_ | Easy | Math, String |
+| 3495 | [Minimum Operations to Make Array Elements Zero](https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/) | [C++](./Cpp/Minimum_Operations_to_Make_Array_Elements_Zero.cpp) | _O(n)_ | _O(n)_ | Hard | Math, Array |
 ---
 
 ### Trie Problems
@@ -372,6 +443,9 @@ The solutions are optimized for performance with detailed time and space complex
 | 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)                                         | [C++](./Cpp/Number_of_Recent_Calls.cpp)                     | _O(1)_    | _O(n)_ | Easy       | Queue, Design                            |
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)                             | [C++](./Cpp/Find_Median_from_Data_Stream.cpp)               | _O(logn)_ | _O(n)_ | Hard       | Heap, Design                             |
 
+| 2353 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/) | [C++](./Cpp/Design_a_Food_Rating_System.cpp) | _O(n)_ | _O(n)_ | Medium | Design |
+| 3408 | [Design Task Manager](https://leetcode.com/problems/design-task-manager/) | [C++](./Cpp/Design_Task_Manager.cpp) | _O(n)_ | _O(n)_ | Medium | Design |
+| 3484 | [Design Spreadsheet](https://leetcode.com/problems/design-spreadsheet/) | [C++](./Cpp/Design_Spreadsheet.cpp) | _O(n)_ | _O(n)_ | Medium | Design |
 ---
 
 ### Sliding Window Problems
@@ -383,6 +457,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)         | [C++](./Cpp/Permutation_in_String.cpp)         | _O(n)_ | _O(1)_ | Medium     | String, Sliding Window               |
 | 76  | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)   | [C++](./Cpp/Minimum_Window_Substring.cpp)      | _O(n)_ | _O(k)_ | Hard       | String, Sliding Window               |
 
+| 3318 | [Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/) | [C++](./Cpp/Find_X-Sum_of_All_K-Long_Subarrays_I.cpp) | _O(n)_ | _O(n)_ | Easy | Sliding Window, Array |
 ---
 
 ### Heap Problems
@@ -394,6 +469,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)                                   | [C++](./Cpp/Find_Median_from_Data_Stream.cpp)                  | _O(logn)_    | _O(n)_ | Hard       | Heap, Design          |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)                             | [C++](./Cpp/Kth_Largest_Element_in_an_Array.cpp)               | _O(n)_       | _O(1)_ | Medium     | Heap, Array           |
 
+| 3186 | [Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/) | [C++](./Cpp/Maximum_Total_Damage_With_Spell_Casting.cpp) | _O(n)_ | _O(n)_ | Medium | Heap |
 ---
 
 ### Sorting Problems
@@ -403,6 +479,9 @@ The solutions are optimized for performance with detailed time and space complex
 | 56  | [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                                             | [C++](./Cpp/Merge_Intervals.cpp)                           | _O(n log n)_ | _O(n)_ | Medium     | Array, Sorting |
 | 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [C++](./Cpp/581_Shortest_Unsorted_Continuous_Subarray.cpp) | _O(n)_       | _O(1)_ | Medium     | Array, Sorting |
 
+| 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [C++](./Cpp/Diagonal_Traverse.cpp) | _O(n)_ | _O(n)_ | Medium | Sorting |
+| 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/) | [C++](./Cpp/Sort_Vowels_in_a_String.cpp) | _O(n)_ | _O(n)_ | Medium | Sorting, String |
+| 3446 | [Sort Matrix by Diagonals](https://leetcode.com/problems/sort-matrix-by-diagonals/) | [C++](./Cpp/Sort_Matrix_by_Diagonals.cpp) | _O(n)_ | _O(n)_ | Medium | Sorting |
 ---
 
 ### Greedy Problems
@@ -416,6 +495,7 @@ The solutions are optimized for performance with detailed time and space complex
 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)             | [C++](./Cpp/Non-overlapping_Intervals.cpp)           | _O(nlogn)_ | _O(1)_ | Medium     | Greedy, Array               |
 | 646 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)       | [C++](./Cpp/Maximum_Length_of_Pair_Chain.cpp)        | _O(nlogn)_ | _O(n)_ | Medium     | Dynamic Programming, Greedy |
 
+| 1792 | [Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/) | [C++](./Cpp/Maximum_Average_Pass_Ratio.cpp) | _O(n)_ | _O(n)_ | Medium | Greedy |
 ---
 
 ## Contributing
