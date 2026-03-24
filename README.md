@@ -492,12 +492,7 @@ The solutions are optimized for performance with detailed time and space complex
 
 Problems in this section are picked up automatically from the `Cpp` folder when they are not yet listed in the curated sections above.
 
-| # | Problem | Solutions | Time | Space | Difficulty | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
-| - | [Lexicographically Smallest String After Applying Operations](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/) | [C++](./Cpp/Lexicographically_Smallest_String_After_Applying_Operations.cpp) | TBD | TBD | TBD | TBD |
-| - | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [C++](./Cpp/Lowest_Common_Ancestor_of_a_Binary_Search_Tree.cpp) | TBD | TBD | TBD | TBD |
-| - | [Powx n](https://leetcode.com/problems/powx-n/) | [C++](./Cpp/Powx_n.cpp) | TBD | TBD | TBD | TBD |
-| - | [Smallest Missing Non negative Integer After Operations](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/) | [C++](./Cpp/Smallest_Missing_Non-negative_Integer_After_Operations.cpp) | TBD | TBD | TBD | TBD |
+All C++ solutions are already listed in the curated sections above.
 
 <!-- AUTO-SYNCED-PROBLEMS-END -->
 
