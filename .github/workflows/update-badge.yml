@@ -1,4 +1,4 @@
-name: Update Problems Solved Badge
+name: Sync README From Cpp Folder
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-badge:
+  sync-readme:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,15 +16,13 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Count C++ files
-      id: count
-      run: |
-        cpp_count=$(find Cpp -name "*.cpp" | wc -l)
-        echo "cpp_count=$cpp_count" >> $GITHUB_OUTPUT
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
 
-    - name: Update README.md
-      run: |
-        sed -i "s|Problems%20Solved-[0-9]*-success|Problems%20Solved-${{ steps.count.outputs.cpp_count }}-success|g" README.md
+    - name: Sync README.md
+      run: python3 scripts/update_readme.py
 
     - name: Commit and push changes
       run: |
@@ -34,6 +32,6 @@ jobs:
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          git commit -m "Update Problems Solved badge to ${{ steps.count.outputs.cpp_count }}"
+          git commit -m "Sync README from Cpp folder"
           git push
         fi
