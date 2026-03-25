@@ -1,3 +1,6 @@
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+
 impl Solution {
     pub fn min_operations(nums: Vec<i32>) -> i32 {
         let mut stack: Vec<i32> = Vec::new();
