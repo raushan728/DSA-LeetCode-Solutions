@@ -495,7 +495,7 @@ Problem number, title, difficulty, and tags come from LeetCode. Time and space a
 
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 | --- | --- | --- | --- | --- | --- | --- |
-| 3542 | [Minimum Operations to Convert All Elements to Zero](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [C++](./Cpp/Minimum_Operations_to_Convert_All_Elements_to_Zero.cpp) / [Rust](./Rust/Minimum_Operations_to_Convert_All_Elements_to_Zero.rs) | _O(n)_ | _O(1)_ | Medium | Array, Hash Table, Stack, Greedy, Monotonic Stack |
+| 3542 | [Minimum Operations to Convert All Elements to Zero](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [C++](./Cpp/Minimum_Operations_to_Convert_All_Elements_to_Zero.cpp) / [Rust](./Rust/Minimum_Operations_to_Convert_All_Elements_to_Zero.rs) | _O(n)_ | _O(n)_ | Medium | Array, Hash Table, Stack, Greedy, Monotonic Stack |
 
 <!-- AUTO-SYNCED-PROBLEMS-END -->
 
