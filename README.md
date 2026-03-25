@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/github/contributors/raushan728/DSA-LeetCode-Solutions?style=flat" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=flat&logo=github" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-222-success?style=flat&logo=leetcode" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-223-success?style=flat&logo=leetcode" />
 </p>
 
 ---
@@ -492,7 +492,9 @@ The solutions are optimized for performance with detailed time and space complex
 
 Problems in this section are picked up automatically from the `Cpp` folder when they are not yet listed in the curated sections above.
 
-All C++ solutions are already listed in the curated sections above.
+| # | Problem | Solutions | Time | Space | Difficulty | Tags |
+| --- | --- | --- | --- | --- | --- | --- |
+| - | [Minimum Operations to Convert All Elements to Zero](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [C++](./Cpp/Minimum_Operations_to_Convert_All_Elements_to_Zero.cpp) | TBD | TBD | TBD | TBD |
 
 <!-- AUTO-SYNCED-PROBLEMS-END -->
 
