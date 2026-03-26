@@ -25,6 +25,7 @@ LANGUAGE_CONFIG = {
 SLUG_OVERRIDES = {
     "24_Game": "24-game",
     "Make_Array_Elements_to_Zero": "make-array-elements-equal-to-zero",
+    "Minimum_Number_of_Operations_to_Make_All_Array_Equal_to_1": "minimum-number-of-operations-to-make-all-array-elements-equal-to-1",
     "Next_Greater_Balanced_Number": "next-greater-numerically-balanced-number",
     "Partitioning_Into_Minimum_Of_Deci-Binary_Numbers": "partitioning-into-minimum-number-of-deci-binary-numbers",
     "Taking_Maximum_Energy_the_Mystic_Dungeon": "taking-maximum-energy-from-the-mystic-dungeon",

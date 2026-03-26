@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/github/contributors/raushan728/DSA-LeetCode-Solutions?style=flat" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=flat&logo=github" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-224-success?style=flat&logo=leetcode" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-223-success?style=flat&logo=leetcode" />
 </p>
 
 ---
@@ -495,9 +495,8 @@ Problem number, title, difficulty, and tags come from LeetCode. Time and space a
 
 | # | Problem | Solutions | Time | Space | Difficulty | Tags |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2654 | [Minimum Number of Operations to Make All Array Elements Equal to 1](https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/) | [C++](./Cpp/Minimum_Number_of_Operations_to_Make_All_Array_Elements_Equal_to_1.cpp) | Manual Review | Manual Review | Medium | Array, Math, Number Theory |
+| 2654 | [Minimum Number of Operations to Make All Array Elements Equal to 1](https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/) | [C++](./Cpp/Minimum_Number_of_Operations_to_Make_All_Array_Elements_Equal_to_1.cpp) / [Rust](./Rust/Minimum_Number_of_Operations_to_Make_All_Array_Equal_to_1.rs) | _O(n² × log M)_ | _O(log M)_ | Medium | Array, Math, Number Theory |
 | 3542 | [Minimum Operations to Convert All Elements to Zero](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [C++](./Cpp/Minimum_Operations_to_Convert_All_Elements_to_Zero.cpp) / [Rust](./Rust/Minimum_Operations_to_Convert_All_Elements_to_Zero.rs) | _O(n)_ | _O(n)_ | Medium | Array, Hash Table, Stack, Greedy, Monotonic Stack |
-| - | [Minimum Number of Operations to Make All Array Equal to 1](https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-equal-to-1/) | [Rust](./Rust/Minimum_Number_of_Operations_to_Make_All_Array_Equal_to_1.rs) | Manual Review | Manual Review | Manual Review | Manual Review |
 
 <!-- AUTO-SYNCED-PROBLEMS-END -->
 
