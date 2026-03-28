@@ -15,7 +15,6 @@ LEETCODE_GRAPHQL_URL = "https://leetcode.com/graphql"
 AUTO_START = "<!-- AUTO-SYNCED-PROBLEMS-START -->"
 AUTO_END = "<!-- AUTO-SYNCED-PROBLEMS-END -->"
 AUTO_NAV = "- [Auto-Synced Problems](#auto-synced-problems)"
-AUTO_SECTION_TITLE = "### Auto-Synced Problems"
 
 LANGUAGE_ORDER = ["C++", "Rust"]
 LANGUAGE_CONFIG = {
@@ -35,6 +34,61 @@ COMPLEXITY_PATTERNS = {
     "time": re.compile(r"Time\s+Complexity\s*[:=-]\s*([^\n\r*]+)", re.IGNORECASE),
     "space": re.compile(r"Space\s+Complexity\s*[:=-]\s*([^\n\r*]+)", re.IGNORECASE),
 }
+SECTION_ORDER = [
+    "Array Problems",
+    "String Problems",
+    "Two Pointers Problems",
+    "Linked List Problems",
+    "Stack Problems",
+    "Queue Problems",
+    "Tree Problems",
+    "Graph Problems",
+    "Binary Search Problems",
+    "Dynamic Programming Problems",
+    "Hash Table Problems",
+    "Bit Manipulation Problems",
+    "Recursion & Backtracking Problems",
+    "Math Problems",
+    "Trie Problems",
+    "Design Problems",
+    "Sliding Window Problems",
+    "Heap Problems",
+    "Sorting Problems",
+    "Greedy Problems",
+]
+TAG_TO_SECTION = {
+    "Array": "Array Problems",
+    "String": "String Problems",
+    "Two Pointers": "Two Pointers Problems",
+    "Linked List": "Linked List Problems",
+    "Doubly Linked List": "Linked List Problems",
+    "Stack": "Stack Problems",
+    "Monotonic Stack": "Stack Problems",
+    "Queue": "Queue Problems",
+    "Tree": "Tree Problems",
+    "Binary Tree": "Tree Problems",
+    "Binary Search Tree": "Tree Problems",
+    "Graph": "Graph Problems",
+    "Topological Sort": "Graph Problems",
+    "Union Find": "Graph Problems",
+    "Shortest Path": "Graph Problems",
+    "Binary Search": "Binary Search Problems",
+    "Dynamic Programming": "Dynamic Programming Problems",
+    "Memoization": "Dynamic Programming Problems",
+    "Hash Table": "Hash Table Problems",
+    "Bit Manipulation": "Bit Manipulation Problems",
+    "Backtracking": "Recursion & Backtracking Problems",
+    "Recursion": "Recursion & Backtracking Problems",
+    "Math": "Math Problems",
+    "Number Theory": "Math Problems",
+    "Trie": "Trie Problems",
+    "Design": "Design Problems",
+    "Sliding Window": "Sliding Window Problems",
+    "Heap": "Heap Problems",
+    "Priority Queue": "Heap Problems",
+    "Sorting": "Sorting Problems",
+    "Greedy": "Greedy Problems",
+}
 
 
 @dataclass
@@ -45,6 +99,17 @@ class SolutionFile:
     title_slug: str
     time_complexity: str | None = None
     space_complexity: str | None = None
+
+
+@dataclass
+class RowData:
+    slug: str
+    number: str
+    title: str
+    time: str
+    space: str
+    difficulty: str
+    tags: str
 
 
 def normalize_solution_links(text: str) -> str:
@@ -178,15 +243,14 @@ def update_problem_count_badge(text: str, solved_count: int) -> str:
 
 
 def update_overview(text: str) -> str:
-    old = (
-        "This repository contains **Data Structures & Algorithms (DSA)** solutions for various **LeetCode problems** implemented in **C++**.\n"
-        "The solutions are optimized for performance with detailed time and space complexity analysis."
+    pattern = re.compile(
+        r"This repository contains \*\*Data Structures & Algorithms \(DSA\)\*\* solutions for various \*\*LeetCode problems\*\* implemented in \*\*C\+\+\*\*(?: and \*\*Rust\*\*)?\.\n[^\n]*"
     )
     new = (
         "This repository contains **Data Structures & Algorithms (DSA)** solutions for various **LeetCode problems** implemented in **C++** and **Rust**.\n"
-        "Curated sections stay in the existing style, and the auto-synced section fills in any missing C++ or Rust entries."
+        "Curated sections stay aligned with the existing README structure, and missing C++ or Rust solutions are placed into the relevant sections based on useful LeetCode tags."
     )
-    return text.replace(old, new, 1)
+    return pattern.sub(new, text, count=1)
 
 
 def extract_readme_problem_slugs(text: str) -> set[str]:
@@ -196,6 +260,23 @@ def extract_readme_problem_slugs(text: str) -> set[str]:
 def strip_auto_section(text: str) -> str:
     pattern = re.compile(rf"{re.escape(AUTO_START)}.*?{re.escape(AUTO_END)}", re.DOTALL)
     return pattern.sub("", text)
+
+
+def remove_auto_nav(text: str) -> str:
+    return text.replace(f"{AUTO_NAV}\n", "").replace(f"\n{AUTO_NAV}", "")
+
+
+def update_quick_navigation(text: str) -> str:
+    nav_block = "## Quick Navigation\n\n" + "\n".join(
+        f"- [{title}](#{title.lower().replace(' & ', '--').replace(' ', '-')})"
+        for title in SECTION_ORDER
+    )
+    return re.sub(
+        r"## Quick Navigation\n\n(?:- .+\n)+",
+        f"{nav_block}\n",
+        text,
+        count=1,
+    )
 
 
 def update_existing_solution_cells(text: str, solutions_by_slug: dict[str, dict[str, SolutionFile]]) -> str:
@@ -225,16 +306,6 @@ def update_existing_solution_cells(text: str, solutions_by_slug: dict[str, dict[
         updated_lines.append(line)
 
     return "\n".join(updated_lines)
-
-
-def upsert_auto_nav(text: str) -> str:
-    if AUTO_NAV in text:
-        return text
-
-    marker = "- [Greedy Problems](#greedy-problems)"
-    if marker in text:
-        return text.replace(marker, f"{marker}\n{AUTO_NAV}", 1)
-    return text
 
 
 def fetch_leetcode_metadata(title_slugs: list[str]) -> dict[str, dict[str, object]]:
@@ -300,92 +371,236 @@ def format_complexity(value: str | None) -> str:
     return value if value.startswith("_") else f"_{value}_"
 
 
-def build_auto_rows(
-    missing_slugs: list[str],
+def parse_row_data(line: str) -> RowData | None:
+    slug = extract_slug_from_row(line)
+    if not slug:
+        return None
+
+    columns = [part.strip() for part in line.split("|")[1:-1]]
+    if len(columns) < 7:
+        return None
+
+    title_match = re.search(r"\[(.+?)\]\(", columns[1])
+    title = title_match.group(1) if title_match else columns[1]
+    return RowData(
+        slug=slug,
+        number=columns[0],
+        title=title,
+        time=columns[3],
+        space=columns[4],
+        difficulty=columns[5],
+        tags=columns[6],
+    )
+
+
+def row_data_score(row: RowData) -> tuple[int, int, int]:
+    return (
+        int(row.time != "Manual Review") + int(row.space != "Manual Review"),
+        int(row.difficulty != "Manual Review"),
+        len(row.tags.split(", ")) if row.tags != "Manual Review" else 0,
+    )
+
+
+def extract_section_rows(text: str) -> tuple[str, dict[str, list[str]], dict[str, list[str]], dict[str, set[str]], str]:
+    first_section_marker = f"### {SECTION_ORDER[0]}"
+    first_section_index = text.index(first_section_marker)
+    contributing_index = text.index("\n## Contributing\n")
+
+    prefix = text[:first_section_index].rstrip()
+    suffix = text[contributing_index:].lstrip("\n")
+
+    section_headers: dict[str, list[str]] = {}
+    section_rows: dict[str, list[str]] = {}
+    section_membership: dict[str, set[str]] = {}
+
+    section_positions = [(title, text.index(f"### {title}\n")) for title in SECTION_ORDER]
+    section_positions.sort(key=lambda item: item[1])
+
+    for index, (title, start) in enumerate(section_positions):
+        end = section_positions[index + 1][1] if index + 1 < len(section_positions) else contributing_index
+        block = text[start:end]
+        lines = block.splitlines()
+
+        table_lines = []
+        for line in lines[2:]:
+            if line == "---":
+                break
+            if line:
+                table_lines.append(line)
+
+        header_lines = table_lines[:2]
+        row_lines = [line for line in table_lines[2:] if line.startswith("| ") and "https://leetcode.com/problems/" in line]
+
+        section_headers[title] = header_lines
+        section_rows[title] = row_lines
+        section_membership[title] = {extract_slug_from_row(line) for line in row_lines if extract_slug_from_row(line)}
+
+    return prefix, section_headers, section_rows, section_membership, suffix
+
+
+def infer_target_sections(tags: list[str]) -> list[str]:
+    sections = []
+    for tag in tags:
+        section = TAG_TO_SECTION.get(tag)
+        if section and section not in sections:
+            sections.append(section)
+    return sections
+
+
+def build_generated_row(
+    slug: str,
     solutions_by_slug: dict[str, dict[str, SolutionFile]],
     metadata_by_slug: dict[str, dict[str, object]],
+    existing_rows_by_slug: dict[str, RowData],
+) -> str:
+    metadata = metadata_by_slug.get(slug, {})
+    solutions = solutions_by_slug[slug]
+    first_solution = next(iter(solutions.values()))
+    existing_row = existing_rows_by_slug.get(slug)
+
+    number = str(metadata.get("number", existing_row.number if existing_row else infer_problem_number_from_stem(first_solution.path.stem)))
+    title = str(metadata.get("title", existing_row.title if existing_row else humanize_stem(first_solution.path.stem)))
+    difficulty = str(metadata.get("difficulty", existing_row.difficulty if existing_row else "Manual Review"))
+    tags = metadata.get("tags", [])
+    tags_text = ", ".join(tags) if tags else (existing_row.tags if existing_row else "Manual Review")
+    time_complexity = next((s.time_complexity for s in solutions.values() if s.time_complexity), None) or (existing_row.time if existing_row else None)
+    space_complexity = next((s.space_complexity for s in solutions.values() if s.space_complexity), None) or (existing_row.space if existing_row else None)
+    problem_link = f"https://leetcode.com/problems/{metadata.get('slug', slug)}/"
+    solution_links = build_solution_cell(slug, solutions_by_slug) or "Manual Review"
+
+    return (
+        "| "
+        f"{number} | "
+        f"[{title}]({problem_link}) | "
+        f"{solution_links} | "
+        f"{format_complexity(time_complexity)} | "
+        f"{format_complexity(space_complexity)} | "
+        f"{difficulty} | "
+        f"{tags_text} |"
+    )
+
+
+def extract_slug_from_row(line: str) -> str | None:
+    match = re.search(r"https://leetcode\.com/problems/([^/]+)/", line)
+    return match.group(1) if match else None
+
+
+def row_sort_key(line: str) -> tuple[int, int | str, str]:
+    columns = [part.strip() for part in line.split("|")]
+    number = columns[1] if len(columns) > 1 else "-"
+    slug = extract_slug_from_row(line) or line
+    if number.isdigit():
+        return (0, int(number), slug)
+    return (1, slug, slug)
+
+
+def upsert_rows_into_section(text: str, section_title: str, new_rows: list[str]) -> str:
+    if not new_rows:
+        return text
+
+    pattern = re.compile(
+        rf"(### {re.escape(section_title)}\n\n)(.*?)(\n---\n)",
+        re.DOTALL,
+    )
+    match = pattern.search(text)
+    if not match:
+        return text
+
+    prefix, body, suffix = match.groups()
+    lines = body.strip("\n").splitlines()
+    if len(lines) < 2:
+        return text
+
+    header_lines = lines[:2]
+    row_lines = [line for line in lines[2:] if line.startswith("| ")]
+    existing_slugs = {extract_slug_from_row(line) for line in row_lines}
+
+    for row in new_rows:
+        slug = extract_slug_from_row(row)
+        if slug not in existing_slugs:
+            row_lines.append(row)
+            existing_slugs.add(slug)
+
+    row_lines.sort(key=row_sort_key)
+    new_body = "\n".join(header_lines + row_lines)
+    return text[: match.start()] + prefix + new_body + suffix + text[match.end() :]
+
+
+def prune_auto_section(text: str) -> str:
+    text = strip_auto_section(text)
+    text = remove_auto_nav(text)
+    return re.sub(r"\n{3,}", "\n\n", text)
+
+
+def build_existing_row_cache(section_rows: dict[str, list[str]]) -> dict[str, RowData]:
+    best_rows: dict[str, RowData] = {}
+
+    for rows in section_rows.values():
+        for line in rows:
+            row = parse_row_data(line)
+            if not row:
+                continue
+
+            current = best_rows.get(row.slug)
+            if current is None or row_data_score(row) > row_data_score(current):
+                best_rows[row.slug] = row
+
+    return best_rows
+
+
+def build_section_rows(
+    title: str,
+    all_slugs: set[str],
+    metadata_by_slug: dict[str, dict[str, object]],
+    solutions_by_slug: dict[str, dict[str, SolutionFile]],
+    existing_rows_by_slug: dict[str, RowData],
+    existing_membership: dict[str, set[str]],
 ) -> list[str]:
     rows = []
 
-    def sort_key(slug: str) -> tuple[int, int | str]:
-        metadata = metadata_by_slug.get(slug)
-        if metadata and str(metadata["number"]).isdigit():
-            return (0, int(str(metadata["number"])))
-        return (1, slug)
-
-    for slug in sorted(missing_slugs, key=sort_key):
+    for slug in all_slugs:
         metadata = metadata_by_slug.get(slug, {})
-        solutions = solutions_by_slug[slug]
-        first_solution = next(iter(solutions.values()))
-
-        number = str(metadata.get("number", infer_problem_number_from_stem(first_solution.path.stem)))
-        title = str(metadata.get("title", humanize_stem(first_solution.path.stem)))
-        difficulty = str(metadata.get("difficulty", "Manual Review"))
-        tags = metadata.get("tags", [])
-        tags_text = ", ".join(tags) if tags else "Manual Review"
-        time_complexity = next((s.time_complexity for s in solutions.values() if s.time_complexity), None)
-        space_complexity = next((s.space_complexity for s in solutions.values() if s.space_complexity), None)
-        problem_link = f"https://leetcode.com/problems/{metadata.get('slug', slug)}/"
-        solution_links = build_solution_cell(slug, solutions_by_slug) or "Manual Review"
-
-        rows.append(
-            "| "
-            f"{number} | "
-            f"[{title}]({problem_link}) | "
-            f"{solution_links} | "
-            f"{format_complexity(time_complexity)} | "
-            f"{format_complexity(space_complexity)} | "
-            f"{difficulty} | "
-            f"{tags_text} |"
+        target_sections = set(infer_target_sections(metadata.get("tags", [])))
+        target_sections.update(
+            section_title
+            for section_title, slugs in existing_membership.items()
+            if slug in slugs
         )
 
-    return rows
+        if title not in target_sections:
+            continue
+
+        rows.append(build_generated_row(slug, solutions_by_slug, metadata_by_slug, existing_rows_by_slug))
+
+    deduped: dict[str, str] = {}
+    for row in rows:
+        slug = extract_slug_from_row(row)
+        if slug and slug not in deduped:
+            deduped[slug] = row
+
+    return sorted(deduped.values(), key=row_sort_key)
 
 
-def build_auto_section(
-    missing_slugs: list[str],
-    solutions_by_slug: dict[str, dict[str, SolutionFile]],
-    metadata_by_slug: dict[str, dict[str, object]],
+def rebuild_sections(
+    prefix: str,
+    section_headers: dict[str, list[str]],
+    rebuilt_rows: dict[str, list[str]],
+    suffix: str,
 ) -> str:
-    lines = [
-        AUTO_START,
-        "",
-        "---",
-        "",
-        AUTO_SECTION_TITLE,
-        "",
-        "Problems in this section are picked up automatically from the `Cpp` and `Rust` folders when they are not yet listed in the curated sections above.",
-        "Problem number, title, difficulty, and tags come from LeetCode. Time and space are read from source comments when available; otherwise they are marked for manual review.",
-        "",
-    ]
+    blocks = [prefix.rstrip(), ""]
 
-    if not missing_slugs:
-        lines.append("All detected C++ and Rust solutions are already represented in the curated sections above.")
-        lines.append("")
-        lines.append(AUTO_END)
-        return "\n".join(lines)
+    for title in SECTION_ORDER:
+        header_lines = section_headers[title]
+        row_lines = rebuilt_rows[title]
+        blocks.append(f"### {title}")
+        blocks.append("")
+        blocks.extend(header_lines)
+        blocks.extend(row_lines)
+        blocks.append("---")
+        blocks.append("")
 
-    lines.extend(
-        [
-            "| # | Problem | Solutions | Time | Space | Difficulty | Tags |",
-            "| --- | --- | --- | --- | --- | --- | --- |",
-        ]
-    )
-    lines.extend(build_auto_rows(missing_slugs, solutions_by_slug, metadata_by_slug))
-    lines.extend(["", AUTO_END])
-    return "\n".join(lines)
-
-
-def upsert_auto_section(text: str, auto_section: str) -> str:
-    pattern = re.compile(rf"{re.escape(AUTO_START)}.*?{re.escape(AUTO_END)}", re.DOTALL)
-    if pattern.search(text):
-        return pattern.sub(auto_section, text, count=1)
-
-    marker = "\n## Contributing\n"
-    if marker in text:
-        return text.replace(marker, f"\n{auto_section}\n\n## Contributing\n", 1)
-
-    return f"{text.rstrip()}\n\n{auto_section}\n"
+    blocks.append(suffix.lstrip())
+    return "\n".join(blocks).rstrip() + "\n"
 
 
 def main() -> None:
@@ -394,18 +609,26 @@ def main() -> None:
     readme = normalize_solution_links(readme)
     readme = update_problem_count_badge(readme, len(solutions_by_slug))
     readme = update_overview(readme)
+    readme = update_quick_navigation(readme)
     readme = update_existing_solution_cells(readme, solutions_by_slug)
+    readme = prune_auto_section(readme)
+    prefix, section_headers, section_rows, existing_membership, suffix = extract_section_rows(readme)
+    existing_rows_by_slug = build_existing_row_cache(section_rows)
+    metadata_by_slug = fetch_leetcode_metadata(sorted(solutions_by_slug))
 
-    readme_slugs = extract_readme_problem_slugs(strip_auto_section(readme))
-    missing_slugs = sorted(set(solutions_by_slug) - readme_slugs)
-    metadata_by_slug = fetch_leetcode_metadata(missing_slugs)
+    rebuilt_rows = {
+        section: build_section_rows(
+            section,
+            set(solutions_by_slug),
+            metadata_by_slug,
+            solutions_by_slug,
+            existing_rows_by_slug,
+            existing_membership,
+        )
+        for section in SECTION_ORDER
+    }
 
-    readme = upsert_auto_nav(readme)
-    readme = upsert_auto_section(
-        readme,
-        build_auto_section(missing_slugs, solutions_by_slug, metadata_by_slug),
-    )
-
+    readme = rebuild_sections(prefix, section_headers, rebuilt_rows, suffix)
     README_PATH.write_text(readme)
 
 

@@ -1,9 +1,12 @@
-name: Sync README From Cpp Folder
+name: Sync README From Cpp and Rust
 
 on:
   push:
     paths:
       - 'Cpp/*.cpp'
+      - 'Rust/*.rs'
+      - 'scripts/update_readme.py'
+      - 'README.md'
   workflow_dispatch:
 
 jobs:
@@ -32,6 +35,6 @@ jobs:
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          git commit -m "docs: sync readme from Cpp folder"
+          git commit -m "docs(readme): sync generated index"
           git push
         fi
