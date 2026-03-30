@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/github/contributors/raushan728/DSA-LeetCode-Solutions?style=flat" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=flat&logo=github" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-224-success?style=flat&logo=leetcode" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-225-success?style=flat&logo=leetcode" />
 </p>
 
 ---
@@ -153,6 +153,7 @@ This repository contains **Data Structures & Algorithms (DSA)** solutions for va
 | 2327 | [Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/) | [C++](./Cpp/Number_of_People_Aware_of_a_Secret.cpp) | _O(n)_ | _O(n)_ | Medium | Dynamic Programming, Queue, Simulation |
 | 2348 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | [C++](./Cpp/Number_of_Zero-Filled_Subarrays.cpp) / [Rust](./Rust/Number_of_Zero-Filled_Subarrays.rs) | _O(n)_ | _O(n)_ | Medium | Array, Math |
 | 2353 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/) | [C++](./Cpp/Design_a_Food_Rating_System.cpp) | _O(n)_ | _O(n)_ | Medium | Array, Hash Table, String, Design, Heap (Priority Queue), Ordered Set |
+| 2536 | [Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one/) | [C++](./Cpp/Increment_Submatrices_by_One.cpp) / [Rust](./Rust/Increment_Submatrices_by_One.rs) | _O(n² + q)_ | _O(n²)_ | Medium | Array, Matrix, Prefix Sum |
 | 2596 | [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/) | [C++](./Cpp/Check_Knight_Tour_Configuration.cpp) | _O(n²)_ | _O(n²)_ | Medium | Array, Depth-First Search, Breadth-First Search, Matrix, Simulation |
 | 2598 | [Smallest Missing Non-negative Integer After Operations](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/) | [C++](./Cpp/Smallest_Missing_Non-negative_Integer_After_Operations.cpp) | _O(n)_ | _O(n)_ | Medium | Array, Hash Table, Math, Greedy |
 | 2654 | [Minimum Number of Operations to Make All Array Elements Equal to 1](https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/) | [C++](./Cpp/Minimum_Number_of_Operations_to_Make_All_Array_Elements_Equal_to_1.cpp) / [Rust](./Rust/Minimum_Number_of_Operations_to_Make_All_Array_Equal_to_1.rs) | _O(n² × log M)_ | _O(log M)_ | Medium | Array, Math, Number Theory |
