@@ -606,8 +606,9 @@ def rebuild_sections(
 def main() -> None:
     readme = README_PATH.read_text()
     solutions_by_slug = discover_solutions()
+    cpp_solution_count = len(list(LANGUAGE_CONFIG["C++"]["dir"].glob(f"*{LANGUAGE_CONFIG['C++']['ext']}")))
     readme = normalize_solution_links(readme)
-    readme = update_problem_count_badge(readme, len(solutions_by_slug))
+    readme = update_problem_count_badge(readme, cpp_solution_count)
     readme = update_overview(readme)
     readme = update_quick_navigation(readme)
     readme = update_existing_solution_cells(readme, solutions_by_slug)
