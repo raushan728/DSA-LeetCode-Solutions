@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/github/contributors/raushan728/DSA-LeetCode-Solutions?style=flat" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat&logo=mit" />
   <img src="https://img.shields.io/badge/PRs-Welcome-green?style=flat&logo=github" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-226-success?style=flat&logo=leetcode" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-227-success?style=flat&logo=leetcode" />
 </p>
 
 ---
@@ -214,6 +214,7 @@ This repository contains **Data Structures & Algorithms (DSA)** solutions for va
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [C++](./Cpp/Permutation_in_String.cpp) | _O(n)_ | _O(1)_ | Medium | Hash Table, Two Pointers, String, Sliding Window |
 | 966 | [Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/) | [C++](./Cpp/Vowel_Spellchecker.cpp) | _O(n)_ | _O(n)_ | Medium | Array, Hash Table, String |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [C++](./Cpp/Longest_Common_Subsequence.cpp) | _O(m\*n)_ | _O(m\*n)_ | Medium | String, Dynamic Programming |
+| 1513 | [Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | [C++](./Cpp/Number_of_Substrings_With_Only_1s.cpp) / [Rust](./Rust/Number_of_Substrings_With_Only_1s.rs) | _O(n)_ | _O(1)_ | Medium | Math, String |
 | 1578 | [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) | [C++](./Cpp/Minimum_Time_to_Make_Rope_Colorful.cpp) / [Rust](./Rust/Minimum_Time_to_Make_Rope_Colorful.rs) | _O(n)_ | _O(n)_ | Medium | Array, String, Dynamic Programming, Greedy |
 | 1625 | [Lexicographically Smallest String After Applying Operations](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/) | [C++](./Cpp/Lexicographically_Smallest_String_After_Applying_Operations.cpp) / [Rust](./Rust/Lexicographically_Smallest_String_After_Applying_Operations.rs) | _O(n)_ | _O(n)_ | Medium | String, Depth-First Search, Breadth-First Search, Enumeration |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | [C++](./Cpp/Partitioning_Into_Minimum_Number_Of_Deci-Binary_Numbers.cpp) / [Rust](./Rust/Partitioning_Into_Minimum_Of_Deci-Binary_Numbers.rs) | _O(n)_ | _O(n)_ | Medium | String, Greedy |
@@ -580,6 +581,7 @@ This repository contains **Data Structures & Algorithms (DSA)** solutions for va
 | 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | [C++](./Cpp/Find_N_Unique_Integers_Sum_up_to_Zero.cpp) | _O(n)_ | _O(n)_ | Easy | Array, Math |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | [C++](./Cpp/Convert_Integer_to_the_Sum_of_Two_No-Zero_Integers.cpp) | _O(n)_ | _O(n)_ | Easy | Math |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | [C++](./Cpp/Maximum_69_Number.cpp) | _O(n)_ | _O(n)_ | Easy | Math, Greedy |
+| 1513 | [Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | [C++](./Cpp/Number_of_Substrings_With_Only_1s.cpp) / [Rust](./Rust/Number_of_Substrings_With_Only_1s.rs) | _O(n)_ | _O(1)_ | Medium | Math, String |
 | 1518 | [Water Bottles](https://leetcode.com/problems/water-bottles/) | [C++](./Cpp/Water_Bottles.cpp) | _O(n)_ | _O(n)_ | Easy | Math, Simulation |
 | 1716 | [Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/) | [C++](./Cpp/Calculate_Money_in_Leetcode_Bank.cpp) / [Rust](./Rust/Calculate_Money_in_Leetcode_Bank.rs) | _O(n)_ | _O(n)_ | Easy | Math |
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | [C++](./Cpp/Final_Value_of_Variable_After_Performing_Operations.cpp) / [Rust](./Rust/Final_Value_of_Variable_After_Performing_Operations.rs) | _O(n)_ | _O(n)_ | Easy | Array, String, Simulation |
